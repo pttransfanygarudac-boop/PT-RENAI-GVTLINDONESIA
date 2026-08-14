@@ -1,0 +1,242 @@
+/*
+=========================================================
+PT RENAI GVTL INDONESIA
+NEWS CSS — v2
+=========================================================
+Hanya untuk News Center dan halaman artikel.
+=========================================================
+*/
+
+.archive-toolbar{
+  padding:22px 0;
+  background:rgba(7,16,26,.72);
+  border-bottom:1px solid var(--line);
+}
+
+.archive-toolbar-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.archive-label{
+  font-size:.76rem;
+  font-weight:800;
+  color:var(--text);
+}
+
+.year-filter{
+  display:flex;
+  gap:7px;
+  flex-wrap:wrap;
+}
+
+.year-button{
+  border:1px solid var(--line);
+  background:transparent;
+  color:var(--muted);
+  border-radius:8px;
+  padding:7px 12px;
+  font-size:.72rem;
+  font-weight:750;
+  cursor:pointer;
+}
+
+.year-button:hover,
+.year-button.is-active{
+  color:var(--text);
+  border-color:var(--line-strong);
+  background:rgba(85,217,255,.06);
+}
+
+.news-list{
+  display:grid;
+  gap:17px;
+  margin-top:40px;
+}
+
+.news-card{
+  display:grid;
+  grid-template-columns:270px 1fr;
+  gap:24px;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:var(--radius-md);
+  background:linear-gradient(145deg,rgba(13,27,42,.9),rgba(6,12,19,.95));
+  transition:transform .2s ease,border-color .2s ease;
+}
+
+.news-card:hover{
+  transform:translateY(-2px);
+  border-color:var(--line-strong);
+}
+
+.news-cover{
+  min-height:185px;
+  border-radius:10px;
+  border:1px solid var(--line);
+  overflow:hidden;
+  position:relative;
+  background:
+    radial-gradient(circle at 50% 35%,rgba(92,225,255,.18),transparent 38%),
+    linear-gradient(145deg,#0b2338,#050b12);
+}
+
+.news-cover img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.news-cover-placeholder{
+  height:100%;
+  min-height:185px;
+  display:grid;
+  place-items:center;
+  text-align:center;
+  padding:20px;
+  color:var(--cyan);
+  font-size:.64rem;
+  font-weight:850;
+  letter-spacing:.12em;
+}
+
+.news-meta{
+  color:var(--cyan);
+  font-size:.67rem;
+  font-weight:850;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.news-card h3{
+  margin:8px 0 7px;
+  font-size:1.35rem;
+  line-height:1.2;
+}
+
+.news-card p{
+  margin:0;
+  color:var(--muted);
+  font-size:.86rem;
+}
+
+.news-read{
+  display:inline-flex;
+  margin-top:17px;
+  color:var(--cyan);
+  font-size:.78rem;
+  font-weight:800;
+}
+
+.news-empty{
+  padding:28px;
+  border:1px dashed var(--line-strong);
+  border-radius:var(--radius-md);
+  color:var(--muted);
+}
+
+.article{
+  padding:80px 0 100px;
+}
+
+.article-head{
+  max-width:900px;
+}
+
+.article-meta{
+  color:var(--cyan);
+  font-size:.68rem;
+  font-weight:850;
+  letter-spacing:.1em;
+}
+
+.article h1{
+  margin:12px 0 0;
+  font-size:clamp(2.4rem,5.5vw,5rem);
+  line-height:1.02;
+  letter-spacing:-.06em;
+}
+
+.article-lead{
+  max-width:800px;
+  margin:20px 0 0;
+  color:var(--muted);
+  font-size:1.03rem;
+}
+
+.article-cover{
+  margin:42px 0;
+  min-height:390px;
+  border:1px solid var(--line);
+  border-radius:var(--radius-lg);
+  overflow:hidden;
+  background:#07101a;
+}
+
+.article-cover img{
+  width:100%;
+  height:100%;
+  min-height:390px;
+  object-fit:cover;
+}
+
+.article-cover-placeholder{
+  min-height:390px;
+  display:grid;
+  place-items:center;
+  color:var(--cyan);
+  font-size:.7rem;
+  font-weight:850;
+  letter-spacing:.15em;
+}
+
+.article-body{
+  max-width:800px;
+}
+
+.article-body h2{
+  margin:38px 0 10px;
+  font-size:1.5rem;
+  line-height:1.2;
+}
+
+.article-body p{
+  margin:0 0 18px;
+  color:#b6c4d2;
+}
+
+.article-body img{
+  width:100%;
+  margin:26px 0;
+  border:1px solid var(--line);
+  border-radius:12px;
+}
+
+.article-navigation{
+  max-width:800px;
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+  margin-top:55px;
+  padding-top:22px;
+  border-top:1px solid var(--line);
+}
+
+.article-navigation a{
+  color:var(--cyan);
+  font-size:.78rem;
+  font-weight:800;
+}
+
+@media(max-width:760px){
+  .archive-toolbar-inner{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+  .news-card{grid-template-columns:1fr}
+  .news-cover,.news-cover-placeholder{min-height:160px}
+  .article-cover,.article-cover-placeholder,.article-cover img{min-height:250px}
+  .article-navigation{flex-direction:column}
+}
