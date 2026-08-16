@@ -1,165 +1,64 @@
 /* =========================================================
-   PT RENAI GVTL INDONESIA — MAIN.JS
+   PT RENAI GVTL INDONESIA
+   MAIN JAVASCRIPT
    ========================================================= */
 
-document.addEventListener(
-    "DOMContentLoaded",
-    () => {
+(function () {
 
-        /* =====================================================
-           01. MOBILE MENU
-           ===================================================== */
-
-        const toggle =
-            document.querySelector(".menu-toggle");
-
-        const menu =
-            document.querySelector(".nav-menu");
+    "use strict";
 
 
-        if (toggle && menu) {
+    function initMenu() {
 
-            toggle.addEventListener(
-                "click",
-                () => {
+        const button = document.querySelector(".menu-toggle");
 
-                    menu.classList.toggle("open");
-
-                }
-            );
+        const menu = document.querySelector(".nav-menu");
 
 
-            menu.querySelectorAll("a").forEach(
-                (link) => {
+        if (!button || !menu) {
 
-                    link.addEventListener(
-                        "click",
-                        () => {
-
-                            menu.classList.remove("open");
-
-                        }
-                    );
-
-                }
-            );
+            return;
 
         }
 
 
-        /* =====================================================
-           02. SCROLL REVEAL
-           ===================================================== */
+        button.addEventListener("click", function () {
 
-        const revealItems =
-            document.querySelectorAll(".reveal");
+            menu.classList.toggle("is-open");
 
-
-        if ("IntersectionObserver" in window) {
-
-            const observer =
-                new IntersectionObserver(
-                    (entries) => {
-
-                        entries.forEach(
-                            (entry) => {
-
-                                if (
-                                    entry.isIntersecting
-                                ) {
-
-                                    entry.target.classList.add(
-                                        "is-visible"
-                                    );
-
-                                    observer.unobserve(
-                                        entry.target
-                                    );
-
-                                }
-
-                            }
-                        );
-
-                    },
-                    {
-                        threshold: 0.12
-                    }
-                );
+        });
 
 
-            revealItems.forEach(
-                (item) => {
+        menu.querySelectorAll("a").forEach(function (link) {
 
-                    observer.observe(item);
+            link.addEventListener("click", function () {
 
-                }
-            );
+                menu.classList.remove("is-open");
 
-        } else {
+            });
 
-            revealItems.forEach(
-                (item) => {
-
-                    item.classList.add(
-                        "is-visible"
-                    );
-
-                }
-            );
-
-        }
-
-
-        /* =====================================================
-           03. FLOATING CONTACT
-           ===================================================== */
-
-        document
-            .querySelectorAll(".floating-contact")
-            .forEach(
-                (floating) => {
-
-                    const button =
-                        floating.querySelector(".floating-toggle");
-
-                    if (!button) {
-                        return;
-                    }
-
-                    button.addEventListener(
-                        "click",
-                        () => {
-
-                            const isOpen =
-                                floating.classList.toggle("is-open");
-
-                            button.setAttribute(
-                                "aria-expanded",
-                                String(isOpen)
-                            );
-
-                        }
-                    );
-
-                }
-            );
-
-
-        /* =====================================================
-           04. FOOTER YEAR
-           ===================================================== */
-
-        document
-            .querySelectorAll("[data-year]")
-            .forEach(
-                (element) => {
-
-                    element.textContent =
-                        new Date().getFullYear();
-
-                }
-            );
+        });
 
     }
-);
+
+
+    function initYear() {
+
+        document.querySelectorAll("[data-year]").forEach(function (element) {
+
+            element.textContent = new Date().getFullYear();
+
+        });
+
+    }
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+        initMenu();
+
+        initYear();
+
+    });
+
+})();

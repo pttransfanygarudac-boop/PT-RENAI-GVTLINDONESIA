@@ -1,25 +1,26 @@
 /* =========================================================
-   PT RENAI GVTL INDONESIA — GLOBAL SCROLL ANIMATION
+   PT RENAI GVTL INDONESIA
+   SCROLL REVEAL
    ========================================================= */
 
 (function () {
 
     "use strict";
 
-    function initMotion() {
 
-        const elements =
-            document.querySelectorAll(".reveal");
+    function initReveal() {
+
+        const elements = document.querySelectorAll(".reveal");
+
 
         if (!elements.length) {
+
             return;
+
         }
 
-        if (
-            window.matchMedia(
-                "(prefers-reduced-motion: reduce)"
-            ).matches
-        ) {
+
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
 
             elements.forEach(function (element) {
 
@@ -28,33 +29,26 @@
             });
 
             return;
+
         }
 
-        const observer =
-            new IntersectionObserver(
-                function (entries) {
 
-                    entries.forEach(function (entry) {
+        const observer = new IntersectionObserver(function (entries) {
 
-                        if (entry.isIntersecting) {
+            entries.forEach(function (entry) {
 
-                            entry.target.classList.add(
-                                "is-visible"
-                            );
+                if (entry.isIntersecting) {
 
-                            observer.unobserve(
-                                entry.target
-                            );
+                    entry.target.classList.add("is-visible");
 
-                        }
+                    observer.unobserve(entry.target);
 
-                    });
-
-                },
-                {
-                    threshold: 0.12
                 }
-            );
+
+            });
+
+        }, { threshold: .12 });
+
 
         elements.forEach(function (element) {
 
@@ -64,17 +58,7 @@
 
     }
 
-    if (document.readyState === "loading") {
 
-        document.addEventListener(
-            "DOMContentLoaded",
-            initMotion
-        );
-
-    } else {
-
-        initMotion();
-
-    }
+    document.addEventListener("DOMContentLoaded", initReveal);
 
 })();
