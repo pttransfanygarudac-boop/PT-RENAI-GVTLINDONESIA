@@ -1,4 +1,14 @@
+# =========================================================
+# PT RENAI GVTL INDONESIA
+# ROBOTS.TXT
+# =========================================================
+
 User-agent: *
+
 Allow: /
 
-Sitemap: https://ptrenaigvtl.id/sitemap.xml
+# =========================================================
+# SITEMAP
+# =========================================================
+
+Sitemap: https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/sitemap.xml
