@@ -1,103 +1,308 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-  <!-- ===================================================
-       NEWS CENTER
-       JANGAN menulis semua berita langsung di file ini.
-       Data berita ada di data/news-data.js.
-       =================================================== -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>News | PT RENAI GVTL Indonesia</title>
-  <meta name="description" content="Berita resmi dan perkembangan PT RENAI GVTL Indonesia.">
-  <meta name="author" content="PT RENAI GVTL Indonesia">
-  <meta name="robots" content="index, follow">
-
-  <link rel="icon" href="assets/images/logo.png">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/news.css">
-</head>
-
-<body>
-<a class="skip-link" href="#main">Lewati ke konten</a>
-
-<header class="site-header">
-  <div class="container navbar">
-    <a class="brand" href="index.html" aria-label="PT RENAI GVTL Indonesia">
-      <span class="brand-mark">
-        <img src="assets/images/logo.png" alt="Logo PT RENAI GVTL Indonesia">
-      </span>
-      <span>PT RENAI <strong>GVTL Indonesia</strong></span>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   News | PT RENAI GVTL Indonesia
+  </title>
+  <meta content="Berita dan perkembangan resmi PT RENAI GVTL Indonesia." name="description"/>
+  <meta content="PT RENAI GVTL Indonesia" name="author"/>
+  <meta content="index,follow" name="robots"/>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <!--
+     01. HEADER / NAVBAR
+     =========================================================-->
+  <header class="header">
+   <div class="container navbar">
+    <a class="logo" href="index.html">
+     <img alt="PT RENAI GVTL Indonesia" class="logo-image" src="assets/images/logo.png"/>
+     <span class="logo-text">
+      <strong>
+       RENAI GVTL
+      </strong>
+      <small>
+       PT RENAI GVTL INDONESIA
+      </small>
+     </span>
     </a>
+    <button aria-label="Buka menu" class="menu-toggle">
+     ☰
+    </button>
+    <ul class="nav-menu">
+     <li>
+      <a href="index.html">
+       Beranda
+      </a>
+     </li>
+     <li>
+      <a href="company.html">
+       Perusahaan
+      </a>
+     </li>
+     <li>
+      <a href="renai-gvtl.html">
+       RENAI GVTL
+      </a>
+     </li>
+     <li>
+      <a class="active" href="news.html">
+       News
+      </a>
+     </li>
+     <li>
+      <a href="contact.html">
+       Kontak
+       
+      </a>
+      
+     </li>
+     
+     <li>
 
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Buka navigasi">☰</button>
-
-    <nav class="nav-menu" aria-label="Navigasi utama">
-      <a href="index.html">Beranda</a>
-      <a href="company.html">Perusahaan</a>
-      <a href="renai-gvtl.html">RENAI GVTL</a>
-      <a href="news.html" aria-current="page">News</a>
-      <a href="archive.html">RC Perusahaan</a>
-      <a href="contact.html">Kontak</a>
-    </nav>
-  </div>
-</header>
-
-<main id="main">
+    </ul>
+   </div>
+  </header>
   <section class="hero">
-    <div class="container">
-      <span class="eyebrow">OFFICIAL NEWS CENTER</span>
-      <h1>News & <span>Updates.</span></h1>
-      <p>
-        Pusat berita resmi PT RENAI GVTL Indonesia.
-        Setiap publikasi disimpan berdasarkan tahun dan memiliki
-        halaman artikel sendiri.
-      </p>
-    </div>
+   <div class="container hero-content">
+    <span class="eyebrow">
+     NEWS CENTER &middot; PT RENAI GVTL INDONESIA
+    </span>
+    <h1>
+     Arsip
+     <span>
+      berita perusahaan.
+     </span>
+    </h1>
+    <p>
+     Informasi, pengumuman, dan perkembangan PT RENAI GVTL Indonesia.
+    </p>
+   </div>
   </section>
-
-  <section class="archive-toolbar">
-    <div class="container archive-toolbar-inner">
-      <span class="archive-label">ARSIP TAHUN</span>
-
-      <!-- =================================================
-           JANGAN tambah tahun manual di sini.
-           Sistem mengambil tahun dari data/news-data.js.
-           ================================================= -->
-      <div id="yearFilter" class="year-filter" aria-label="Filter tahun"></div>
-    </div>
-  </section>
-
   <section class="section">
-    <div class="container">
-      <div class="section-heading">
-        <span class="eyebrow">PUBLICATIONS</span>
-        <h2>Berita perusahaan.</h2>
-        <p>
-          <!-- =================================================
-               PETUNJUK:
-               Tambahkan berita lewat data/news-data.js,
-               bukan dengan menyalin kartu HTML di sini.
-               ================================================= -->
-          Sistem akan membuat daftar berita secara otomatis.
-        </p>
-      </div>
-
-      <div id="newsList" class="news-list" aria-live="polite"></div>
+   <div class="container">
+    <div class="section-head">
+     <span class="kicker">
+      BERITA RESMI
+     </span>
+     <h2>
+      Perkembangan perusahaan
+     </h2>
+     <p class="section-intro">
+      <!-- TAMBAH BERITA BARU DI SINI:
+             1. Buat file HTML baru di folder /news/
+             2. Copy template berita yang sudah ada
+             3. Ganti isi berita
+             4. Tambahkan satu kartu <a> di PALING ATAS
+             Tidak perlu database dan tidak perlu JavaScript.
+        -->
+     </p>
     </div>
+    <div class="grid">
+     <!-- =================================================
+           TAMBAH BERITA TERBARU DI PALING ATAS
+      ================================================== -->
+           <a class="card news-card" href="news/news15agustus2026.html">
+      <div class="news-thumb">
+       <img src="assets/images/news-15-agustus-2026.png" alt="Foto berita 15 Agustus 2026 — Produk Pertama Chat GVTL" loading="lazy">
+      </div>
+      <div class="news-body">
+       <span class="news-date">
+        15 AGUSTUS 2026
+       </span>
+       <h3>
+        PT RENAI GVTL Indonesia Memperkenalkan Produk Pertama: Chat GVTL
+       </h3>
+       <p>
+        Chat GVTL masih dalam tahap pengembangan dan riset dengan RenAI Router sebagai bagian dari teknologi yang dikembangkan sendiri.
+       </p>
+       <span class="tag">
+        Product / Development
+       </span>
+      </div>
+     </a>
+      
+      
+     <a class="card news-card" href="news/news15agustus2026.html">
+      <div class="news-thumb">
+       <img src="assets/images/news-15-agustus-2026.png" alt="Foto berita 15 Agustus 2026 — Produk Pertama Chat GVTL" loading="lazy">
+      </div>
+      <div class="news-body">
+       <span class="news-date">
+        15 AGUSTUS 2026
+       </span>
+       <h3>
+        PT RENAI GVTL Indonesia Memperkenalkan Produk Pertama: Chat GVTL
+       </h3>
+       <p>
+        Chat GVTL masih dalam tahap pengembangan dan riset dengan RenAI Router sebagai bagian dari teknologi yang dikembangkan sendiri.
+       </p>
+       <span class="tag">
+        Product / Development
+       </span>
+      </div>
+     </a>
+     
+     
+     <a class="card news-card" href="news/news21juli2026.html">
+      <div class="news-thumb">
+       <img src="assets/images/news-21-juli-2026.png" alt="Foto berita 21 Juli 2026 — Pembangunan Fondasi" loading="lazy">
+      </div>
+      <div class="news-body">
+       <span class="news-date">
+        21 JULI 2026
+       </span>
+       <h3>
+        Awal Gagasan dan Pembangunan Fondasi PT RENAI GVTL Indonesia
+       </h3>
+       <p>
+        Catatan awal ketika gagasan RENAI GVTL mulai dibangun.
+       </p>
+       <span class="tag">
+        Company / Foundation
+       </span>
+      </div>   
+     </a>
+     
+     
+     <a class="card news-card" href="news/news18juli2026.html">
+      <div class="news-thumb">
+       <img src="assets/images/news-18-juli-2026.png" alt="Foto berita 18 Juli 2026 — Founder dan Visi RENAI GVTL" loading="lazy">
+      </div>
+      <div class="news-body">
+       <span class="news-date">
+        18 JULI 2026
+       </span>
+       <h3>
+        Awal Perjalanan Founder dan Visi RENAI GVTL
+       </h3>
+       <p>
+        Catatan awal mengenai founder, visi, dan fondasi pembangunan RENAI GVTL.
+       </p>
+       <span class="tag">
+        Founder / Vision
+       </span>
+      </div>
+     </a>
+    </div>
+   </div>
   </section>
-</main>
+  
+  
+  <!--
+     03. FOOTER
+     =========================================================-->
+  <footer class="footer">
+   <div class="container footer-grid">
+    <div>
+     <strong>
+      PT RENAI GVTL Indonesia
+     </strong>
+     <div>
+      Responsive Engine for Neural Artificial Intelligence
+     </div>
+     <div>
+      Technology Foundation &middot;
+      <span data-year="">
+       2026
+      </span>
+     </div>
+    </div>
+    <div class="footer-links">
+     <a href="news.html">
+      News
+     </a>
+     </a>
+     <a href="contact.html">
+      Kontak
+     </a>
+    </div>
+   </div>
+  </footer>
+  <!--
+     04. JAVASCRIPT
+     =========================================================-->
+  <script src="js/main.js">
+  </script>
+ 
+    <!-- =========================================================
+         FLOATING CONTACT
+         WhatsApp · Facebook · Facebook Group · TikTok · Email
+         ========================================================= -->
 
-<footer class="site-footer">
-  <div class="container footer-bottom">
-    <span>© 2026 PT RENAI GVTL Indonesia.</span>
-    <span>All Rights Reserved.</span>
-  </div>
-</footer>
+    <div class="floating-contact" aria-label="Kontak cepat">
 
-<script src="js/global.js"></script>
-<script src="data/news-data.js"></script>
-<script src="js/news.js"></script>
+        <div class="floating-contact-menu">
+
+            <a
+                href="https://wa.me/6281385869321"
+                target="_blank"
+                rel="noopener"
+                class="floating-link whatsapp"
+                aria-label="WhatsApp PT RENAI GVTL Indonesia"
+            >
+                WA
+            </a>
+
+            <a
+                href="https://www.facebook.com/share/1EijJZuAN4/"
+                target="_blank"
+                rel="noopener"
+                class="floating-link facebook"
+                aria-label="Profil Facebook PT RENAI GVTL Indonesia"
+            >
+                FB
+            </a>
+
+            <a
+                href="https://www.facebook.com/share/g/1DcFZBmMp3/"
+                target="_blank"
+                rel="noopener"
+                class="floating-link group"
+                aria-label="Grup Facebook PT RENAI GVTL Indonesia"
+            >
+                GR
+            </a>
+
+            <a
+                href="https://vm.tiktok.com/ZS9kDddPDJUsf-qQQHe/"
+                target="_blank"
+                rel="noopener"
+                class="floating-link tiktok"
+                aria-label="TikTok RENAI GVTL"
+            >
+                TT
+            </a>
+
+            <a
+                href="mailto:renaigvtl@gmail.com"
+                class="floating-link email"
+                aria-label="Email PT RENAI GVTL Indonesia"
+            >
+                @
+            </a>
+
+        </div>
+
+        <button
+            type="button"
+            class="floating-toggle"
+            aria-label="Buka kontak cepat"
+            aria-expanded="false"
+        >
+            +
+        </button>
+
+    </div>
+
+
+    <script src="js/contact-data.js"></script>
+
+    <script src="js/floating-contact.js"></script>
+
+    <script src="js/motion.js"></script>
+
 </body>
 </html>

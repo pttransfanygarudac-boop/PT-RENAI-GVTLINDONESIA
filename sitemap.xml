@@ -1,39 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/</loc>
-        <lastmod>2026-07-29</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
+        <loc>https://ptrenaigvtl.id/index.html</loc>
     </url>
-
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/index.html</loc>
-        <lastmod>2026-07-29</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
+        <loc>https://ptrenaigvtl.id/company.html</loc>
     </url>
-
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html</loc>
-        <lastmod>2026-07-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <loc>https://ptrenaigvtl.id/renai-gvtl.html</loc>
     </url>
-
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/renai-gvtl.html</loc>
-        <lastmod>2026-07-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <loc>https://ptrenaigvtl.id/news.html</loc>
     </url>
-
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/contact.html</loc>
-        <lastmod>2026-07-29</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <loc>https://ptrenaigvtl.id/archive.html</loc>
     </url>
-
+    <url>
+        <loc>https://ptrenaigvtl.id/contact.html</loc>
+    </url>
+    <url>
+        <loc>https://ptrenaigvtl.id/news/news15agustus2026.html</loc>
+    </url>
+    <url>
+        <loc>https://ptrenaigvtl.id/news/news18juli2026.html</loc>
+    </url>
+    <url>
+        <loc>https://ptrenaigvtl.id/news/news21juli2026.html</loc>
+    </url>
 </urlset>
