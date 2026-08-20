@@ -1,12 +1,5 @@
-# =========================================================
-# PT RENAI GVTL INDONESIA
-# ROBOTS.TXT
-# =========================================================
-
 User-agent: *
-
 Allow: /
-
 Disallow: /dashboard/
 
 Sitemap: https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/sitemap.xml
