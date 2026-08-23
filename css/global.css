@@ -1,1 +1,5 @@
 /* Global styles are consolidated in css/style.css. */
+
+
+/* GVTL footer identity */
+.gvtl-footer-brand{display:flex;flex-direction:column;gap:.2rem;margin-top:1rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.12);font-size:.82rem;line-height:1.5;opacity:.9}.gvtl-footer-brand strong{font-size:.9rem}.gvtl-footer-brand span{display:block}.footer .gvtl-footer-brand{grid-column:1 / -1}.bottom-hud .gvtl-footer-brand{flex-basis:100%;width:100%;text-align:center;margin-top:.75rem}@media (max-width:640px){.gvtl-footer-brand{font-size:.76rem}.footer .gvtl-footer-brand{margin-top:.75rem}}
