@@ -244,6 +244,33 @@ span {
 
 
 /* =========================================================
+   ULTRA DARK SCROLLBAR
+   ========================================================= */
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #111111;
+    border-radius: 999px;
+    border: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1c1c1c;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #111111 #000000;
+}
+
+/* =========================================================
    03. CONTAINER
    ========================================================= */
 
