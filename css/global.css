@@ -1,5 +1,1018 @@
-/* Global styles are consolidated in css/style.css. */
+/* =========================================================
+   PT RENAI GVTL INDONESIA
+   GLOBAL CSS SYSTEM
+   VERSION 5.0
+   PREMIUM FOUNDATION / DARK UI / BLACK SCROLL SYSTEM
+   ========================================================= */
 
 
-/* GVTL footer identity */
-.gvtl-footer-brand{display:flex;flex-direction:column;gap:.2rem;margin-top:1rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.12);font-size:.82rem;line-height:1.5;opacity:.9}.gvtl-footer-brand strong{font-size:.9rem}.gvtl-footer-brand span{display:block}.footer .gvtl-footer-brand{grid-column:1 / -1}.bottom-hud .gvtl-footer-brand{flex-basis:100%;width:100%;text-align:center;margin-top:.75rem}@media (max-width:640px){.gvtl-footer-brand{font-size:.76rem}.footer .gvtl-footer-brand{margin-top:.75rem}}
+/* =========================================================
+   01. GLOBAL FOUNDATION
+   ========================================================= */
+
+html {
+    scroll-behavior: smooth;
+
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background: #03060a;
+
+    scrollbar-width: thin;
+
+    /*
+     * Firefox
+     * thumb = dark charcoal
+     * track = black
+     */
+    scrollbar-color:
+        #111820
+        #020407;
+}
+
+
+/* =========================================================
+   02. PREMIUM BLACK SCROLLBAR
+   ========================================================= */
+
+::-webkit-scrollbar {
+
+    width: 10px;
+    height: 10px;
+
+}
+
+
+::-webkit-scrollbar-track {
+
+    background:
+        #020407;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+    background:
+        linear-gradient(
+            180deg,
+            #151c24 0%,
+            #0b1016 50%,
+            #070b10 100%
+        );
+
+    border:
+        2px solid
+        #020407;
+
+    border-radius:
+        999px;
+
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+
+    background:
+        linear-gradient(
+            180deg,
+            #202a35 0%,
+            #111821 50%,
+            #090e14 100%
+        );
+
+}
+
+
+::-webkit-scrollbar-corner {
+
+    background:
+        #020407;
+
+}
+
+
+/* =========================================================
+   03. DARK SCROLLBAR FOR ROOT / BODY
+   ========================================================= */
+
+html,
+body {
+
+    scrollbar-color:
+        #111820
+        #020407;
+
+}
+
+
+body::-webkit-scrollbar {
+
+    width:
+        10px;
+
+}
+
+
+body::-webkit-scrollbar-track {
+
+    background:
+        #020407;
+
+}
+
+
+body::-webkit-scrollbar-thumb {
+
+    background:
+        linear-gradient(
+            180deg,
+            #151c24,
+            #080c11
+        );
+
+    border:
+        2px solid
+        #020407;
+
+    border-radius:
+        999px;
+
+}
+
+
+/* =========================================================
+   04. GLOBAL BOX MODEL
+   ========================================================= */
+
+*,
+*::before,
+*::after {
+
+    box-sizing:
+        border-box;
+
+}
+
+
+/* =========================================================
+   05. GLOBAL MARGIN / PADDING NORMALIZATION
+   ========================================================= */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+
+    margin:
+        0;
+
+}
+
+
+ul,
+ol {
+
+    margin:
+        0;
+
+    padding:
+        0;
+
+}
+
+
+/* =========================================================
+   06. BODY FOUNDATION
+   ========================================================= */
+
+body {
+
+    min-height:
+        100vh;
+
+    margin:
+        0;
+
+    background:
+        #05080d;
+
+    color:
+        #f5f9ff;
+
+    line-height:
+        1.7;
+
+    overflow-x:
+        hidden;
+
+    /*
+     * Prevent white browser overscroll area
+     */
+    overscroll-behavior-x:
+        none;
+
+}
+
+
+/* =========================================================
+   07. GLOBAL TYPOGRAPHY
+   ========================================================= */
+
+body,
+button,
+input,
+textarea,
+select {
+
+    font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+}
+
+
+button,
+input,
+textarea,
+select {
+
+    font-size:
+        inherit;
+
+}
+
+
+/* =========================================================
+   08. HEADINGS
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-weight:
+        inherit;
+
+    text-wrap:
+        balance;
+
+}
+
+
+/* =========================================================
+   09. PARAGRAPH
+   ========================================================= */
+
+p {
+
+    text-wrap:
+        pretty;
+
+}
+
+
+/* =========================================================
+   10. LINKS
+   ========================================================= */
+
+a {
+
+    color:
+        inherit;
+
+    text-decoration:
+        none;
+
+}
+
+
+a:where(:not([class])) {
+
+    text-decoration-thickness:
+        .08em;
+
+    text-underline-offset:
+        .18em;
+
+}
+
+
+/* =========================================================
+   11. IMAGES / MEDIA
+   ========================================================= */
+
+img,
+picture,
+video,
+canvas,
+svg {
+
+    display:
+        block;
+
+    max-width:
+        100%;
+
+}
+
+
+img {
+
+    height:
+        auto;
+
+}
+
+
+video {
+
+    height:
+        auto;
+
+}
+
+
+iframe {
+
+    max-width:
+        100%;
+
+    border:
+        0;
+
+}
+
+
+/* =========================================================
+   12. IMAGE RENDERING
+   ========================================================= */
+
+img {
+
+    image-rendering:
+        auto;
+
+}
+
+
+/* =========================================================
+   13. BUTTON RESET
+   ========================================================= */
+
+button {
+
+    margin:
+        0;
+
+    padding:
+        0;
+
+    border:
+        0;
+
+    background:
+        none;
+
+    color:
+        inherit;
+
+    cursor:
+        pointer;
+
+}
+
+
+/* =========================================================
+   14. FORM ELEMENTS
+   ========================================================= */
+
+input,
+textarea,
+select {
+
+    max-width:
+        100%;
+
+    color:
+        inherit;
+
+}
+
+
+textarea {
+
+    resize:
+        vertical;
+
+}
+
+
+/* =========================================================
+   15. LIST RESET
+   ========================================================= */
+
+nav ul,
+nav ol {
+
+    list-style:
+        none;
+
+}
+
+
+/* =========================================================
+   16. TEXT SELECTION
+   ========================================================= */
+
+::selection {
+
+    color:
+        #ffffff;
+
+    background:
+        #101820;
+
+}
+
+
+::-moz-selection {
+
+    color:
+        #ffffff;
+
+    background:
+        #101820;
+
+}
+
+
+/* =========================================================
+   17. PREMIUM FOCUS SYSTEM
+   ========================================================= */
+
+:focus {
+
+    outline:
+        none;
+
+}
+
+
+:focus-visible {
+
+    outline:
+        2px solid
+        #57e6ff;
+
+    outline-offset:
+        3px;
+
+    border-radius:
+        6px;
+
+}
+
+
+/* =========================================================
+   18. TOUCH / MOBILE OPTIMIZATION
+   ========================================================= */
+
+button,
+a,
+input,
+textarea,
+select {
+
+    -webkit-tap-highlight-color:
+        transparent;
+
+}
+
+
+/*
+ * Prevent accidental horizontal overflow
+ * from long URLs / technical text.
+ */
+
+body {
+
+    overflow-wrap:
+        break-word;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+strong,
+small {
+
+    overflow-wrap:
+        break-word;
+
+}
+
+
+/* =========================================================
+   19. CONTAINER SAFETY
+   ========================================================= */
+
+.container {
+
+    min-width:
+        0;
+
+}
+
+
+/* =========================================================
+   20. CARD / GRID SAFETY
+   ========================================================= */
+
+.card,
+.news-card,
+.founder-card,
+.contact-item,
+.career-banner {
+
+    min-width:
+        0;
+
+}
+
+
+.card *,
+.news-card *,
+.founder-card *,
+.contact-item *,
+.career-banner * {
+
+    min-width:
+        0;
+
+}
+
+
+/* =========================================================
+   21. TABLE SAFETY
+   ========================================================= */
+
+table {
+
+    width:
+        100%;
+
+    border-collapse:
+        collapse;
+
+}
+
+
+th,
+td {
+
+    overflow-wrap:
+        anywhere;
+
+}
+
+
+/* =========================================================
+   22. CODE SAFETY
+   ========================================================= */
+
+code,
+pre,
+kbd,
+samp {
+
+    font-family:
+        ui-monospace,
+        SFMono-Regular,
+        Menlo,
+        Monaco,
+        Consolas,
+        "Liberation Mono",
+        monospace;
+
+}
+
+
+pre {
+
+    max-width:
+        100%;
+
+    overflow-x:
+        auto;
+
+}
+
+
+/* =========================================================
+   23. HIDDEN ATTRIBUTE
+   ========================================================= */
+
+[hidden] {
+
+    display:
+        none !important;
+
+}
+
+
+/* =========================================================
+   24. ACCESSIBILITY — SCREEN READER
+   ========================================================= */
+
+.sr-only {
+
+    position:
+        absolute !important;
+
+    width:
+        1px !important;
+
+    height:
+        1px !important;
+
+    padding:
+        0 !important;
+
+    margin:
+        -1px !important;
+
+    overflow:
+        hidden !important;
+
+    clip:
+        rect(0, 0, 0, 0) !important;
+
+    white-space:
+        nowrap !important;
+
+    border:
+        0 !important;
+
+}
+
+
+/* =========================================================
+   25. REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+
+        scroll-behavior:
+            auto !important;
+
+    }
+
+
+    *,
+    *::before,
+    *::after {
+
+        animation-duration:
+            .01ms !important;
+
+        animation-iteration-count:
+            1 !important;
+
+        transition-duration:
+            .01ms !important;
+
+        scroll-behavior:
+            auto !important;
+
+    }
+
+}
+
+
+/* =========================================================
+   26. DARK COLOR SCHEME
+   ========================================================= */
+
+:root {
+
+    color-scheme:
+        dark;
+
+}
+
+
+/* =========================================================
+   27. GLOBAL DARK SURFACE HELPERS
+   ========================================================= */
+
+.dark-surface {
+
+    background:
+        #05080d;
+
+    color:
+        #f5f9ff;
+
+}
+
+
+.dark-panel {
+
+    background:
+        rgba(8, 16, 26, .88);
+
+    border:
+        1px solid
+        rgba(130, 180, 230, .14);
+
+}
+
+
+/* =========================================================
+   28. GVTL FOOTER IDENTITY
+   ========================================================= */
+
+.gvtl-footer-brand {
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    gap:
+        .2rem;
+
+    width:
+        100%;
+
+    margin-top:
+        1rem;
+
+    padding-top:
+        .8rem;
+
+    border-top:
+        1px solid
+        rgba(255,255,255,.12);
+
+    font-size:
+        .82rem;
+
+    line-height:
+        1.5;
+
+    opacity:
+        .9;
+
+}
+
+
+.gvtl-footer-brand strong {
+
+    font-size:
+        .9rem;
+
+    color:
+        #ffffff;
+
+}
+
+
+.gvtl-footer-brand span {
+
+    display:
+        block;
+
+}
+
+
+/* =========================================================
+   29. FOOTER COMPATIBILITY
+   ========================================================= */
+
+.footer .gvtl-footer-brand {
+
+    width:
+        100%;
+
+}
+
+
+/* =========================================================
+   30. BOTTOM HUD COMPATIBILITY
+   ========================================================= */
+
+.bottom-hud .gvtl-footer-brand {
+
+    flex-basis:
+        100%;
+
+    width:
+        100%;
+
+    margin-top:
+        .75rem;
+
+    text-align:
+        center;
+
+}
+
+
+/* =========================================================
+   31. MOBILE FOOTER
+   ========================================================= */
+
+@media (max-width: 640px) {
+
+    .gvtl-footer-brand {
+
+        font-size:
+            .76rem;
+
+    }
+
+
+    .footer .gvtl-footer-brand {
+
+        margin-top:
+            .75rem;
+
+    }
+
+}
+
+
+/* =========================================================
+   32. MOBILE SAFE AREA
+   ========================================================= */
+
+@supports (padding: env(safe-area-inset-bottom)) {
+
+    .footer {
+
+        padding-bottom:
+            calc(
+                52px +
+                env(safe-area-inset-bottom)
+            );
+
+    }
+
+
+    .floating-contact {
+
+        bottom:
+            calc(
+                12px +
+                env(safe-area-inset-bottom)
+            );
+
+    }
+
+}
+
+
+/* =========================================================
+   33. MOBILE WIDTH SAFETY
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    html,
+    body {
+
+        width:
+            100%;
+
+        max-width:
+            100%;
+
+    }
+
+
+    body {
+
+        overflow-x:
+            hidden;
+
+    }
+
+
+    img,
+    video,
+    iframe {
+
+        max-width:
+            100%;
+
+    }
+
+}
+
+
+/* =========================================================
+   34. VERY SMALL SCREEN SAFETY
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+    html {
+
+        font-size:
+            15px;
+
+    }
+
+}
+
+
+/* =========================================================
+   35. PRINT SAFETY
+   ========================================================= */
+
+@media print {
+
+    html,
+    body {
+
+        background:
+            #ffffff !important;
+
+        color:
+            #000000 !important;
+
+    }
+
+
+    .header,
+    .floating-contact,
+    .menu-toggle {
+
+        display:
+            none !important;
+
+    }
+
+
+    .hero-background,
+    .hero-overlay,
+    .hero::before,
+    .hero::after {
+
+        display:
+            none !important;
+
+    }
+
+
+    a {
+
+        color:
+            #000000 !important;
+
+        text-decoration:
+            underline;
+
+    }
+
+}
+
+
+/* =========================================================
+   END
+   PT RENAI GVTL INDONESIA
+   GLOBAL CSS SYSTEM V5.0
+   ========================================================= */
