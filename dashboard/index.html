@@ -2,63 +2,229 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>PT RENAI GVTL INDONESIA | AI COMMAND CENTER</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <link rel="stylesheet" href="style.css">
+    <title>
+        RENAI GVTL Indonesia | AI Command Center Simulation
+    </title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta
+        name="description"
+        content="RENAI GVTL AI Command Center Simulation milik PT RENAI GVTL Indonesia. Public visual simulation untuk menampilkan konsep AI Core, neural activity, system telemetry, global AI network, dan RENAI AI Ecosystem. Bukan dashboard operasional internal perusahaan."
+    >
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
+    <meta
+        name="keywords"
+        content="RENAI GVTL, RENAI Router, AuroAI GVTL, SilvAI GVTL, DianAI GVTL, NarendAI GVTL, FanAI GVTL, PT RENAI GVTL Indonesia, GVTL, Global Virtual Technology Lab, AI Command Center, AI Dashboard, AI Simulation, Neural AI"
+    >
 
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet">
+    <meta
+        name="author"
+        content="PT RENAI GVTL Indonesia"
+    >
+
+    <meta
+        name="application-name"
+        content="RENAI GVTL AI Command Center Simulation"
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <meta
+        name="theme-color"
+        content="#02050a"
+    >
+
+    <!-- =====================================================
+         CANONICAL
+         ===================================================== -->
+
+    <link
+        rel="canonical"
+        href="https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/dashboard/index.html"
+    >
+
+    <!-- =====================================================
+         OPEN GRAPH
+         ===================================================== -->
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:title"
+        content="RENAI GVTL Indonesia | AI Command Center Simulation"
+    >
+
+    <meta
+        property="og:description"
+        content="Public visual simulation of the RENAI GVTL AI Command Center and RENAI AI Ecosystem."
+    >
+
+    <meta
+        property="og:site_name"
+        content="PT RENAI GVTL Indonesia"
+    >
+
+    <meta
+        property="og:url"
+        content="https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/dashboard/index.html"
+    >
+
+    <meta
+        property="og:image"
+        content="assets/logo.png"
+    >
+
+    <!-- =====================================================
+         TWITTER
+         ===================================================== -->
+
+    <meta
+        name="twitter:card"
+        content="summary_large_image"
+    >
+
+    <meta
+        name="twitter:title"
+        content="RENAI GVTL Indonesia | AI Command Center Simulation"
+    >
+
+    <meta
+        name="twitter:description"
+        content="Public visual simulation of the RENAI GVTL AI Command Center and RENAI AI Ecosystem."
+    >
+
+    <meta
+        name="twitter:image"
+        content="assets/logo.png"
+    >
+
+    <!-- =====================================================
+         FAVICON
+         ===================================================== -->
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="assets/logo.png"
+    >
+
+    <!-- =====================================================
+         FONT
+         ===================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- =====================================================
+         MAIN CSS
+         ===================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
 
 </head>
 
+
 <body>
+
+<!-- =========================================================
+     BACKGROUND SYSTEM
+     ========================================================= -->
+
+<div id="backgroundSystem">
+
+    <div class="ambient-glow glow-cyan"></div>
+
+    <div class="ambient-glow glow-green"></div>
+
+    <div id="gridOverlay"></div>
+
+    <div id="scanEffect"></div>
+
+    <canvas id="backgroundCanvas"></canvas>
+
+    <canvas id="particleCanvas"></canvas>
+
+    <canvas id="effectCanvas"></canvas>
+
+</div>
 
 
 <!-- =========================================================
-     PT RENAI GVTL INDONESIA
-     DASHBOARD NAVIGATION TOGGLE
+     NAVIGATION TOGGLE
      ========================================================= -->
 
 <button
     id="siteNavToggle"
     class="site-nav-toggle"
     type="button"
-    aria-label="Buka navigasi website"
+    aria-label="Open website navigation"
     aria-expanded="false"
 >
+
     <span></span>
+
     <span></span>
+
     <span></span>
+
 </button>
 
+
+<!-- =========================================================
+     NAVIGATION PANEL
+     ========================================================= -->
 
 <nav
     id="siteNavPanel"
     class="site-nav-panel"
-    aria-label="Navigasi PT RENAI GVTL Indonesia"
+    aria-label="RENAI GVTL Website Navigation"
 >
 
     <div class="site-nav-brand">
 
         <img
             src="assets/logo.png"
-            alt="Logo PT RENAI GVTL Indonesia"
+            alt="RENAI GVTL Indonesia"
         >
 
         <div>
 
-            <strong>PT RENAI GVTL INDONESIA</strong>
+            <strong>
+                PT RENAI GVTL INDONESIA
+            </strong>
 
-            <small>GLOBAL WEBSITE NAVIGATION</small>
+            <small>
+                GLOBAL WEBSITE NAVIGATION
+            </small>
 
         </div>
 
@@ -69,59 +235,94 @@
 
         <a href="../index.html">
 
-            <span>01</span>
-            Beranda
+            <span>
+                01
+            </span>
+
+            <b>
+                Beranda
+            </b>
 
         </a>
 
 
         <a href="../company.html">
 
-            <span>02</span>
-            Perusahaan
+            <span>
+                02
+            </span>
+
+            <b>
+                Perusahaan
+            </b>
 
         </a>
 
 
         <a href="../renai-gvtl.html">
 
-            <span>03</span>
-            RENAI GVTL
+            <span>
+                03
+            </span>
+
+            <b>
+                RENAI GVTL
+            </b>
 
         </a>
 
 
         <a href="../news.html">
 
-            <span>04</span>
-            News
+            <span>
+                04
+            </span>
+
+            <b>
+                News
+            </b>
 
         </a>
 
 
         <a href="../career.html">
 
-            <span>05</span>
-            Career
+            <span>
+                05
+            </span>
+
+            <b>
+                Career
+            </b>
 
         </a>
 
 
         <a href="../contact.html">
 
-            <span>06</span>
-            Kontak
+            <span>
+                06
+            </span>
+
+            <b>
+                Kontak
+            </b>
 
         </a>
 
 
         <a
-            class="active"
             href="index.html"
+            class="active"
         >
 
-            <span>07</span>
-            Dashboard
+            <span>
+                07
+            </span>
+
+            <b>
+                AI Dashboard
+            </b>
 
         </a>
 
@@ -130,9 +331,13 @@
 
     <div class="site-nav-footer">
 
-        <span>RENAI GVTL CORE</span>
+        <span>
+            RENAI GVTL CORE
+        </span>
 
-        <span>ONLINE</span>
+        <span>
+            ONLINE
+        </span>
 
     </div>
 
@@ -142,22 +347,58 @@
 <div
     id="siteNavBackdrop"
     class="site-nav-backdrop"
-    aria-hidden="true"
 ></div>
 
 
+<!-- =========================================================
+     BOOT SCREEN
+     ========================================================= -->
 
-<div id="boot-screen">
+<section
+    id="boot-screen"
+    aria-label="RENAI GVTL System Boot"
+>
 
     <div class="boot-content">
 
-        <img src="assets/logo.png"
-             class="boot-logo"
-             alt="RENAI GVTL">
+        <div class="boot-system-tag">
+            SYSTEM INITIALIZATION
+        </div>
 
-        <h1>PT RENAI GVTL INDONESIA</h1>
 
-        <h3>AI COMMAND CENTER</h3>
+        <img
+            src="assets/logo.png"
+            class="boot-logo"
+            alt="RENAI GVTL"
+        >
+
+
+        <h1>
+            RENAI GVTL
+        </h1>
+
+
+        <h2>
+            AI COMMAND CENTER
+        </h2>
+
+
+        <div class="boot-divider"></div>
+
+
+        <p class="boot-description">
+            Responsive Engine for Neural Artificial Intelligence
+        </p>
+
+
+        <div class="boot-status">
+
+            <span class="status-dot online"></span>
+
+            PUBLIC VISUAL SIMULATION
+
+        </div>
+
 
         <div class="loading">
 
@@ -169,682 +410,1581 @@
 
         </div>
 
+
         <p id="loading-text">
-
             Initializing AI Kernel...
-
         </p>
 
-    </div>
 
-</div>
+        <div class="boot-warning">
 
-<div id="dashboard">
+            ⚠ SIMULATION ENVIRONMENT
 
-<header>
+            <br>
 
-<div class="header-left">
-
-<h2>
-
-PT RENAI GVTL INDONESIA
-
-</h2>
-
-<p>
-
-Responsive Engine for Neural Artificial Intelligence
-
-</p>
-
-</div>
-
-<div class="header-right">
-
-<div id="date"></div>
-
-<div id="time"></div>
-
-</div>
-
-</header>
-
-<main>
-
-<aside class="sidebar left">
-
-<div class="panel">
-
-<h3>GPU USAGE</h3>
-
-<div class="gauge">
-
-<span id="gpuUsage">0%</span>
-
-</div>
-
-</div>
-
-<div class="panel">
-
-<h3>GPU CLOCK</h3>
-
-<h2 id="gpuClock">0 MHz</h2>
-
-</div>
-
-<div class="panel">
-
-<h3>GPU TEMPERATURE</h3>
-
-<h2 id="gpuTemp">0°C</h2>
-
-</div>
-
-<div class="panel">
-
-<h3>GPU POWER</h3>
-
-<h2 id="gpuPower">0 W</h2>
-
-</div>
-
-<div class="panel">
-
-<h3>VRAM</h3>
-
-<h2 id="vram">0 / 100TB</h2>
-
-</div>
-
-</aside>
-
-<section class="center">
-
-<div class="ai-core">
-
-<div class="ring ring1"></div>
-
-<div class="ring ring2"></div>
-
-<div class="ring ring3"></div>
-
-<img src="assets/logo.png"
-     class="logo"
-     alt="Logo">
-
-<h1>
-
-INTI RenAI GVTL 
-
-</h1>
-
-<p id="coreStatus">
-
-ONLINE
-
-</p>
-
-</div>
-
-<!-- =========================
-     CENTER DASHBOARD
-========================= -->
-
-<div class="core-energy">
-
-    <span>AI CORE ENERGY</span>
-
-    <h2 id="coreEnergy">
-
-        100%
-
-    </h2>
-
-</div>
-
-<div class="chart-panel panel">
-
-    <div class="panel-title">
-
-        AI NEURAL ACTIVITY
-
-    </div>
-
-    <canvas id="activityChart"></canvas>
-
-</div>
-
-<div class="terminal panel">
-
-    <div class="panel-title">
-
-        SYSTEM TERMINAL
-
-    </div>
-
-    <div id="terminalLog">
-
-        <div>[SYSTEM] Initializing...</div>
-
-    </div>
-
-</div>
-
-</section>
-
-<!-- =========================
-     RIGHT SIDEBAR
-========================= -->
-
-<aside class="sidebar right">
-
-<div class="panel">
-
-<h3>CPU USAGE</h3>
-
-<div class="gauge">
-
-<span id="cpuUsage">
-
-0%
-
-</span>
-
-</div>
-
-</div>
-
-<div class="panel">
-
-<h3>CPU CLOCK</h3>
-
-<h2 id="cpuClock">
-
-0 MHz
-
-</h2>
-
-</div>
-
-<div class="panel">
-
-<h3>CPU TEMPERATURE</h3>
-
-<h2 id="cpuTemp">
-
-0°C
-
-</h2>
-
-</div>
-
-<div class="panel">
-
-<h3>RAM</h3>
-
-<h2 id="ramUsage">
-
-0 / 512 GB
-
-</h2>
-
-</div>
-
-<div class="panel">
-
-<h3>STORAGE</h3>
-
-<h2 id="storageUsage">
-
-0 / 8 PB
-
-</h2>
-
-</div>
-
-<div class="panel">
-
-<h3>NETWORK</h3>
-
-<h2 id="networkStatus">
-
-ONLINE
-
-</h2>
-
-</div>
-
-</aside>
-
-</main>
-
-<!-- =========================
-     BOTTOM HUD
-========================= -->
-
-<footer class="bottom-hud">
-
-<div class="hud-card">
-
-<span>UPLOAD</span>
-
-<h2 id="uploadSpeed">
-
-0 GB/s
-
-</h2>
-
-</div>
-
-<div class="hud-card">
-
-<span>DOWNLOAD</span>
-
-<h2 id="downloadSpeed">
-
-0 GB/s
-
-</h2>
-
-</div>
-
-<div class="hud-card">
-
-<span>LATENCY</span>
-
-<h2 id="latency">
-
-0 ms
-
-</h2>
-
-</div>
-
-<div class="hud-card">
-
-<span>FPS</span>
-
-<h2 id="fps">
-
-240
-
-</h2>
-
-</div>
-
-<div class="hud-card">
-
-<span>AI LOAD</span>
-
-<h2 id="aiLoad">
-
-0%
-
-</h2>
-
-</div>
-
-<div class="hud-card">
-
-<span>CUDA CORES</span>
-
-<h2 id="cudaCores">
-
-16384
-
-</h2>
-
-</div>
-
-<div class="hud-card">
-
-<span>TENSOR CORES</span>
-
-<h2 id="tensorCores">
-
-512
-
-</h2>
-
-</div>
-
-<div class="hud-card">
-
-<span>POWER</span>
-
-<h2 id="totalPower">
-
-0 W
-
-</h2>
-
-</div>
-
-</footer>
-
-<!-- =========================
-     FLOATING STATUS
-========================= -->
-
-<div class="floating-status">
-
-<div class="status-item">
-
-<span class="status-dot online"></span>
-
-GPU ONLINE
-
-</div>
-
-<div class="status-item">
-
-<span class="status-dot online"></span>
-
-CPU ONLINE
-
-</div>
-
-<div class="status-item">
-
-<span class="status-dot online"></span>
-
-NETWORK ONLINE
-
-</div>
-
-<div class="status-item">
-
-<span class="status-dot online"></span>
-
-DATABASE ONLINE
-
-</div>
-
-</div>
-
-<!-- =========================
-     LIVE EVENT PANEL
-========================= -->
-
-<div class="event-panel panel">
-
-<h3>
-
-LIVE EVENTS
-
-</h3>
-
-<ul id="eventLog">
-
-<li>AI Kernel Started...</li>
-
-<li>GPU Cluster Connected...</li>
-
-<li>Database Synced...</li>
-
-<li>Security Module Active...</li>
-
-<li>Monitoring Enabled...</li>
-
-</ul>
-
-</div>
-
-<!-- =========================
-     NOTIFICATION CENTER
-========================= -->
-
-<div class="notification-panel panel">
-
-<h3>
-
-NOTIFICATION CENTER
-
-</h3>
-
-<div id="notificationList">
-
-<div class="notification success">
-
-AI CORE ONLINE
-
-</div>
-
-<div class="notification info">
-
-GPU READY
-
-</div>
-
-<div class="notification success">
-
-SYSTEM STABLE
-
-</div>
-
-</div>
-
-</div>
-
-
-
-<!-- =========================================
-     AI WORLD NETWORK
-========================================= -->
-
-<section class="world-network">
-
-    <div class="panel">
-
-        <div class="panel-title">
-
-            GLOBAL AI NETWORK
+            NOT AN INTERNAL OPERATIONAL DASHBOARD
 
         </div>
 
-        <canvas id="worldCanvas"></canvas>
-
     </div>
 
 </section>
 
-<!-- =========================================
-     AI SYSTEM INFORMATION
-========================================= -->
 
-<section class="system-information">
+<!-- =========================================================
+     MAIN DASHBOARD
+     ========================================================= -->
 
-    <div class="info-card">
+<div
+    id="dashboard"
+    class="dashboard-shell"
+>
 
-        <span>MODEL</span>
 
-        <h3>RENAI GVTL-X1</h3>
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
 
-    </div>
+    <header class="dashboard-header">
 
-    <div class="info-card">
+        <div class="header-left">
 
-        <span>VERSION</span>
+            <div class="system-mark">
 
-        <h3>v1.0.0</h3>
+                <span class="system-dot"></span>
 
-    </div>
+                <span>
+                    SYSTEM / PUBLIC SIMULATION
+                </span>
 
-    <div class="info-card">
+            </div>
 
-        <span>AI STATUS</span>
 
-        <h3 id="aiStatus">
+            <h1>
+                PT RENAI GVTL INDONESIA
+            </h1>
 
-            ACTIVE
 
-        </h3>
-
-    </div>
-
-    <div class="info-card">
-
-        <span>SECURITY</span>
-
-        <h3 id="securityStatus">
-
-            MAXIMUM
-
-        </h3>
-
-    </div>
-
-    <div class="info-card">
-
-        <span>DATABASE</span>
-
-        <h3 id="databaseStatus">
-
-            CONNECTED
-
-        </h3>
-
-    </div>
-
-    <div class="info-card">
-
-        <span>UPTIME</span>
-
-        <h3 id="uptime">
-
-            00:00:00
-
-        </h3>
-
-    </div>
-
-    <div class="info-card">
-
-        <span>AI ENGINE</span>
-
-        <h3>
-
-            NEURAL ENGINE V1
-
-        </h3>
-
-    </div>
-
-    <div class="info-card">
-
-        <span>POWER MODE</span>
-
-        <h3 id="powerMode">
-
-            PERFORMANCE
-
-        </h3>
-
-    </div>
-
-</section>
-
-<!-- =========================================
-     FLOATING AI ASSISTANT
-========================================= -->
-
-<div id="assistantWidget">
-
-    <div class="assistant-avatar">
-
-        AI
-
-    </div>
-
-    <div class="assistant-message">
-
-        RENAI CORE READY
-
-    </div>
-
-</div>
-
-<!-- =========================================
-     FULL SCREEN EFFECT
-========================================= -->
-
-<div id="scanEffect"></div>
-
-<div id="particleLayer"></div>
-
-<div id="gridOverlay"></div>
-
-<!-- =========================================
-     LOADING OVERLAY
-========================================= -->
-
-<div id="loadingOverlay">
-
-    <div class="loading-box">
-
-        <h2>
-
-            LOADING SYSTEM...
-
-        </h2>
-
-        <div class="loading-progress">
-
-            <div id="loadingBar"></div>
+            <p>
+                Responsive Engine for Neural Artificial Intelligence
+            </p>
 
         </div>
 
-        <p id="loadingStatus">
 
-            Preparing AI Kernel...
+        <div class="header-center">
 
-        </p>
+            <div class="header-core-status">
+
+                <span class="status-dot online"></span>
+
+                AI CORE ONLINE
+
+            </div>
+
+
+            <small>
+                GVTL — GLOBAL VIRTUAL TECHNOLOGY LAB
+            </small>
+
+        </div>
+
+
+        <div class="header-right">
+
+            <div id="date">
+                -- --- ----
+            </div>
+
+
+            <div id="time">
+                00:00:00
+            </div>
+
+
+            <span>
+                LOCAL SYSTEM TIME
+            </span>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN COMMAND GRID
+         ===================================================== -->
+
+    <main class="command-grid">
+
+
+        <!-- =================================================
+             LEFT TELEMETRY
+             ================================================= -->
+
+        <aside class="telemetry-column left-column">
+
+
+            <div class="section-label">
+                GPU TELEMETRY
+            </div>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        GPU USAGE
+                    </span>
+
+                    <i>
+                        LIVE
+                    </i>
+
+                </div>
+
+
+                <strong
+                    id="gpuUsage"
+                    class="telemetry-value green"
+                >
+                    0%
+                </strong>
+
+
+                <div class="telemetry-line">
+
+                    <span></span>
+
+                </div>
+
+            </article>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        GPU CLOCK
+                    </span>
+
+                    <i>
+                        CORE
+                    </i>
+
+                </div>
+
+
+                <strong id="gpuClock">
+                    0 MHz
+                </strong>
+
+            </article>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        GPU TEMPERATURE
+                    </span>
+
+                    <i>
+                        THERMAL
+                    </i>
+
+                </div>
+
+
+                <strong id="gpuTemp">
+                    0°C
+                </strong>
+
+            </article>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        GPU POWER
+                    </span>
+
+                    <i>
+                        ENERGY
+                    </i>
+
+                </div>
+
+
+                <strong id="gpuPower">
+                    0 W
+                </strong>
+
+            </article>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        VRAM
+                    </span>
+
+                    <i>
+                        MEMORY
+                    </i>
+
+                </div>
+
+
+                <strong id="vram">
+                    0 / 100 TB
+                </strong>
+
+            </article>
+
+
+        </aside>
+
+
+        <!-- =================================================
+             CENTRAL AI CORE
+             ================================================= -->
+
+        <section class="core-column">
+
+
+            <div class="core-stage">
+
+                <div class="core-grid"></div>
+
+
+                <div class="core-ring ring-outer"></div>
+
+                <div class="core-ring ring-middle"></div>
+
+                <div class="core-ring ring-inner"></div>
+
+
+                <canvas
+                    id="radarCanvas"
+                ></canvas>
+
+
+                <div class="core-orbit orbit-a"></div>
+
+                <div class="core-orbit orbit-b"></div>
+
+
+                <div class="core-logo-container">
+
+                    <div class="core-energy-orb"></div>
+
+
+                    <img
+                        src="assets/logo.png"
+                        class="core-logo"
+                        alt="RENAI GVTL AI Core"
+                    >
+
+                </div>
+
+
+                <div class="core-title">
+
+                    <span>
+                        CORE NODE
+                    </span>
+
+
+                    <h2>
+                        INTI RenAI GVTL
+                    </h2>
+
+
+                    <p id="coreStatus">
+                        ONLINE
+                    </p>
+
+                </div>
+
+
+                <div class="core-id">
+                    NODE : GVTL-X1 / PUBLIC-SIM
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 CORE ENERGY
+                 ================================================= -->
+
+            <div class="core-energy-panel">
+
+                <div>
+
+                    <span>
+                        AI CORE ENERGY
+                    </span>
+
+
+                    <small>
+                        COMPUTATIONAL ACTIVITY
+                    </small>
+
+                </div>
+
+
+                <strong id="coreEnergy">
+                    100%
+                </strong>
+
+            </div>
+
+
+            <!-- =================================================
+                 NEURAL ACTIVITY
+                 ================================================= -->
+
+            <article class="main-panel neural-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+
+                        <span>
+                            REAL-TIME ANALYTICS
+                        </span>
+
+
+                        <h3>
+                            AI NEURAL ACTIVITY
+                        </h3>
+
+                    </div>
+
+
+                    <div class="panel-live">
+                        ● STREAMING
+                    </div>
+
+                </div>
+
+
+                <div class="chart-container">
+
+                    <canvas
+                        id="activityChart"
+                    ></canvas>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SYSTEM TERMINAL
+                 ================================================= -->
+
+            <article class="main-panel terminal-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+
+                        <span>
+                            SYSTEM MONITOR
+                        </span>
+
+
+                        <h3>
+                            NEURAL TERMINAL
+                        </h3>
+
+                    </div>
+
+
+                    <div class="terminal-indicator">
+                        LIVE
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="terminalLog"
+                    class="terminal-log"
+                >
+
+                    <div class="terminal-line system">
+                        [SYSTEM] Initializing simulation environment...
+                    </div>
+
+
+                    <div class="terminal-line info">
+                        [INFO] RENAI GVTL Core initialized.
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </section>
+
+
+        <!-- =================================================
+             RIGHT TELEMETRY
+             ================================================= -->
+
+        <aside class="telemetry-column right-column">
+
+
+            <div class="section-label">
+                CPU TELEMETRY
+            </div>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        CPU USAGE
+                    </span>
+
+                    <i>
+                        LIVE
+                    </i>
+
+                </div>
+
+
+                <strong
+                    id="cpuUsage"
+                    class="telemetry-value cyan"
+                >
+                    0%
+                </strong>
+
+
+                <div class="telemetry-line cyan-line">
+
+                    <span></span>
+
+                </div>
+
+            </article>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        CPU CLOCK
+                    </span>
+
+                    <i>
+                        CORE
+                    </i>
+
+                </div>
+
+
+                <strong id="cpuClock">
+                    0 GHz
+                </strong>
+
+            </article>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        CPU TEMPERATURE
+                    </span>
+
+                    <i>
+                        THERMAL
+                    </i>
+
+                </div>
+
+
+                <strong id="cpuTemp">
+                    0°C
+                </strong>
+
+            </article>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        RAM
+                    </span>
+
+                    <i>
+                        MEMORY
+                    </i>
+
+                </div>
+
+
+                <strong id="ramUsage">
+                    0 / 512 GB
+                </strong>
+
+            </article>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        STORAGE
+                    </span>
+
+                    <i>
+                        DATA
+                    </i>
+
+                </div>
+
+
+                <strong id="storageUsage">
+                    0 / 8 PB
+                </strong>
+
+            </article>
+
+
+            <article class="telemetry-card">
+
+                <div class="card-header">
+
+                    <span>
+                        NETWORK
+                    </span>
+
+                    <i>
+                        STATUS
+                    </i>
+
+                </div>
+
+
+                <strong
+                    id="networkStatus"
+                    class="green"
+                >
+                    ONLINE
+                </strong>
+
+            </article>
+
+
+        </aside>
+
+    </main>
+
+
+    <!-- =====================================================
+         GLOBAL NETWORK
+         ===================================================== -->
+
+    <section class="network-panel main-panel">
+
+        <div class="panel-heading">
+
+            <div>
+
+                <span>
+                    GLOBAL CONNECTIVITY
+                </span>
+
+
+                <h3>
+                    GLOBAL AI NETWORK
+                </h3>
+
+            </div>
+
+
+            <div class="network-status">
+                ● NETWORK ACTIVE
+            </div>
+
+        </div>
+
+
+        <div class="network-canvas-wrapper">
+
+            <canvas
+                id="worldCanvas"
+            ></canvas>
+
+        </div>
+
+    </section>
+
+
+ <section class="main-panel ecosystem-panel">
+
+    <div class="panel-heading">
+        <div>
+            <span>RENAI GVTL AI ECOSYSTEM</span>
+            <h3>AI ECOSYSTEM ARCHITECTURE</h3>
+        </div>
+
+        <div class="panel-live">
+            ● SIMULATION
+        </div>
+    </div>
+
+
+    <div class="ecosystem-grid">
+
+        <!-- RENAI ROUTER -->
+        <article class="ecosystem-node router">
+
+            <div class="ecosystem-node-header">
+                <span class="ecosystem-node-type">
+                    ROUTING CORE
+                </span>
+
+                <span class="ecosystem-node-status">
+                    ONLINE
+                </span>
+            </div>
+
+            <h4 class="ecosystem-node-name">
+                RENAI ROUTER
+            </h4>
+
+            <p class="ecosystem-node-description">
+                Hybrid intelligence routing and metadata policy
+                orchestration layer.
+            </p>
+
+            <div class="ecosystem-node-metric">
+                <span>ROUTER LOAD</span>
+                <strong>68%</strong>
+            </div>
+
+            <div class="ecosystem-load">
+                <span></span>
+            </div>
+
+        </article>
+
+
+        <!-- RENAI GVTL -->
+        <article class="ecosystem-node gvtl">
+
+            <div class="ecosystem-node-header">
+                <span class="ecosystem-node-type">
+                    CORE INTELLIGENCE
+                </span>
+
+                <span class="ecosystem-node-status">
+                    ONLINE
+                </span>
+            </div>
+
+            <h4 class="ecosystem-node-name">
+                RENAI GVTL
+            </h4>
+
+            <p class="ecosystem-node-description">
+                General neural intelligence and reasoning core.
+            </p>
+
+            <div class="ecosystem-node-metric">
+                <span>CORE LOAD</span>
+                <strong>74%</strong>
+            </div>
+
+            <div class="ecosystem-load">
+                <span></span>
+            </div>
+
+        </article>
+
+
+        <!-- AUROAI -->
+        <article class="ecosystem-node auro">
+
+            <div class="ecosystem-node-header">
+                <span class="ecosystem-node-type">
+                    VISUAL ENGINE
+                </span>
+
+                <span class="ecosystem-node-status">
+                    ONLINE
+                </span>
+            </div>
+
+            <h4 class="ecosystem-node-name">
+                AUROAI GVTL
+            </h4>
+
+            <p class="ecosystem-node-description">
+                Image generation, enhancement and visual intelligence.
+            </p>
+
+            <div class="ecosystem-node-metric">
+                <span>VISUAL LOAD</span>
+                <strong>61%</strong>
+            </div>
+
+            <div class="ecosystem-load">
+                <span></span>
+            </div>
+
+        </article>
+
+
+        <!-- SILVAI -->
+        <article class="ecosystem-node silv">
+
+            <div class="ecosystem-node-header">
+                <span class="ecosystem-node-type">
+                    VIDEO ENGINE
+                </span>
+
+                <span class="ecosystem-node-status">
+                    ONLINE
+                </span>
+            </div>
+
+            <h4 class="ecosystem-node-name">
+                SILVAI GVTL
+            </h4>
+
+            <p class="ecosystem-node-description">
+                Video generation, restoration and temporal intelligence.
+            </p>
+
+            <div class="ecosystem-node-metric">
+                <span>VIDEO LOAD</span>
+                <strong>57%</strong>
+            </div>
+
+            <div class="ecosystem-load">
+                <span></span>
+            </div>
+
+        </article>
+
+
+        <!-- FANAI -->
+        <article class="ecosystem-node fan">
+
+            <div class="ecosystem-node-header">
+                <span class="ecosystem-node-type">
+                    ASSISTANT ENGINE
+                </span>
+
+                <span class="ecosystem-node-status">
+                    ONLINE
+                </span>
+            </div>
+
+            <h4 class="ecosystem-node-name">
+                FANAI GVTL
+            </h4>
+
+            <p class="ecosystem-node-description">
+                Specialized conversational and assistant intelligence.
+            </p>
+
+            <div class="ecosystem-node-metric">
+                <span>LOAD</span>
+                <strong>48%</strong>
+            </div>
+
+            <div class="ecosystem-load">
+                <span></span>
+            </div>
+
+        </article>
+
+
+        <!-- DIANAI -->
+        <article class="ecosystem-node dian">
+
+            <div class="ecosystem-node-header">
+                <span class="ecosystem-node-type">
+                    INTELLIGENCE NODE
+                </span>
+
+                <span class="ecosystem-node-status">
+                    ONLINE
+                </span>
+            </div>
+
+            <h4 class="ecosystem-node-name">
+                DIANAI GVTL
+            </h4>
+
+            <p class="ecosystem-node-description">
+                Specialized neural processing subsystem.
+            </p>
+
+            <div class="ecosystem-node-metric">
+                <span>LOAD</span>
+                <strong>43%</strong>
+            </div>
+
+            <div class="ecosystem-load">
+                <span></span>
+            </div>
+
+        </article>
+
+
+        <!-- NARENDAI -->
+        <article class="ecosystem-node narend">
+
+            <div class="ecosystem-node-header">
+                <span class="ecosystem-node-type">
+                    INTELLIGENCE NODE
+                </span>
+
+                <span class="ecosystem-node-status">
+                    ONLINE
+                </span>
+            </div>
+
+            <h4 class="ecosystem-node-name">
+                NARENDAI GVTL
+            </h4>
+
+            <p class="ecosystem-node-description">
+                Specialized neural intelligence subsystem.
+            </p>
+
+            <div class="ecosystem-node-metric">
+                <span>LOAD</span>
+                <strong>39%</strong>
+            </div>
+
+            <div class="ecosystem-load">
+                <span></span>
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <!-- ROUTER FLOW -->
+ <div class="ecosystem-router-flow">
+
+    <div class="router-flow-label">
+
+        <span>
+            RENAI ROUTER
+        </span>
+
+        <small>
+            INTELLIGENT MODEL ORCHESTRATION
+        </small>
+
+    </div>
+
+
+    <div class="router-flow-diagram">
+
+        <!-- REQUEST -->
+
+        <div class="router-flow-node request-node">
+
+            <span class="flow-node-type">
+                INPUT
+            </span>
+
+            <strong>
+                REQUEST
+            </strong>
+
+            <small>
+                USER REQUEST
+            </small>
+
+        </div>
+
+
+        <!-- CONNECTION -->
+
+        <div class="flow-line horizontal">
+            <span></span>
+        </div>
+
+
+        <!-- ROUTER -->
+
+        <div class="router-flow-node router-core-node">
+
+            <span class="flow-node-type">
+                ROUTING CORE
+            </span>
+
+            <strong>
+                RENAI ROUTER
+            </strong>
+
+            <small>
+                REQUEST ORCHESTRATION
+            </small>
+
+            <div class="router-core-status">
+                ● ONLINE
+            </div>
+
+        </div>
+
+
+        <!-- ROUTER DECISION -->
+
+        <div class="router-decision">
+
+            <span>
+                ROUTING DECISION
+            </span>
+
+            <small>
+                MODEL / TASK SELECTION
+            </small>
+
+        </div>
+
+
+        <!-- ENGINE MATRIX -->
+
+        <div class="router-engine-matrix">
+
+
+            <div
+                class="router-engine"
+                data-engine="renai"
+            >
+
+                <span>
+                    CORE
+                </span>
+
+                <strong>
+                    RENAI GVTL
+                </strong>
+
+                <small>
+                    GENERAL INTELLIGENCE
+                </small>
+
+                <div class="engine-load">
+                    <span style="width:74%"></span>
+                </div>
+
+            </div>
+
+
+            <div
+                class="router-engine"
+                data-engine="auro"
+            >
+
+                <span>
+                    VISUAL
+                </span>
+
+                <strong>
+                    AUROAI GVTL
+                </strong>
+
+                <small>
+                    IMAGE INTELLIGENCE
+                </small>
+
+                <div class="engine-load">
+                    <span style="width:61%"></span>
+                </div>
+
+            </div>
+
+
+            <div
+                class="router-engine"
+                data-engine="silv"
+            >
+
+                <span>
+                    VIDEO
+                </span>
+
+                <strong>
+                    SILVAI GVTL
+                </strong>
+
+                <small>
+                    VIDEO INTELLIGENCE
+                </small>
+
+                <div class="engine-load">
+                    <span style="width:57%"></span>
+                </div>
+
+            </div>
+
+
+            <div
+                class="router-engine"
+                data-engine="fan"
+            >
+
+                <span>
+                    ASSISTANT
+                </span>
+
+                <strong>
+                    FANAI GVTL
+                </strong>
+
+                <small>
+                    CONVERSATIONAL AI
+                </small>
+
+                <div class="engine-load">
+                    <span style="width:48%"></span>
+                </div>
+
+            </div>
+
+
+            <div
+                class="router-engine"
+                data-engine="dian"
+            >
+
+                <span>
+                    NEURAL
+                </span>
+
+                <strong>
+                    DIANAI GVTL
+                </strong>
+
+                <small>
+                    SPECIALIZED PROCESSING
+                </small>
+
+                <div class="engine-load">
+                    <span style="width:43%"></span>
+                </div>
+
+            </div>
+
+
+            <div
+                class="router-engine"
+                data-engine="narend"
+            >
+
+                <span>
+                    NEURAL
+                </span>
+
+                <strong>
+                    NARENDAI GVTL
+                </strong>
+
+                <small>
+                    SPECIALIZED INTELLIGENCE
+                </small>
+
+                <div class="engine-load">
+                    <span style="width:39%"></span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- OUTPUT -->
+
+        <div class="router-output">
+
+            <div class="output-line"></div>
+
+            <div class="router-flow-node output-node">
+
+                <span class="flow-node-type">
+                    RESPONSE
+                </span>
+
+                <strong>
+                    OUTPUT
+                </strong>
+
+                <small>
+                    PROCESSED RESULT
+                </small>
+
+            </div>
+
+        </div>
 
     </div>
 
 </div>
 
+</section>
 
-<!-- =========================================
-     HIDDEN CANVAS LAYER
-========================================= -->
 
-<canvas id="backgroundCanvas"></canvas>
+    <!-- =====================================================
+         SYSTEM INFORMATION
+         ===================================================== -->
 
-<canvas id="particleCanvas"></canvas>
+    <section class="system-information">
 
-<canvas id="radarCanvas"></canvas>
 
-<canvas id="effectCanvas"></canvas>
+        <article class="info-card">
 
-<!-- =========================================
+            <span>
+                MODEL
+            </span>
+
+
+            <strong>
+                RENAI GVTL-X1
+            </strong>
+
+        </article>
+
+
+        <article class="info-card">
+
+            <span>
+                VERSION
+            </span>
+
+
+            <strong>
+                V3.0.0
+            </strong>
+
+        </article>
+
+
+        <article class="info-card">
+
+            <span>
+                AI STATUS
+            </span>
+
+
+            <strong
+                id="aiStatus"
+                class="green"
+            >
+                ACTIVE
+            </strong>
+
+        </article>
+
+
+        <article class="info-card">
+
+            <span>
+                SECURITY
+            </span>
+
+
+            <strong id="securityStatus">
+                MAXIMUM
+            </strong>
+
+        </article>
+
+
+        <article class="info-card">
+
+            <span>
+                DATABASE
+            </span>
+
+
+            <strong id="databaseStatus">
+                CONNECTED
+            </strong>
+
+        </article>
+
+
+        <article class="info-card">
+
+            <span>
+                UPTIME
+            </span>
+
+
+            <strong id="uptime">
+                00:00:00
+            </strong>
+
+        </article>
+
+
+        <article class="info-card">
+
+            <span>
+                AI ENGINE
+            </span>
+
+
+            <strong>
+                NEURAL ENGINE V3
+            </strong>
+
+        </article>
+
+
+        <article class="info-card">
+
+            <span>
+                POWER MODE
+            </span>
+
+
+            <strong id="powerMode">
+                PERFORMANCE
+            </strong>
+
+        </article>
+
+
+    </section>
+
+
+    <!-- =====================================================
+         BOTTOM HUD
+         ===================================================== -->
+
+    <section class="bottom-hud">
+
+
+        <article class="hud-card">
+
+            <span>
+                UPLOAD
+            </span>
+
+
+            <strong id="uploadSpeed">
+                0 GB/s
+            </strong>
+
+        </article>
+
+
+        <article class="hud-card">
+
+            <span>
+                DOWNLOAD
+            </span>
+
+
+            <strong id="downloadSpeed">
+                0 GB/s
+            </strong>
+
+        </article>
+
+
+        <article class="hud-card">
+
+            <span>
+                LATENCY
+            </span>
+
+
+            <strong id="latency">
+                0 ms
+            </strong>
+
+        </article>
+
+
+        <article class="hud-card">
+
+            <span>
+                FPS
+            </span>
+
+
+            <strong id="fps">
+                240
+            </strong>
+
+        </article>
+
+
+        <article class="hud-card">
+
+            <span>
+                AI LOAD
+            </span>
+
+
+            <strong id="aiLoad">
+                0%
+            </strong>
+
+        </article>
+
+
+        <article class="hud-card">
+
+            <span>
+                CUDA CORES
+            </span>
+
+
+            <strong id="cudaCores">
+                16384
+            </strong>
+
+        </article>
+
+
+        <article class="hud-card">
+
+            <span>
+                TENSOR CORES
+            </span>
+
+
+            <strong id="tensorCores">
+                512
+            </strong>
+
+        </article>
+
+
+        <article class="hud-card">
+
+            <span>
+                POWER
+            </span>
+
+
+            <strong id="totalPower">
+                0 W
+            </strong>
+
+        </article>
+
+
+    </section>
+
+
+    <!-- =====================================================
+         STATUS BAR
+         ===================================================== -->
+
+    <section class="floating-status">
+
+
+        <div class="status-item">
+
+            <span class="status-dot online"></span>
+
+            GPU ONLINE
+
+        </div>
+
+
+        <div class="status-item">
+
+            <span class="status-dot online"></span>
+
+            CPU ONLINE
+
+        </div>
+
+
+        <div class="status-item">
+
+            <span class="status-dot online"></span>
+
+            NETWORK ONLINE
+
+        </div>
+
+
+        <div class="status-item">
+
+            <span class="status-dot online"></span>
+
+            DATABASE ONLINE
+
+        </div>
+
+
+    </section>
+
+
+    <!-- =====================================================
+         NOTIFICATION CENTER
+         ===================================================== -->
+
+    <aside class="notification-panel main-panel">
+
+
+        <div class="panel-heading">
+
+            <div>
+
+                <span>
+                    SYSTEM EVENTS
+                </span>
+
+
+                <h3>
+                    NOTIFICATION CENTER
+                </h3>
+
+            </div>
+
+        </div>
+
+
+        <div id="notificationList">
+
+
+            <div class="notification success">
+
+                <span>
+                    ●
+                </span>
+
+                AI CORE ONLINE
+
+            </div>
+
+
+            <div class="notification info">
+
+                <span>
+                    ●
+                </span>
+
+                GPU SIMULATION READY
+
+            </div>
+
+
+            <div class="notification success">
+
+                <span>
+                    ●
+                </span>
+
+                SYSTEM STABLE
+
+            </div>
+
+
+        </div>
+
+    </aside>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="gvtl-footer">
+
+
+        <div class="footer-brand">
+
+            <strong>
+                PT RENAI GVTL Indonesia
+            </strong>
+
+
+            <span>
+                Responsive Engine for Neural Artificial Intelligence
+            </span>
+
+
+            <span>
+                GVTL — Global Virtual Technology Lab
+            </span>
+
+        </div>
+
+
+        <div class="footer-system">
+
+            <span>
+                AI COMMAND CENTER
+            </span>
+
+
+            <strong>
+
+            </strong>
+
+        </div>
+
+    </footer>
+
+
+</div>
+
+
+<!-- =========================================================
      STARTUP AUDIO
-========================================= -->
+     ========================================================= -->
 
-<audio id="startupAudio" preload="auto">
+<audio
+    id="startupAudio"
+    preload="auto"
+></audio>
 
-    <source src="assets/startup.mp3" type="audio/mpeg">
 
-</audio>
+<audio
+    id="notificationAudio"
+    preload="auto"
+></audio>
 
-<audio id="notificationAudio" preload="auto">
 
-    <source src="assets/notification.mp3" type="audio/mpeg">
-
-</audio>
-
-<!-- =========================================
+<!-- =========================================================
      JAVASCRIPT
-========================================= -->
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     ========================================================= -->
 
 <script src="dashboard-nav.js"></script>
 
 <script src="script.js"></script>
 
-</div>
 
 </body>
 
