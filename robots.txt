@@ -1,5 +1,29 @@
+# =========================================================
+# PT RENAI GVTL INDONESIA
+# OFFICIAL ROBOTS.TXT
+# =========================================================
+
+
+# =========================================================
+# GENERAL CRAWLING
+# =========================================================
+
 User-agent: *
 Allow: /
-Disallow: /dashboard/
+
+
+# =========================================================
+# PUBLIC DASHBOARD
+#
+# Dashboard merupakan Public Dashboard /
+# Public Simulation dan dapat di-crawl.
+# =========================================================
+
+Allow: /dashboard/
+
+
+# =========================================================
+# SITEMAP
+# =========================================================
 
 Sitemap: https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/sitemap.xml

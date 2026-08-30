@@ -21,7 +21,7 @@ Nama resmi: Reno Aurora Redian Narendra Wijaya Putra Silvana
 Jabatan: Founder & Owner
 
 KONTAK RESMI
-Alamat: Jalan Raya Talaga, Ds. Wanahayu, Kec. Maja, Kab. Majalengka, Jawa Barat, Indonesia
+Alamat: Blok Langgeng, Desa Wanahayu, Kecamatan Maja, Kabupaten Majalengka, Jawa Barat, Indonesia
 Email: renaigvtl@gmail.com
 WhatsApp: +62 813-8586-9321
 
@@ -52,3 +52,12 @@ Dashboard memiliki toggle navigasi internal menuju:
 - Dashboard
 
 Menu Dashboard juga tersedia di navigasi website utama.
+
+
+NAVIGATION UPGRADE — 29 AGUSTUS 2026
+- Navbar root pages diseragamkan.
+- Technology: Chat GVTL, RENAI Image, RENAI Router.
+- Research: Activity, Experiment, Documentation.
+- Identity: Identitas, Founder.
+- Mobile menu toggle dan dropdown dibuat accessible.
+- Footer root/news pages memuat seluruh halaman utama yang tersedia.
