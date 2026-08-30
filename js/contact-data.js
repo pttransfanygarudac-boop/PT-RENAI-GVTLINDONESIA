@@ -7,7 +7,9 @@ const RENAI_CONTACT = {
 
     company: "PT RENAI GVTL Indonesia",
 
-    address: "Jalan Raya Talaga, Ds. Wanahayu, Kec. Maja, Kab. Majalengka, Jawa Barat, Indonesia",
+    address: "Blok Langgeng, Desa Wanahayu, Kecamatan Maja, Kabupaten Majalengka, Jawa Barat, Indonesia",
+
+    map: "https://maps.app.goo.gl/PKproTnUDwJ2xUgZ9",
 
     email: "renaigvtl@gmail.com",
 
