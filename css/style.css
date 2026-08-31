@@ -4463,3 +4463,121 @@ svg {
         padding: 10px 12px;
     }
 }
+
+
+/* =========================================================
+   PT RENAI GVTL INDONESIA — PUBLIC IDENTITY UPGRADE V6
+   Visual layer appended to the existing design system.
+   Existing components remain compatible.
+   ========================================================= */
+
+.sr-only {
+    position:absolute !important;
+    width:1px !important;
+    height:1px !important;
+    padding:0 !important;
+    margin:-1px !important;
+    overflow:hidden !important;
+    clip:rect(0,0,0,0) !important;
+    white-space:nowrap !important;
+    border:0 !important;
+}
+
+.skip-link {
+    position:fixed;
+    left:18px;
+    top:14px;
+    z-index:99999;
+    transform:translateY(-180%);
+    padding:10px 14px;
+    border:1px solid var(--line-strong);
+    border-radius:12px;
+    background:#05090f;
+    color:#fff;
+    box-shadow:var(--shadow);
+}
+
+.skip-link:focus { transform:translateY(0); }
+
+.identity-ribbon {
+    position:relative;
+    z-index:50;
+    border-bottom:1px solid rgba(87,230,255,.10);
+    background:rgba(2,5,9,.72);
+    backdrop-filter:blur(12px);
+}
+
+.identity-ribbon-inner {
+    min-height:34px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:18px;
+    color:var(--muted);
+    font-size:.68rem;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+}
+
+.identity-ribbon strong { color:var(--text); }
+
+.identity-rail-section { padding-top:34px; padding-bottom:34px; }
+
+.identity-rail {
+    display:grid;
+    grid-template-columns:minmax(260px,.9fr) minmax(0,1.4fr);
+    gap:26px;
+    padding:26px;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:linear-gradient(135deg,rgba(8,15,24,.88),rgba(3,7,12,.68));
+    box-shadow:var(--glow-cyan);
+}
+
+.identity-rail-heading h2 {
+    margin:7px 0 10px;
+    font-size:clamp(1.35rem,2.4vw,2rem);
+    line-height:1.12;
+}
+
+.identity-rail-heading p { color:var(--muted); max-width:520px; }
+
+.identity-rail-grid {
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:10px;
+}
+
+.identity-signal {
+    min-height:76px;
+    padding:14px 15px;
+    border:1px solid var(--line-soft);
+    border-radius:14px;
+    background:rgba(255,255,255,.018);
+}
+
+.identity-signal span {
+    display:block;
+    margin-bottom:6px;
+    color:var(--muted-dark);
+    font-size:.62rem;
+    font-weight:800;
+    letter-spacing:.14em;
+}
+
+.identity-signal strong { display:block; color:var(--text-soft); font-size:.82rem; }
+
+.hero-content .eyebrow { line-height:1.65; }
+.hero-content .entity-note { max-width:760px; }
+
+@media (max-width:900px) {
+    .identity-ribbon-inner { justify-content:center; flex-wrap:wrap; padding:8px 0; }
+    .identity-ribbon-inner span:last-child { display:none; }
+    .identity-rail { grid-template-columns:1fr; }
+}
+
+@media (max-width:560px) {
+    .identity-rail { padding:19px; }
+    .identity-rail-grid { grid-template-columns:1fr; }
+    .identity-ribbon-inner { font-size:.58rem; }
+}
