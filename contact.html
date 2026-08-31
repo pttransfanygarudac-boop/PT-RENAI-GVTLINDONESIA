@@ -510,8 +510,7 @@
     <li><a href="news.html">News</a></li>
     <li><a href="career.html">Career</a></li>
     <li><a href="contact.html" class="active" aria-current="page">Kontak</a></li>
-    <li><a href="dashboard/index.html">Dashboard Publik</a></li><li><a href="dashboard/command-center.html">AI Command Center</a>
-        <a href="site-map.html">Peta Situs</a></li>
+    <li><a href="dashboard/index.html">Dashboard Publik</a></li>
 </ul>
 </nav>
 
@@ -592,7 +591,7 @@
 
 <a
     class="btn btn-primary"
-    href="mailto:renaigvtl@gmail.com"
+    href="renaigvtl@gmail.com"
 >
 
     Kirim Email
@@ -679,7 +678,7 @@
 
 <a
     class="card contact-item reveal delay-1"
-    href="mailto:renaigvtl@gmail.com"
+    href="renaigvtl@gmail.com"
 >
 
 <div class="icon">
@@ -919,8 +918,7 @@
 <div class="contact-form card reveal">
 
 <form
-    id="contactForm"
-    action="mailto:renaigvtl@gmail.com"
+    action="renaigvtl@gmail.com"
     method="post"
     enctype="text/plain"
 >
@@ -1010,7 +1008,7 @@
 
 <a
     class="btn btn-ghost"
-    href="mailto:renaigvtl@gmail.com"
+    href="renaigvtl@gmail.com"
 >
 
     Buka Email
@@ -1116,8 +1114,7 @@
         <a href="news.html">News</a>
         <a href="career.html">Career</a>
         <a href="contact.html">Kontak</a>
-        <a href="dashboard/index.html">Dashboard Publik</a></li><li><a href="dashboard/command-center.html">AI Command Center</a>
-        <a href="site-map.html">Peta Situs</a>
+        <a href="dashboard/index.html">Dashboard Publik</a>
     </div>
 </div>
 </footer>
@@ -1128,30 +1125,6 @@
      ========================================================= -->
 
 <script src="js/main.js"></script>
-
-<script>
-(function(){
-  const form=document.getElementById("contactForm");
-  if(!form) return;
-  form.addEventListener("submit",function(e){
-    e.preventDefault();
-    const nama=document.getElementById("nama")?.value.trim() || "";
-    const email=document.getElementById("email")?.value.trim() || "";
-    const subjek=document.getElementById("subjek")?.value.trim() || "Pesan dari website RENAI GVTL";
-    const pesan=document.getElementById("pesan")?.value.trim() || "";
-    const body=[
-      "Nama: "+nama,
-      "Email: "+email,
-      "",
-      pesan,
-      "",
-      "---",
-      "Dikirim melalui website PT RENAI GVTL Indonesia"
-    ].join("\n");
-    window.location.href="mailto:renaigvtl@gmail.com?subject="+encodeURIComponent(subjek)+"&body="+encodeURIComponent(body);
-  });
-})();
-</script>
 
 <script src="js/contact-data.js"></script>
 
