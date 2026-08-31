@@ -407,6 +407,18 @@
 
 <body>
 
+<a class="skip-link" href="#content-start">Lewati ke konten utama</a>
+
+<div class="identity-ribbon" role="note">
+    <div class="container identity-ribbon-inner">
+        <span><strong>RENAI GVTL</strong> · PT RENAI GVTL Indonesia</span>
+        <span>Artificial Intelligence · Research · Technology</span>
+        <span>Majalengka, Jawa Barat, Indonesia</span>
+    </div>
+</div>
+
+<span id="content-start" class="sr-only"></span>
+
 <!-- =========================================================
      01. HEADER / NAVBAR
      ========================================================= -->
@@ -498,7 +510,8 @@
     <li><a href="news.html">News</a></li>
     <li><a href="career.html">Career</a></li>
     <li><a href="contact.html" class="active" aria-current="page">Kontak</a></li>
-    <li><a href="dashboard/index.html">Dashboard</a></li>
+    <li><a href="dashboard/index.html">Dashboard Publik</a></li><li><a href="dashboard/command-center.html">AI Command Center</a>
+        <a href="site-map.html">Peta Situs</a></li>
 </ul>
 </nav>
 
@@ -906,6 +919,7 @@
 <div class="contact-form card reveal">
 
 <form
+    id="contactForm"
     action="mailto:renaigvtl@gmail.com"
     method="post"
     enctype="text/plain"
@@ -1102,7 +1116,8 @@
         <a href="news.html">News</a>
         <a href="career.html">Career</a>
         <a href="contact.html">Kontak</a>
-        <a href="dashboard/index.html">Dashboard</a>
+        <a href="dashboard/index.html">Dashboard Publik</a></li><li><a href="dashboard/command-center.html">AI Command Center</a>
+        <a href="site-map.html">Peta Situs</a>
     </div>
 </div>
 </footer>
@@ -1113,6 +1128,30 @@
      ========================================================= -->
 
 <script src="js/main.js"></script>
+
+<script>
+(function(){
+  const form=document.getElementById("contactForm");
+  if(!form) return;
+  form.addEventListener("submit",function(e){
+    e.preventDefault();
+    const nama=document.getElementById("nama")?.value.trim() || "";
+    const email=document.getElementById("email")?.value.trim() || "";
+    const subjek=document.getElementById("subjek")?.value.trim() || "Pesan dari website RENAI GVTL";
+    const pesan=document.getElementById("pesan")?.value.trim() || "";
+    const body=[
+      "Nama: "+nama,
+      "Email: "+email,
+      "",
+      pesan,
+      "",
+      "---",
+      "Dikirim melalui website PT RENAI GVTL Indonesia"
+    ].join("\n");
+    window.location.href="mailto:renaigvtl@gmail.com?subject="+encodeURIComponent(subjek)+"&body="+encodeURIComponent(body);
+  });
+})();
+</script>
 
 <script src="js/contact-data.js"></script>
 

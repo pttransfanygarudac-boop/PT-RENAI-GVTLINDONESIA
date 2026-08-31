@@ -61,3 +61,37 @@ NAVIGATION UPGRADE — 29 AGUSTUS 2026
 - Identity: Identitas, Founder.
 - Mobile menu toggle dan dropdown dibuat accessible.
 - Footer root/news pages memuat seluruh halaman utama yang tersedia.
+
+
+UPGRADE 31 AGUSTUS 2026
+- Public identity unified as PT RENAI GVTL Indonesia / RENAI GVTL.
+- GitHub Pages remains the current canonical host until renaigvtl.id is active.
+- Homepage received a public identity rail and accessibility layer.
+- Dashboard rebuilt as a public information dashboard; it does not claim live server telemetry.
+- Image paths were intentionally preserved; supplied ZIP may omit image folders for size.
+- robots.txt and sitemap.xml updated for the current GitHub Pages host.
+
+
+LIVE-LINK / PUBLIC HUB UPGRADE — 31 AGUSTUS 2026
+==================================================
+1. Dashboard publik menjadi hub informasi yang dapat diakses semua pengunjung.
+2. site-map.html menjadi peta navigasi publik seluruh halaman.
+3. 404.html menjadi fallback agar URL yang salah tetap membawa pengunjung kembali ke website.
+4. Contact form menggunakan mailto composer karena GitHub Pages bersifat static dan tidak menyediakan backend form.
+5. Semua navigasi internal diarahkan ke halaman lokal yang tersedia.
+6. Fragment links Activity Center telah diberi target section yang sesuai.
+7. Dashboard memakai asset dari ../assets/images/ agar konsisten dengan struktur asset utama website.
+8. Domain resmi renaigvtl.id belum digunakan sebagai canonical sampai domain benar-benar aktif.
+
+CARA MENGEMBANGKAN
+------------------
+- Tambah halaman baru: buat file HTML pada root/folder yang sesuai, lalu masukkan ke navbar/footer/site-map/sitemap.xml.
+- Tambah technology: buat halaman proyek, masukkan ke Dashboard Portfolio, RENAI GVTL page, sitemap, dan internal related links.
+- Tambah research: buat detail experiment/activity, hubungkan dari Activity/Experiment Center dan Dashboard.
+- Tambah news: buat artikel pada folder news, tambahkan kartu pada news.html dan sitemap.xml.
+- Tambah asset: pertahankan pola assets/images/... dan gunakan alt text deskriptif.
+- Saat renaigvtl.id aktif: ganti canonical, Open Graph URL, JSON-LD @id/url, sitemap loc, dan URL internal secara konsisten.
+
+
+--- DUAL DASHBOARD ARCHITECTURE (31 AGUSTUS 2026) ---
+Dashboard publik tetap tersedia di dashboard/index.html. AI Command Center dikembalikan sebagai lapisan terpisah di dashboard/command-center.html. Command Center menggunakan public-safe mode: interaksi hanya memengaruhi UI browser dan tidak mengklaim akses server, GPU, CPU, data pengguna, atau sistem produksi. Pengembangan berikutnya dapat menghubungkan UI ini ke backend/API internal ketika infrastruktur siap.
