@@ -9,7 +9,7 @@ const RENAI_CONTACT = {
 
     address: "Blok Langgeng, Desa Wanahayu, Kecamatan Maja, Kabupaten Majalengka, Jawa Barat, Indonesia",
 
-    map: "https://maps.app.goo.gl/PKproTnUDwJ2xUgZ9",
+    map: "https://maps.app.goo.gl/w1bzrBz2b8p2Rz9S7?g_st=aw",
 
     email: "renaigvtl@gmail.com",
 
