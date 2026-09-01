@@ -1,0 +1,183 @@
+SIARAN PERS / RISET TEKNOLOGI
+
+Diterbitkan: 24 Agustus 2026
+Status: Research & Development — In Development
+Entitas: PT RENAI GVTL Indonesia
+Lokasi: Majalengka, Jawa Barat, Indonesia
+
+Meneruskan The Foundation Era: PT RENAI GVTL Indonesia Memperkenalkan RENAI Router, Infrastruktur Metadata AI yang Saat Ini Berada dalam Tahap Pengembangan
+
+MAJALENGKA, 24 Agustus 2026 — Sebagai bagian dari kelanjutan fase pembangunan “The Foundation Era”, PT RENAI GVTL Indonesia hari ini memperkenalkan hasil riset dan rancangan awal RENAI Router, sebuah sistem provenance-aware metadata middleware yang saat ini masih berada dalam tahap pembangunan, pengembangan arsitektur, dan konversi sistem.
+
+RENAI Router dikembangkan untuk mengeksplorasi solusi terhadap salah satu persoalan dalam ekosistem AI generatif: bagaimana mempertahankan konteks, metadata teknis, dan provenance sebuah aset visual ketika aset tersebut mengalami proses restorasi, transformasi, maupun generasi berbasis AI.
+
+RENAI Router belum merupakan produk final dan belum dinyatakan sebagai sistem production-ready. Seluruh arsitektur, spesifikasi teknis, standar implementasi, serta komponen pipeline yang dijelaskan dalam publikasi ini masih dapat mengalami perubahan selama proses Research & Development berlangsung.
+
+---
+
+Latar Belakang Riset
+
+Dalam alur pemrosesan gambar konvensional, metadata seperti EXIF, XMP, dan IPTC dapat hilang, berubah, atau tidak lagi merepresentasikan seluruh riwayat pemrosesan setelah sebuah aset melewati berbagai sistem digital dan AI.
+
+RENAI Router dikembangkan sebagai pendekatan eksperimental untuk menjembatani dua sumber informasi:
+
+Metadata sumber, yang berasal dari aset fotografi atau digital asli, dan metadata provenance, yang menggambarkan proses digital maupun AI yang terjadi setelahnya.
+
+Alih-alih memperlakukan metadata sebagai informasi yang harus selalu diganti, rancangan RENAI Router mengeksplorasi pendekatan Hybrid Metadata Composition, yaitu komposisi metadata berdasarkan konteks dan tujuan pemrosesan.
+
+---
+
+Konsep Hybrid Metadata Composition
+
+RENAI Router dirancang dengan pendekatan Intent-Driven Metadata Policy, di mana kebijakan metadata ditentukan berdasarkan jenis proses yang dilakukan terhadap aset.
+
+Photo Repair / Restoration
+
+Pada skenario restorasi, sistem dirancang untuk memprioritaskan preservasi metadata fotografi asli yang masih tersedia.
+
+Metadata yang dapat dipertahankan antara lain:
+
+- kamera;
+- lensa;
+- ISO;
+- aperture;
+- shutter speed;
+- waktu pemotretan; dan
+- metadata teknis lain yang relevan.
+
+Tujuannya adalah menjaga konteks historis dan teknis aset sumber sejauh data tersebut masih tersedia dan dapat diverifikasi.
+
+Hybrid Generation
+
+Pada skenario generasi atau transformasi hibrida, sistem mengeksplorasi mekanisme untuk menggabungkan metadata sumber dengan metadata provenance yang dihasilkan selama proses AI.
+
+Metadata provenance tersebut dapat mencakup:
+
+- identitas engine;
+- generation identifier;
+- hash;
+- informasi proses;
+- AI disclosure; dan
+- informasi provenance lainnya.
+
+Proporsi dan metode komposisi metadata masih berada dalam tahap penelitian dan pengujian.
+
+Oleh karena itu, angka atau konfigurasi tertentu belum ditetapkan sebagai spesifikasi final RENAI Router.
+
+---
+
+Rancangan Arsitektur Tujuh Lapisan
+
+Dalam tahap pengembangan saat ini, RENAI Router dirancang menggunakan konsep seven-layer metadata pipeline.
+
+Arsitektur tersebut masih bersifat development architecture dan dapat berubah selama proses implementasi.
+
+01 — EXIF Inspector & Normalizer
+
+Mengeksplorasi mekanisme pembacaan metadata seperti EXIF, XMP, dan IPTC, kemudian menormalisasikannya ke dalam struktur Canonical Metadata Model.
+
+02 — Metadata Policy Engine
+
+Menentukan kebijakan pemrosesan metadata berdasarkan konteks dan tujuan operasi.
+
+Layer ini juga dirancang untuk menangani informasi sensitif, termasuk metadata lokasi dan data lain yang berpotensi berkaitan dengan privasi.
+
+03 — RENAI Provenance Format (RPF)
+
+Merupakan rancangan format provenance internal yang sedang dikembangkan untuk merepresentasikan identitas dan informasi proses dalam ekosistem RENAI.
+
+RPF 1.0 saat ini merupakan spesifikasi pengembangan dan belum dinyatakan sebagai standar publik.
+
+04 — Standards & Cryptographic Integrity
+
+Mengeksplorasi integrasi dengan standar dan mekanisme provenance yang relevan, termasuk C2PA, metadata IPTC, digital signature, serta cryptographic hashing seperti SHA-256.
+
+Implementasi final masih dalam proses penelitian dan validasi.
+
+05 — Validation Engine
+
+Dirancang untuk melakukan proses write-read-verify sehingga metadata yang ditulis dapat diperiksa kembali sebelum aset diteruskan ke tahap berikutnya.
+
+06 — Provenance Audit Layer
+
+Merupakan rancangan lapisan untuk mencatat dan menelusuri informasi mengenai proses transformasi aset serta perubahan metadata yang terjadi selama pipeline.
+
+07 — Output & Integrity Gateway
+
+Dirancang sebagai lapisan keluaran yang melakukan pemeriksaan akhir terhadap struktur metadata, provenance, integritas aset, serta kebijakan privasi sebelum aset diteruskan kepada pengguna atau sistem eksternal.
+
+---
+
+Status Pengembangan
+
+Pada tanggal publikasi ini, RENAI Router masih berada dalam tahap Research & Development.
+
+Pengembangan saat ini mencakup:
+
+- pembangunan arsitektur;
+- konversi dan integrasi komponen sistem;
+- eksperimen pipeline metadata;
+- pengujian preservasi metadata;
+- pengembangan format provenance;
+- validasi integritas data;
+- eksplorasi kompatibilitas dengan standar industri; dan
+- evaluasi desain untuk penggunaan pada skala yang lebih besar.
+
+Belum seluruh komponen telah mencapai tahap implementasi final.
+
+Dengan demikian, publikasi ini merupakan technical research announcement, bukan pengumuman peluncuran produk komersial.
+
+---
+
+Arah Pengembangan Jangka Panjang
+
+Dalam jangka panjang, PT RENAI GVTL Indonesia mengeksplorasi kemungkinan menjadikan RENAI Router sebagai salah satu infrastructure layer dalam ekosistem AI perusahaan.
+
+Sistem tersebut diharapkan dapat berkembang untuk mendukung kebutuhan seperti:
+
+AI generation → metadata preservation → provenance tracking → integrity verification → interoperable digital assets
+
+Namun, seluruh target tersebut masih merupakan bagian dari roadmap penelitian dan pengembangan perusahaan.
+
+Tidak ada jaminan bahwa seluruh fitur, arsitektur, atau spesifikasi yang disebutkan dalam publikasi ini akan hadir dalam bentuk final.
+
+---
+
+Melanjutkan The Foundation Era
+
+Sejak diperkenalkannya visi pembangunan perusahaan pada 18 Juli 2026, PT RENAI GVTL Indonesia terus membangun fondasi teknologi secara mandiri dari Majalengka, Jawa Barat, Indonesia.
+
+RENAI Router menjadi salah satu bagian dari proses tersebut.
+
+Perusahaan memilih untuk membangun fondasi teknologi terlebih dahulu: melakukan penelitian, mengembangkan model dan infrastruktur, menguji arsitektur, kemudian melakukan validasi sebelum sebuah teknologi dinyatakan siap digunakan pada skala yang lebih luas.
+
+Pendekatan ini merupakan bagian dari visi PT RENAI GVTL Indonesia untuk membangun teknologi dari Indonesia dengan orientasi terhadap kebutuhan ekosistem teknologi global.
+
+---
+
+Tentang PT RENAI GVTL Indonesia
+
+PT RENAI GVTL Indonesia merupakan perusahaan teknologi yang berfokus pada penelitian dan pengembangan kecerdasan buatan, infrastruktur AI, serta teknologi pendukung ekosistem digital.
+
+Berbasis di Majalengka, Jawa Barat, Indonesia, perusahaan saat ini berada dalam fase “The Foundation Era”, dengan fokus pada pembangunan fondasi teknologi, penelitian, pengembangan model, infrastruktur komputasi, serta arsitektur sistem yang dapat dikembangkan menuju skala global.
+
+---
+
+Kontak Media & Tim Eksekutif
+
+PT RENAI GVTL Indonesia
+Majalengka, Jawa Barat, Indonesia
+
+Redian — Founder & Owner
+Airin — Chief Technology Officer
+Research & Development Division
+
+PT RENAI GVTL Indonesia — Building the Foundation for Independent AI Infrastructure.
+
+---
+
+Pernyataan Status Teknologi
+
+RENAI Router is currently under active development.
+
+Seluruh nama teknologi, format internal, arsitektur, spesifikasi, dan roadmap yang disebutkan dalam publikasi ini dapat berubah selama proses Research & Development. Publikasi ini dimaksudkan sebagai dokumentasi dan komunikasi perkembangan riset, bukan sebagai pernyataan bahwa sistem telah mencapai kesiapan produksi atau tersedia secara komersial.
