@@ -4463,3 +4463,16 @@ svg {
         padding: 10px 12px;
     }
 }
+
+
+/* Navbar-integrated quick contact and theme controls */
+.navbar-contact{position:relative;display:inline-flex;align-items:center;flex:0 0 auto;z-index:60}
+.navbar-contact-toggle,#renai-theme-toggle{width:40px;height:40px;border-radius:50%;display:inline-grid;place-items:center;border:1px solid var(--border,rgba(255,255,255,.18));background:var(--surface,rgba(20,25,35,.82));color:var(--text,#fff);cursor:pointer;box-shadow:0 8px 22px rgba(0,0,0,.14)}
+.navbar-contact-toggle{font-size:24px;line-height:1}
+.navbar-contact-items{position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%);min-width:190px;padding:8px;border:1px solid var(--border,rgba(255,255,255,.15));border-radius:14px;background:var(--surface,#151922);box-shadow:0 18px 38px rgba(0,0,0,.25);display:grid;gap:3px}
+.navbar-contact-items[hidden]{display:none!important}
+.navbar-contact-items a{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;text-decoration:none;color:var(--text,#fff);white-space:nowrap}
+.navbar-contact-items a:hover{background:rgba(255,255,255,.08)}
+.navbar-contact-items svg{width:18px;height:18px;flex:0 0 auto}
+.navbar .navbar-contact + #renai-theme-toggle{position:static!important;right:auto!important;top:auto!important;bottom:auto!important;z-index:60;flex:0 0 auto}
+@media(max-width:640px){.navbar-contact-toggle,#renai-theme-toggle{width:38px;height:38px}.navbar-contact-items{left:auto;right:-36px;transform:none}}

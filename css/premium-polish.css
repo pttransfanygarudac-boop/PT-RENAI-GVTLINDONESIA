@@ -1,0 +1,188 @@
+
+/* =========================================================
+   RENAI GVTL — PREMIUM POLISH LAYER
+   Subtle visual upgrade. Existing layout is intentionally kept.
+   ========================================================= */
+
+:root{
+  --renai-metal-blue:linear-gradient(135deg,#6fc8ff 0%,#2388e8 34%,#0b4f9e 62%,#8bd9ff 100%);
+  --renai-metal-green:linear-gradient(135deg,#9dffd1 0%,#27d98b 34%,#087f58 65%,#8fffd0 100%);
+  --renai-metal-purple:linear-gradient(135deg,#d6b7ff 0%,#9563e8 36%,#4c217e 68%,#d9b9ff 100%);
+  --renai-gloss:linear-gradient(115deg,rgba(255,255,255,.20),rgba(255,255,255,.035) 34%,transparent 55%);
+}
+
+/* Keep the original structure; add only a refined metallic/gloss finish. */
+.card,.panel,.box,.section-card,.glass-card,.hero-card,
+article,.news-card,.activity-card,.experiment-card,
+.documentation-card,.contact-card,.feature-card{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  border-color:rgba(130,190,255,.15)!important;
+  box-shadow:
+    0 18px 50px rgba(0,0,0,.28),
+    0 1px 0 rgba(255,255,255,.09) inset,
+    0 -1px 0 rgba(0,0,0,.25) inset!important;
+  transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease;
+}
+
+.card::before,.panel::before,.box::before,.section-card::before,
+.glass-card::before,.hero-card::before,article::before,
+.news-card::before,.activity-card::before,.experiment-card::before,
+.documentation-card::before,.contact-card::before,.feature-card::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  z-index:-1;
+  background:var(--renai-gloss);
+  opacity:.42;
+  transform:translateX(-18%);
+  transition:opacity .28s ease,transform .5s ease;
+}
+
+.card:hover,.panel:hover,.box:hover,.section-card:hover,
+.glass-card:hover,.hero-card:hover,article:hover,.news-card:hover,
+.activity-card:hover,.experiment-card:hover,.documentation-card:hover,
+.contact-card:hover,.feature-card:hover{
+  transform:translateY(-2px);
+  border-color:rgba(112,191,255,.30)!important;
+  box-shadow:
+    0 24px 65px rgba(0,0,0,.36),
+    0 0 34px rgba(42,143,255,.07),
+    0 1px 0 rgba(255,255,255,.12) inset!important;
+}
+.card:hover::before,.panel:hover::before,.box:hover::before,
+.section-card:hover::before,.glass-card:hover::before,.hero-card:hover::before,
+article:hover::before,.news-card:hover::before,.activity-card:hover::before,
+.experiment-card:hover::before,.documentation-card:hover::before,
+.contact-card:hover::before,.feature-card:hover::before{
+  opacity:.7;
+  transform:translateX(5%);
+}
+
+/* Refined metallic headings without changing typography. */
+h1,h2{
+  text-shadow:
+    0 1px 0 rgba(255,255,255,.06),
+    0 0 28px rgba(54,160,255,.10);
+}
+
+/* Buttons: glossy edge, same size/structure. */
+button,.btn,.button{
+  position:relative;
+  overflow:hidden;
+  border-color:rgba(128,193,255,.30)!important;
+  box-shadow:
+    0 12px 28px rgba(0,0,0,.22),
+    0 0 18px rgba(35,136,232,.09),
+    inset 0 1px 0 rgba(255,255,255,.22)!important;
+}
+button::after,.btn::after,.button::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(110deg,transparent 25%,rgba(255,255,255,.16) 48%,transparent 67%);
+  transform:translateX(-125%);
+  transition:transform .55s ease;
+  pointer-events:none;
+}
+button:hover::after,.btn:hover::after,.button:hover::after{
+  transform:translateX(125%);
+}
+
+/* Small premium page identity badge. */
+.renai-page-mark{
+  display:inline-flex;
+  align-items:center;
+  gap:.55rem;
+  padding:.38rem .72rem;
+  margin-bottom:1rem;
+  border:1px solid rgba(115,190,255,.18);
+  border-radius:999px;
+  background:rgba(7,13,22,.52);
+  box-shadow:0 8px 24px rgba(0,0,0,.18),inset 0 1px rgba(255,255,255,.10);
+  color:#b9dfff;
+  font-size:.78rem;
+  font-weight:700;
+  letter-spacing:.04em;
+}
+.renai-page-mark img{width:22px;height:22px;object-fit:contain}
+
+/* Floating theme control — dark/white only. */
+#renai-theme-toggle{
+  position:fixed;
+  right:18px;
+  top:18px;
+  z-index:99990;
+  width:42px;height:42px;
+  border:1px solid rgba(130,190,255,.25)!important;
+  border-radius:50%!important;
+  padding:0!important;
+  display:grid;place-items:center;
+  color:#eef8ff!important;
+  background:rgba(5,10,18,.76)!important;
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  box-shadow:0 12px 35px rgba(0,0,0,.28),inset 0 1px rgba(255,255,255,.14)!important;
+}
+#renai-theme-toggle svg{width:19px;height:19px;pointer-events:none}
+html[data-renai-theme="light"] #renai-theme-toggle{
+  color:#12233b!important;
+  background:rgba(255,255,255,.78)!important;
+  border-color:rgba(30,90,145,.18)!important;
+  box-shadow:0 12px 35px rgba(25,70,110,.14),inset 0 1px rgba(255,255,255,.8)!important;
+}
+
+/* White Web — deliberately restrained, not a redesign. */
+html[data-renai-theme="light"] body{
+  color:#152338;
+  background:
+    radial-gradient(circle at 82% -8%,rgba(47,155,255,.12),transparent 28%),
+    radial-gradient(circle at 8% 25%,rgba(155,108,255,.08),transparent 25%),
+    linear-gradient(180deg,#f8fbff 0%,#eef4fa 100%)!important;
+}
+html[data-renai-theme="light"] .card,
+html[data-renai-theme="light"] .panel,
+html[data-renai-theme="light"] .box,
+html[data-renai-theme="light"] .section-card,
+html[data-renai-theme="light"] .glass-card,
+html[data-renai-theme="light"] .hero-card,
+html[data-renai-theme="light"] article,
+html[data-renai-theme="light"] .news-card,
+html[data-renai-theme="light"] .activity-card,
+html[data-renai-theme="light"] .experiment-card,
+html[data-renai-theme="light"] .documentation-card,
+html[data-renai-theme="light"] .contact-card,
+html[data-renai-theme="light"] .feature-card{
+  background:linear-gradient(145deg,rgba(255,255,255,.92),rgba(239,246,253,.84))!important;
+  border-color:rgba(37,93,145,.13)!important;
+  box-shadow:0 18px 50px rgba(34,78,115,.10),0 1px 0 #fff inset!important;
+}
+html[data-renai-theme="light"] .renai-page-mark{
+  color:#21466d;
+  background:rgba(255,255,255,.72);
+  border-color:rgba(30,90,145,.15);
+}
+
+/* Accessibility / mobile. */
+@media (max-width:640px){
+  #renai-theme-toggle{right:12px;top:12px;width:39px;height:39px}
+  .renai-page-mark{font-size:.72rem}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
+
+/* Branded floating contact polish */
+.floating-item{position:relative;overflow:hidden;border:1px solid rgba(135,200,255,.22)!important;background:rgba(5,10,18,.80)!important;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 10px 28px rgba(0,0,0,.22),inset 0 1px rgba(255,255,255,.12)!important}
+.floating-item::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,.18),transparent 42%);pointer-events:none}
+.floating-icon{display:grid!important;place-items:center;width:28px;height:28px;border-radius:9px;background:linear-gradient(145deg,#1b2c40,#0a111b);box-shadow:inset 0 1px rgba(255,255,255,.15),0 4px 12px rgba(0,0,0,.25);font-size:0}
+.floating-icon svg{width:18px;height:18px}
+.floating-wa .floating-icon{color:#35e58c}.floating-fb .floating-icon{color:#5da7ff}.floating-tt .floating-icon{color:#fff}.floating-mail .floating-icon{color:#c19aff}
+.floating-toggle{overflow:hidden!important;border:1px solid rgba(130,195,255,.28)!important;background:linear-gradient(145deg,#183b62,#101827)!important;box-shadow:0 12px 30px rgba(0,0,0,.30),inset 0 1px rgba(255,255,255,.18)!important}
+html[data-renai-theme="light"] .floating-item{background:rgba(255,255,255,.84)!important;color:#18324d!important;border-color:rgba(30,90,145,.14)!important;box-shadow:0 10px 28px rgba(40,80,120,.12),inset 0 1px #fff!important}
+html[data-renai-theme="light"] .floating-icon{background:linear-gradient(145deg,#fff,#e8f1f8);box-shadow:inset 0 1px #fff,0 4px 12px rgba(30,80,120,.10)}
+html[data-renai-theme="light"] .floating-toggle{background:linear-gradient(145deg,#fff,#e5eef7)!important;color:#18324d!important}
+
+.navbar #renai-theme-toggle{position:static!important;right:auto!important;top:auto!important}
