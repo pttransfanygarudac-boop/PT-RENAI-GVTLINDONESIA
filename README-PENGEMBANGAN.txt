@@ -10,11 +10,12 @@ STRUKTUR UTAMA
 
 ARCHIVE
 - archive.html sudah dihapus dari website.
+- Site map dan sitemap.xml hanya mengarah ke halaman yang benar-benar tersedia.
 
 NEWS
 - Tambahkan berita baru di folder /news/
 - Tambahkan kartu berita baru di news.html pada bagian komentar TAMBAH BERITA BARU DI SINI.
-- Gambar berita disimpan di /assets/images/ dan menggunakan PNG.
+- Gambar berita disimpan di /png/news-png/. Gambar Activity disimpan di /png/activity.png/. Gambar Experiment disimpan di /png/experiment.png/.
 
 FOUNDER
 Nama resmi: Reno Aurora Redian Narendra Wijaya Putra Silvana
