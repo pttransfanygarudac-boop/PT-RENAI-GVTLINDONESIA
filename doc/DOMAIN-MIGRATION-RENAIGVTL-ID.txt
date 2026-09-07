@@ -1,0 +1,27 @@
+PT RENAI GVTL INDONESIA
+DOMAIN MIGRATION NOTE
+
+CURRENT HOST
+https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/
+
+FUTURE PRIMARY DOMAIN
+https://renaigvtl.id/
+
+IMPORTANT
+Do not change canonical URLs to renaigvtl.id until the custom domain is active and serving the website correctly.
+
+WHEN renaigvtl.id IS LIVE
+1. Set the GitHub Pages custom domain to renaigvtl.id.
+2. Verify HTTPS works.
+3. Replace the current GitHub Pages base URL in canonical tags, Open Graph URLs, Twitter image URLs, JSON-LD @id/url fields, sitemap.xml, and robots.txt.
+4. Keep the same page paths wherever possible.
+5. Add permanent redirects from old URLs to the corresponding new URLs if the hosting setup supports them.
+6. Submit the new sitemap in Google Search Console and Bing Webmaster Tools.
+7. Keep company name, brand name, logo, description, social profiles, and organization identifiers consistent.
+
+CANONICAL PUBLIC IDENTITY
+Legal/company name: PT RENAI GVTL Indonesia
+Brand: RENAI GVTL
+Focus: Artificial Intelligence, Research & Technology
+Origin: Majalengka, Jawa Barat, Indonesia
+Stage: Foundation Stage

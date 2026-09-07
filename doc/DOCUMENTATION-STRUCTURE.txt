@@ -1,0 +1,15 @@
+PT RENAI GVTL Indonesia — Documentation Center
+
+Struktur dokumentasi telah dirapikan:
+- documentation.html
+- documentation/documentation-company.html
+- documentation/documentation-renai-gvtl.html
+- documentation/documentation-renai-router.html
+- documentation/documentation-chat-gvtl.html
+- documentation/documentation-renai-image.html
+- documentation/documentation-research.html
+- documentation/documentation-products.html
+- documentation/documentation-system.html
+- documentation/documentation-development.html
+
+Canonical dan URL RENAI Router menggunakan nama file aktual: documentation-renai-router.html.
