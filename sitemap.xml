@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <!-- =====================================================
          PT RENAI GVTL INDONESIA
          OFFICIAL XML SITEMAP
-         LAST UPDATED: 11 SEPTEMBER 2026
+         
+         LAST UPDATED:
+         12 SEPTEMBER 2026
+         
+         WEBSITE:
+         PT RENAI GVTL Indonesia
+         
+         FOUNDATION STAGE
+         TECHNOLOGY / RESEARCH / DEVELOPMENT
          ===================================================== -->
 
 
@@ -14,33 +23,80 @@
          ===================================================== -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/
+        </loc>
+
+        <lastmod>
+            2026-09-12
+        </lastmod>
+
     </url>
 
-    <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html</loc>
-        <lastmod>2026-09-09</lastmod>
-    </url>
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/identity.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html
+        </loc>
+
+        <lastmod>
+            2026-09-12
+        </lastmod>
+
     </url>
 
-    <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/founder.html</loc>
-        <lastmod>2026-09-09</lastmod>
-    </url>
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/contact.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/identity.html
+        </loc>
+
+        <lastmod>
+            2026-09-12
+        </lastmod>
+
     </url>
 
+
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/career.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/founder.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
+    </url>
+
+
+    <url>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/contact.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
+    </url>
+
+
+    <url>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/career.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
     </url>
 
 
@@ -49,23 +105,54 @@
          ===================================================== -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/renai-gvtl.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/renai-gvtl.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
     </url>
 
-    <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/chat-gvtl.html</loc>
-        <lastmod>2026-09-09</lastmod>
-    </url>
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/renai-image.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/chat-gvtl.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
     </url>
 
+
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/renai-router.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/renai-image.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
+    </url>
+
+
+    <url>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/renai-router.html
+        </loc>
+
+        <lastmod>
+            2026-09-12
+        </lastmod>
+
     </url>
 
 
@@ -75,88 +162,165 @@
          ===================================================== -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
     </url>
 
 
     <!-- 06 SEPTEMBER 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news6september2026.html</loc>
-        <lastmod>2026-09-07</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news6september2026.html
+        </loc>
+
+        <lastmod>
+            2026-09-07
+        </lastmod>
+
     </url>
 
 
     <!-- 27 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news27agustus2026.html</loc>
-        <lastmod>2026-08-27</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news27agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-08-27
+        </lastmod>
+
     </url>
 
 
     <!-- 24 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news24agustus2026.html</loc>
-        <lastmod>2026-08-24</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news24agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-08-24
+        </lastmod>
+
     </url>
 
 
     <!-- 20 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news20agustus2026.html</loc>
-        <lastmod>2026-08-20</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news20agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-08-20
+        </lastmod>
+
     </url>
 
 
     <!-- 19 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news19agustus2026.html</loc>
-        <lastmod>2026-08-19</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news19agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-08-19
+        </lastmod>
+
     </url>
 
 
     <!-- 18 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanyac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news18agustus2026.html</loc>
-        <lastmod>2026-08-18</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news18agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-08-18
+        </lastmod>
+
     </url>
 
 
     <!-- 15 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news15agustus2026.html</loc>
-        <lastmod>2026-08-15</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news15agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-08-15
+        </lastmod>
+
     </url>
 
 
     <!-- 07 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news7agustus2026.html</loc>
-        <lastmod>2026-08-07</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news7agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-08-07
+        </lastmod>
+
     </url>
 
 
     <!-- 21 JULI 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news21juli2026.html</loc>
-        <lastmod>2026-07-21</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news21juli2026.html
+        </loc>
+
+        <lastmod>
+            2026-07-21
+        </lastmod>
+
     </url>
 
 
     <!-- 18 JULI 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news18juli2026.html</loc>
-        <lastmod>2026-07-18</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news18juli2026.html
+        </loc>
+
+        <lastmod>
+            2026-07-18
+        </lastmod>
+
     </url>
 
 
@@ -166,56 +330,124 @@
          ===================================================== -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity.html</loc>
-        <lastmod>2026-09-11</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity.html
+        </loc>
+
+        <lastmod>
+            2026-09-12
+        </lastmod>
+
     </url>
 
 
-    <!-- 11 SEPTEMBER 2026 -->
+    <!-- =====================================================
+         11 SEPTEMBER 2026 — SESSION II NIGHT
+         ===================================================== -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity11september2026.html</loc>
-        <lastmod>2026-09-11</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity11september-naightsesion2026.html
+        </loc>
+
+        <lastmod>
+            2026-09-12
+        </lastmod>
+
+    </url>
+
+
+    <!-- =====================================================
+         11 SEPTEMBER 2026 — SESSION I
+         ===================================================== -->
+
+    <url>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity11september2026.html
+        </loc>
+
+        <lastmod>
+            2026-09-11
+        </lastmod>
+
     </url>
 
 
     <!-- 10 SEPTEMBER 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html</loc>
-        <lastmod>2026-09-10</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html
+        </loc>
+
+        <lastmod>
+            2026-09-10
+        </lastmod>
+
     </url>
 
 
     <!-- 09 SEPTEMBER 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity9september2026.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity9september2026.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
     </url>
 
 
     <!-- 19 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity19agustus2026.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity19agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
     </url>
 
 
     <!-- 15 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity15agustus2026.html</loc>
-        <lastmod>2026-08-15</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity15agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-08-15
+        </lastmod>
+
     </url>
 
 
     <!-- 30 JULI 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity30juli2026.html</loc>
-        <lastmod>2026-07-30</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity30juli2026.html
+        </loc>
+
+        <lastmod>
+            2026-07-30
+        </lastmod>
+
     </url>
 
 
@@ -225,32 +457,60 @@
          ===================================================== -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/experiment.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/experiment.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
     </url>
 
 
     <!-- 19 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/experiment/experiment19agustus2026.html</loc>
-        <lastmod>2026-09-07</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/experiment/experiment19agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-09-07
+        </lastmod>
+
     </url>
 
 
     <!-- 15 AGUSTUS 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/experiment/experiment15agustus2026.html</loc>
-        <lastmod>2026-08-15</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/experiment/experiment15agustus2026.html
+        </loc>
+
+        <lastmod>
+            2026-08-15
+        </lastmod>
+
     </url>
 
 
     <!-- 30 JULI 2026 -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/experiment/experiment30juli2026.html</loc>
-        <lastmod>2026-07-30</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/experiment/experiment30juli2026.html
+        </loc>
+
+        <lastmod>
+            2026-07-30
+        </lastmod>
+
     </url>
 
 
@@ -259,53 +519,132 @@
          ===================================================== -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation.html</loc>
-        <lastmod>2026-09-09</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation.html
+        </loc>
+
+        <lastmod>
+            2026-09-09
+        </lastmod>
+
     </url>
 
-    <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-company.html</loc>
-        <lastmod>2026-09-07</lastmod>
-    </url>
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-renai-gvtl.html</loc>
-        <lastmod>2026-09-07</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-company.html
+        </loc>
+
+        <lastmod>
+            2026-09-07
+        </lastmod>
+
     </url>
 
-    <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-development.html</loc>
-        <lastmod>2026-09-07</lastmod>
-    </url>
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-research.html</loc>
-        <lastmod>2026-09-07</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-renai-gvtl.html
+        </loc>
+
+        <lastmod>
+            2026-09-07
+        </lastmod>
+
     </url>
 
-    <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-system.html</loc>
-        <lastmod>2026-09-07</lastmod>
-    </url>
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-products.html</loc>
-        <lastmod>2026-09-07</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-development.html
+        </loc>
+
+        <lastmod>
+            2026-09-07
+        </lastmod>
+
     </url>
 
-    <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-chat-gvtl.html</loc>
-        <lastmod>2026-09-07</lastmod>
-    </url>
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-renai-image.html</loc>
-        <lastmod>2026-09-07</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-research.html
+        </loc>
+
+        <lastmod>
+            2026-09-07
+        </lastmod>
+
     </url>
 
+
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-renai-router.html</loc>
-        <lastmod>2026-09-07</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-system.html
+        </loc>
+
+        <lastmod>
+            2026-09-07
+        </lastmod>
+
+    </url>
+
+
+    <url>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-products.html
+        </loc>
+
+        <lastmod>
+            2026-09-07
+        </lastmod>
+
+    </url>
+
+
+    <url>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-chat-gvtl.html
+        </loc>
+
+        <lastmod>
+            2026-09-07
+        </lastmod>
+
+    </url>
+
+
+    <url>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-renai-image.html
+        </loc>
+
+        <lastmod>
+            2026-09-07
+        </lastmod>
+
+    </url>
+
+
+    <url>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/documentation/documentation-renai-router.html
+        </loc>
+
+        <lastmod>
+            2026-09-12
+        </lastmod>
+
     </url>
 
 
@@ -314,8 +653,15 @@
          ===================================================== -->
 
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/site-map.html</loc>
-        <lastmod>2026-09-11</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/site-map.html
+        </loc>
+
+        <lastmod>
+            2026-09-12
+        </lastmod>
+
     </url>
 
 
