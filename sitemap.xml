@@ -8,7 +8,7 @@
          OFFICIAL XML SITEMAP
          
          LAST UPDATED:
-         12 SEPTEMBER 2026
+         14 SEPTEMBER 2026
          
          WEBSITE:
          PT RENAI GVTL Indonesia
@@ -29,7 +29,7 @@
         </loc>
 
         <lastmod>
-            2026-09-12
+            2026-09-14
         </lastmod>
 
     </url>
@@ -42,7 +42,7 @@
         </loc>
 
         <lastmod>
-            2026-09-12
+            2026-09-14
         </lastmod>
 
     </url>
@@ -51,11 +51,10 @@
     <url>
 
         <loc>
-            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/identity.html
         </loc>
 
         <lastmod>
-            2026-09-12
+            2026-09-14
         </lastmod>
 
     </url>
@@ -68,7 +67,7 @@
         </loc>
 
         <lastmod>
-            2026-09-09
+            2026-09-14
         </lastmod>
 
     </url>
@@ -100,6 +99,11 @@
     </url>
 
 
+
+    <url>
+        <lastmod>2026-09-14</lastmod>
+    </url>
+
     <!-- =====================================================
          02. RENAI GVTL TECHNOLOGY
          ===================================================== -->
@@ -111,7 +115,7 @@
         </loc>
 
         <lastmod>
-            2026-09-09
+            2026-09-14
         </lastmod>
 
     </url>
@@ -124,7 +128,7 @@
         </loc>
 
         <lastmod>
-            2026-09-09
+            2026-09-14
         </lastmod>
 
     </url>
@@ -137,7 +141,7 @@
         </loc>
 
         <lastmod>
-            2026-09-09
+            2026-09-14
         </lastmod>
 
     </url>
@@ -150,7 +154,7 @@
         </loc>
 
         <lastmod>
-            2026-09-12
+            2026-09-14
         </lastmod>
 
     </url>
@@ -168,7 +172,7 @@
         </loc>
 
         <lastmod>
-            2026-09-09
+            2026-09-14
         </lastmod>
 
     </url>
@@ -336,11 +340,19 @@
         </loc>
 
         <lastmod>
-            2026-09-12
+            2026-09-14
         </lastmod>
 
     </url>
 
+
+    <!-- =====================================================
+         13 SEPTEMBER 2026
+         ===================================================== -->
+    <url>
+        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity13september2026.html</loc>
+        <lastmod>2026-09-13</lastmod>
+    </url>
 
     <!-- =====================================================
          11 SEPTEMBER 2026 — SESSION II NIGHT
@@ -463,7 +475,7 @@
         </loc>
 
         <lastmod>
-            2026-09-09
+            2026-09-14
         </lastmod>
 
     </url>
@@ -525,7 +537,7 @@
         </loc>
 
         <lastmod>
-            2026-09-09
+            2026-09-14
         </lastmod>
 
     </url>
