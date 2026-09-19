@@ -6,13 +6,13 @@
     <!-- =====================================================
          PT RENAI GVTL INDONESIA
          OFFICIAL XML SITEMAP
-         
+
          LAST UPDATED:
-         14 SEPTEMBER 2026
-         
+         19 SEPTEMBER 2026
+
          WEBSITE:
          PT RENAI GVTL Indonesia
-         
+
          FOUNDATION STAGE
          TECHNOLOGY / RESEARCH / DEVELOPMENT
          ===================================================== -->
@@ -39,18 +39,6 @@
 
         <loc>
             https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html
-        </loc>
-
-        <lastmod>
-            2026-09-14
-        </lastmod>
-
-    </url>
-
-
-    <url>
-
-        <loc>
         </loc>
 
         <lastmod>
@@ -98,11 +86,6 @@
 
     </url>
 
-
-
-    <url>
-        <lastmod>2026-09-14</lastmod>
-    </url>
 
     <!-- =====================================================
          02. RENAI GVTL TECHNOLOGY
@@ -340,7 +323,26 @@
         </loc>
 
         <lastmod>
-            2026-09-14
+            2026-09-19
+        </lastmod>
+
+    </url>
+
+
+    <!-- =====================================================
+         19 SEPTEMBER 2026
+         REVIEW & CONSOLIDATION
+         RENAI ROUTER MASTER BLUEPRINT v1.0
+         ===================================================== -->
+
+    <url>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity19september2026.html
+        </loc>
+
+        <lastmod>
+            2026-09-19
         </lastmod>
 
     </url>
@@ -348,11 +350,39 @@
 
     <!-- =====================================================
          13 SEPTEMBER 2026
+         FROM ARCHITECTURE TO IMPLEMENTATION
          ===================================================== -->
+
     <url>
-        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity13september2026.html</loc>
-        <lastmod>2026-09-13</lastmod>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity13september2026.html
+        </loc>
+
+        <lastmod>
+            2026-09-13
+        </lastmod>
+
     </url>
+
+
+    <!-- =====================================================
+         12 SEPTEMBER 2026
+         INTERNAL R&D MEETING — RENAI ROUTER
+         ===================================================== -->
+
+    <url>
+
+        <loc>
+            https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity12september2026.html
+        </loc>
+
+        <lastmod>
+            2026-09-12
+        </lastmod>
+
+    </url>
+
 
     <!-- =====================================================
          11 SEPTEMBER 2026 — SESSION II NIGHT
@@ -654,7 +684,7 @@
         </loc>
 
         <lastmod>
-            2026-09-12
+            2026-09-19
         </lastmod>
 
     </url>
