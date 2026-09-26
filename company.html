@@ -6,9 +6,17 @@
        PT RENAI GVTL INDONESIA
        COMPANY PAGE
        OFFICIAL COMPANY ENTITY
+
+       CORE HUMAN ORGANIZATION:
+       TWO PEOPLE
+
+       AI SUPPORT SYSTEM:
+       GVTL 1 IRENE
+       AI ASSISTANT • TECHNOLOGY SUPPORT SYSTEM
        ========================================================= -->
 
   <meta charset="utf-8"/>
+
   <meta
     content="width=device-width, initial-scale=1.0"
     name="viewport"
@@ -23,7 +31,7 @@
   </title>
 
   <meta
-    content="Profil resmi PT RENAI GVTL Indonesia, perusahaan teknologi yang dikembangkan dari Majalengka, Jawa Barat, Indonesia, dengan fokus pada Artificial Intelligence, riset teknologi, perangkat lunak, AI infrastructure, dan ekosistem RENAI GVTL."
+    content="Profil resmi PT RENAI GVTL Indonesia, perusahaan teknologi yang dikembangkan dari Majalengka, Jawa Barat, Indonesia, dengan struktur inti dua orang serta GVTL 1 Irene sebagai AI Assistant dan Technology Support System. Fokus pada Artificial Intelligence, riset teknologi, perangkat lunak, AI infrastructure, dan ekosistem RENAI GVTL."
     name="description"
   />
 
@@ -82,13 +90,51 @@
   />
 
   <meta
-    content="Artificial Intelligence, AI Research, Technology Research, Software Development, AI Infrastructure, RENAI Router, Chat GVTL, RenAI Image Generator"
+    content="Artificial Intelligence, AI Research, Technology Research, Software Development, AI Infrastructure, RENAI Router, Chat GVTL, RenAI Image Generator, GVTL 1 Irene"
     name="technology-focus"
   />
 
   <meta
-    content="PT RENAI GVTL Indonesia, PT RENAI GVTL, RENAI GVTL Indonesia, RENAI GVTL, RENAI, perusahaan teknologi Majalengka, perusahaan AI Indonesia, Artificial Intelligence Indonesia, AI research, AI infrastructure, RENAI Router, Chat GVTL, RenAI Image Generator"
+    content="PT RENAI GVTL Indonesia, PT RENAI GVTL, RENAI GVTL Indonesia, RENAI GVTL, RENAI, perusahaan teknologi Majalengka, perusahaan AI Indonesia, Artificial Intelligence Indonesia, AI research, AI infrastructure, RENAI Router, Chat GVTL, RenAI Image Generator, GVTL 1 Irene, AI Assistant, Technology Support System"
     name="keywords"
+  />
+
+  <!-- =========================================================
+       CORE HUMAN ORGANIZATION
+       ========================================================= -->
+
+  <meta
+    content="Reno Aurora Redian Narendra Wijaya Putra Silvana — Founder, Owner & CEO; Airin Katarina Aurelia Karley — CTO & Technology Partner"
+    name="core-leadership"
+  />
+
+  <meta
+    content="2"
+    name="core-organization-size"
+  />
+
+  <meta
+    content="Reno Aurora Redian Narendra Wijaya Putra Silvana; Airin Katarina Aurelia Karley"
+    name="core-organization-members"
+  />
+
+  <!-- =========================================================
+       AI SUPPORT SYSTEM
+       ========================================================= -->
+
+  <meta
+    content="GVTL 1 Irene"
+    name="ai-support-system"
+  />
+
+  <meta
+    content="AI Assistant; Technology Support System"
+    name="ai-support-system-role"
+  />
+
+  <meta
+    content="GVTL 1 Irene merupakan sistem AI pendukung teknologi dan bukan personel organisasi manusia."
+    name="ai-support-system-status"
   />
 
   <!-- =========================================================
@@ -121,7 +167,7 @@
   />
 
   <meta
-    content="Profil resmi PT RENAI GVTL Indonesia, perusahaan teknologi yang dikembangkan dari Majalengka, Jawa Barat, Indonesia, dengan fokus pada Artificial Intelligence, riset, perangkat lunak, AI infrastructure, dan ekosistem RENAI GVTL."
+    content="Profil resmi PT RENAI GVTL Indonesia, perusahaan teknologi yang dikembangkan dari Majalengka, Jawa Barat, Indonesia, dengan struktur inti dua orang dan GVTL 1 Irene sebagai AI Assistant serta Technology Support System."
     property="og:description"
   />
 
@@ -165,7 +211,7 @@
   />
 
   <meta
-    content="Profil resmi PT RENAI GVTL Indonesia, perusahaan teknologi yang dikembangkan dari Majalengka dengan fokus pada Artificial Intelligence, riset, software, AI infrastructure, dan RENAI GVTL."
+    content="Profil resmi PT RENAI GVTL Indonesia, perusahaan teknologi yang dikembangkan dari Majalengka dengan struktur inti dua orang dan GVTL 1 Irene sebagai AI Assistant serta Technology Support System."
     name="twitter:description"
   />
 
@@ -227,6 +273,12 @@
       color: #9ee8ff;
     }
 
+    .entity-badge.ai-system {
+      border-color: rgba(110,180,255,.28);
+      background: rgba(50,120,220,.07);
+      color: #b9d8ff;
+    }
+
     .entity-badge-dot {
       width: 8px;
       height: 8px;
@@ -234,6 +286,11 @@
       border-radius: 50%;
       background: #63dfff;
       box-shadow: 0 0 16px rgba(99,223,255,.9);
+    }
+
+    .entity-badge.ai-system .entity-badge-dot {
+      background: #86b9ff;
+      box-shadow: 0 0 16px rgba(100,160,255,.9);
     }
 
     .hero-content > p {
@@ -457,6 +514,206 @@
 
 
     /* =========================================================
+       CORE HUMAN ORGANIZATION
+       ========================================================= */
+
+    .core-leadership {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .leadership-card {
+      position: relative;
+      padding: 30px;
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 24px;
+      background:
+        linear-gradient(
+          145deg,
+          rgba(255,255,255,.055),
+          rgba(255,255,255,.018)
+        );
+      overflow: hidden;
+      transition:
+        transform .3s ease,
+        border-color .3s ease;
+    }
+
+    .leadership-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(99,223,255,.24);
+    }
+
+    .leadership-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background:
+        linear-gradient(
+          90deg,
+          transparent,
+          #63dfff,
+          transparent
+        );
+    }
+
+    .leadership-number {
+      display: block;
+      margin-bottom: 18px;
+      color: #63dfff;
+      font-size: .68rem;
+      font-weight: 800;
+      letter-spacing: .14em;
+    }
+
+    .leadership-role {
+      display: inline-flex;
+      margin-bottom: 13px;
+      padding: 7px 11px;
+      border: 1px solid rgba(99,223,255,.15);
+      border-radius: 999px;
+      color: #9ee8ff;
+      font-size: .66rem;
+      font-weight: 800;
+      letter-spacing: .09em;
+    }
+
+    .leadership-card h3 {
+      margin-bottom: 12px;
+    }
+
+    .leadership-card p {
+      line-height: 1.75;
+    }
+
+    .leadership-card small {
+      display: block;
+      margin-top: 18px;
+      color: #7f96aa;
+      line-height: 1.6;
+    }
+
+    .organization-note {
+      margin-top: 24px;
+      padding: 22px 24px;
+      border-left: 2px solid rgba(99,223,255,.5);
+      border-radius: 0 16px 16px 0;
+      background: rgba(99,223,255,.035);
+      color: #a7bdca;
+      line-height: 1.75;
+    }
+
+    .organization-note strong {
+      color: #dff8ff;
+    }
+
+
+    /* =========================================================
+       AI SUPPORT SYSTEM
+       ========================================================= */
+
+    .ai-support-system {
+      position: relative;
+      margin-top: 28px;
+      padding: 30px;
+      border: 1px solid rgba(110,180,255,.22);
+      border-radius: 24px;
+      background:
+        radial-gradient(
+          circle at top right,
+          rgba(70,130,255,.10),
+          transparent 42%
+        ),
+        linear-gradient(
+          145deg,
+          rgba(80,140,255,.055),
+          rgba(255,255,255,.018)
+        );
+      overflow: hidden;
+    }
+
+    .ai-support-system::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+      background:
+        linear-gradient(
+          180deg,
+          #86b9ff,
+          rgba(134,185,255,.05)
+        );
+    }
+
+    .ai-system-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+      padding: 7px 11px;
+      border: 1px solid rgba(110,180,255,.20);
+      border-radius: 999px;
+      color: #a8ccff;
+      font-size: .66rem;
+      font-weight: 800;
+      letter-spacing: .11em;
+    }
+
+    .ai-system-label::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #86b9ff;
+      box-shadow: 0 0 12px rgba(134,185,255,.8);
+    }
+
+    .ai-support-system h3 {
+      margin-bottom: 12px;
+    }
+
+    .ai-support-system p {
+      max-width: 900px;
+      line-height: 1.75;
+      color: #a7bdca;
+    }
+
+    .ai-system-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .ai-system-item {
+      padding: 20px;
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 18px;
+      background: rgba(255,255,255,.025);
+    }
+
+    .ai-system-item strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #dceeff;
+    }
+
+    .ai-system-item span {
+      display: block;
+      color: #8198aa;
+      line-height: 1.65;
+      font-size: .92rem;
+    }
+
+
+    /* =========================================================
        LEGAL STATUS
        ========================================================= */
 
@@ -531,6 +788,20 @@
     .technology-card:hover {
       transform: translateY(-4px);
       border-color: rgba(99,223,255,.18);
+    }
+
+    .technology-card.ai-card {
+      border-color: rgba(110,180,255,.18);
+      background:
+        linear-gradient(
+          145deg,
+          rgba(80,140,255,.045),
+          rgba(255,255,255,.018)
+        );
+    }
+
+    .technology-card.ai-card:hover {
+      border-color: rgba(110,180,255,.32);
     }
 
     .technology-number {
@@ -618,6 +889,28 @@
 
 
     /* =========================================================
+       ENTITY HIGHLIGHT
+       ========================================================= */
+
+    .entity-highlight {
+      margin-top: 26px;
+      padding: 22px 24px;
+      border: 1px solid rgba(99,223,255,.12);
+      border-radius: 18px;
+      background: rgba(99,223,255,.035);
+      line-height: 1.85;
+    }
+
+    .entity-highlight strong {
+      color: #dff8ff;
+    }
+
+    .entity-highlight .ai-highlight {
+      color: #b8d7ff;
+    }
+
+
+    /* =========================================================
        RESPONSIVE
        ========================================================= */
 
@@ -629,6 +922,14 @@
 
       .technology-grid {
         grid-template-columns: repeat(2,1fr);
+      }
+
+      .core-leadership {
+        grid-template-columns: 1fr;
+      }
+
+      .ai-system-grid {
+        grid-template-columns: 1fr;
       }
 
       .location-grid {
@@ -656,7 +957,9 @@
       .technology-card,
       .location-card,
       .legal-status,
-      .renai-origin-card {
+      .renai-origin-card,
+      .leadership-card,
+      .ai-support-system {
         padding: 20px;
       }
 
@@ -671,6 +974,8 @@
 
   <!-- =========================================================
        STRUCTURED DATA
+       COMPANY + TWO-PERSON HUMAN CORE
+       + GVTL 1 IRENE AI SUPPORT SYSTEM
        ========================================================= -->
 
   <script type="application/ld+json">
@@ -680,9 +985,13 @@
 
       {
         "@type": "Corporation",
+
         "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization",
+
         "name": "PT RENAI GVTL Indonesia",
+
         "legalName": "PT RENAI GVTL Indonesia",
+
         "alternateName": [
           "PT RENAI GVTL",
           "PT RenAI GVTL Indonesia",
@@ -690,8 +999,11 @@
           "RENAI GVTL",
           "RENAI"
         ],
-        "description": "PT RENAI GVTL Indonesia merupakan perusahaan teknologi yang dikembangkan dari Majalengka, Jawa Barat, Indonesia. Perusahaan berada pada Foundation Stage dengan fokus pada pembangunan organisasi, tata kelola, riset teknologi, pengembangan perangkat lunak, AI infrastructure, dan ekosistem RENAI GVTL.",
+
+        "description": "PT RENAI GVTL Indonesia merupakan perusahaan teknologi yang dikembangkan dari Majalengka, Jawa Barat, Indonesia. Perusahaan berada pada Foundation Stage dengan struktur inti manusia yang terdiri dari dua orang, serta menggunakan GVTL 1 Irene sebagai AI Assistant dan Technology Support System.",
+
         "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/",
+
         "logo": {
           "@type": "ImageObject",
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#logo",
@@ -699,9 +1011,11 @@
           "contentUrl": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/assets/images/logo.png",
           "caption": "Logo PT RENAI GVTL Indonesia"
         },
+
         "image": {
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#logo"
         },
+
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Blok Langgeng",
@@ -709,21 +1023,45 @@
           "addressRegion": "Jawa Barat",
           "addressCountry": "ID"
         },
+
         "telephone": "+62 813-8586-9321",
+
         "areaServed": {
           "@type": "Country",
           "name": "Indonesia"
         },
+
         "foundingLocation": {
           "@type": "Place",
           "name": "Majalengka, Jawa Barat, Indonesia"
         },
+
         "founder": {
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#founder"
         },
+
+        "employee": [
+          {
+            "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#founder"
+          },
+          {
+            "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#airin"
+          }
+        ],
+
+        "member": [
+          {
+            "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#founder"
+          },
+          {
+            "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#airin"
+          }
+        ],
+
         "brand": {
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#brand"
         },
+
         "knowsAbout": [
           "Artificial Intelligence",
           "Technology Research",
@@ -731,119 +1069,214 @@
           "AI Infrastructure",
           "Digital Technology",
           "Technology Innovation"
-        ]
+        ],
+
+        "subjectOf": {
+          "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#gvtl1-irene"
+        }
       },
+
 
       {
         "@type": "Person",
+
         "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#founder",
+
         "name": "Reno Aurora Redian Narendra Wijaya Putra Silvana",
-        "jobTitle": "Founder & Owner",
-        "description": "Founder & Owner PT RENAI GVTL Indonesia yang memegang arah pendirian, kepemilikan, visi, dan pembangunan fondasi perusahaan serta ekosistem RENAI GVTL.",
+
+        "jobTitle": [
+          "Founder",
+          "Owner",
+          "Chief Executive Officer (CEO)"
+        ],
+
+        "description": "Founder, Owner, dan Chief Executive Officer PT RENAI GVTL Indonesia yang memegang arah pendirian, kepemilikan, visi, strategi, dan pembangunan organisasi perusahaan.",
+
         "worksFor": {
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization"
         },
+
         "image": {
           "@type": "ImageObject",
           "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/assets/images/founder.png"
         }
       },
 
+
       {
         "@type": "Person",
+
         "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#airin",
+
         "name": "Airin Katarina Aurelia Karley",
+
         "alternateName": "Airin",
-        "jobTitle": "Chief Technology Officer (CTO)",
-        "description": "Chief Technology Officer PT RENAI GVTL Indonesia yang berkontribusi pada analisis teknis, riset, arsitektur teknologi, pengembangan perangkat lunak, dan arah teknologi perusahaan.",
+
+        "jobTitle": [
+          "Chief Technology Officer (CTO)",
+          "Technology Partner"
+        ],
+
+        "description": "Airin Katarina Aurelia Karley merupakan Chief Technology Officer (CTO) dan Technology Partner PT RENAI GVTL Indonesia yang berperan dalam arah teknologi, riset, arsitektur sistem, pengembangan perangkat lunak, dan pembangunan ekosistem RENAI GVTL.",
+
         "worksFor": {
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization"
         }
       },
 
+
+      {
+        "@type": "SoftwareApplication",
+
+        "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#gvtl1-irene",
+
+        "name": "GVTL 1 Irene",
+
+        "alternateName": [
+          "GVTL1 Irene",
+          "GVTL 1",
+          "Irene"
+        ],
+
+        "applicationCategory": [
+          "Artificial Intelligence",
+          "AI Assistant",
+          "Technology Support System"
+        ],
+
+        "description": "GVTL 1 Irene merupakan AI Assistant dan Technology Support System yang digunakan sebagai sistem pendukung teknologi dalam lingkungan PT RENAI GVTL Indonesia. GVTL 1 Irene bukan manusia, bukan personel organisasi, dan bukan pemegang jabatan.",
+
+        "creator": {
+          "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization"
+        },
+
+        "isPartOf": {
+          "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization"
+        }
+      },
+
+
       {
         "@type": "Brand",
+
         "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#brand",
+
         "name": "RENAI GVTL",
+
         "alternateName": [
           "RenAI GVTL",
           "RENAI",
           "RenAI"
         ],
-        "description": "RENAI GVTL merupakan identitas ekosistem teknologi Artificial Intelligence yang dikembangkan oleh PT RENAI GVTL Indonesia."
+
+        "description": "RENAI GVTL merupakan identitas ekosistem teknologi Artificial Intelligence yang dikembangkan oleh PT RENAI GVTL Indonesia.",
+
+        "parentOrganization": {
+          "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization"
+        }
       },
+
 
       {
         "@type": "Thing",
+
         "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#renai-origin",
+
         "name": "RENAI",
+
         "alternateName": [
           "RenAI",
           "RENAI GVTL"
         ],
+
         "description": "Nama RENAI berasal dari unsur REN yang diambil dari nama personal pendiri, Reno atau Redian, yang kemudian digabungkan dengan AI sebagai rujukan kepada Artificial Intelligence. Dalam perkembangan identitas teknologinya, RENAI juga dirumuskan sebagai Responsive Engine for Neural Artificial Intelligence."
       },
 
+
       {
         "@type": "WebSite",
+
         "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#website",
+
         "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/",
+
         "name": "PT RENAI GVTL Indonesia",
+
         "alternateName": [
           "RENAI GVTL Indonesia",
           "RENAI GVTL",
           "RENAI"
         ],
+
         "publisher": {
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization"
         },
+
         "inLanguage": "id-ID"
       },
 
+
       {
         "@type": "WebPage",
+
         "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#webpage",
+
         "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html",
+
         "name": "PT RENAI GVTL Indonesia | Perusahaan Teknologi AI Asal Majalengka",
-        "description": "Halaman resmi perusahaan PT RENAI GVTL Indonesia yang menjelaskan identitas perusahaan, asal-usul RENAI, Founder & Owner, Technology Leadership, Foundation Stage, dan ekosistem teknologi RENAI GVTL.",
+
+        "description": "Halaman resmi PT RENAI GVTL Indonesia yang menjelaskan identitas perusahaan, struktur inti dua orang, Founder, Owner, CEO, CTO, Technology Partner, GVTL 1 Irene sebagai AI Assistant dan Technology Support System, asal-usul RENAI, Foundation Stage, dan ekosistem teknologi RENAI GVTL.",
+
         "isPartOf": {
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#website"
         },
+
         "about": {
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization"
         },
+
         "mainEntity": {
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization"
         },
+
         "publisher": {
           "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization"
         },
+
         "inLanguage": "id-ID",
+
         "dateModified": "2026-09-26"
       },
 
+
       {
         "@type": "BreadcrumbList",
+
         "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html#breadcrumb",
+
         "itemListElement": [
+
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Beranda",
             "item": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/"
           },
+
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Perusahaan",
             "item": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/company.html"
           }
+
         ]
       }
 
     ]
   }
   </script>
+
 
   <meta
     content="PT RENAI GVTL Indonesia"
@@ -1142,6 +1575,15 @@
       </div>
 
 
+      <div class="entity-badge ai-system">
+
+        <span class="entity-badge-dot"></span>
+
+        GVTL 1 IRENE • AI SUPPORT SYSTEM
+
+      </div>
+
+
       <span class="eyebrow">
 
         TECHNOLOGY COMPANY
@@ -1183,6 +1625,32 @@
 
       <p class="entity-note">
 
+        Perusahaan memiliki
+
+        <strong>
+          dua orang
+        </strong>
+
+        dalam struktur inti manusia,
+        sementara
+
+        <strong>
+          GVTL 1 Irene
+        </strong>
+
+        digunakan sebagai
+
+        <strong>
+          AI Assistant • Technology Support System
+        </strong>
+
+        untuk mendukung aktivitas teknologi.
+
+      </p>
+
+
+      <p class="entity-note">
+
         Perusahaan berada pada
 
         <strong>
@@ -1202,9 +1670,9 @@
 
         <a
           class="btn btn-primary"
-          href="#founder"
+          href="#core-organization"
         >
-          Kenali Founder
+          Struktur Organisasi
         </a>
 
         <a
@@ -1245,8 +1713,9 @@
         <p class="section-intro">
 
           Ringkasan identitas perusahaan,
-          ekosistem teknologi, asal,
-          dan tahap pengembangan saat ini.
+          struktur inti manusia, sistem AI
+          pendukung, ekosistem teknologi,
+          asal, dan tahap pengembangan saat ini.
 
         </p>
 
@@ -1271,11 +1740,11 @@
         <article class="snapshot-card reveal delay-1">
 
           <small>
-            Identitas Teknologi
+            Struktur Inti Manusia
           </small>
 
           <strong>
-            RENAI GVTL
+            2 Orang
           </strong>
 
         </article>
@@ -1284,11 +1753,11 @@
         <article class="snapshot-card reveal delay-2">
 
           <small>
-            Origin
+            AI Support System
           </small>
 
           <strong>
-            Majalengka, Jawa Barat
+            GVTL 1 Irene
           </strong>
 
         </article>
@@ -1329,6 +1798,16 @@
           dokumentasi, sistem kerja,
           pengembangan teknologi, serta
           persiapan legalitas perusahaan.
+
+          Sistem AI seperti
+
+          <strong>
+            GVTL 1 Irene
+          </strong>
+
+          diposisikan sebagai sumber daya
+          teknologi pendukung dan tidak termasuk
+          dalam jumlah personel manusia.
 
         </p>
 
@@ -1452,7 +1931,6 @@
 
   <!-- =========================================================
        05. ORIGIN OF RENAI
-       BAGIAN BARU — ASAL NAMA DARI NAMA PENDIRI
        ========================================================= -->
 
   <section
@@ -1648,9 +2126,9 @@
 
   </section>
 
+
   <!-- =========================================================
        05B. EARLY HISTORY — BANG AI
-       SEJARAH AWAL SEBELUM RENAI
        ========================================================= -->
 
   <section
@@ -1704,14 +2182,11 @@
 
           Satu pihak mengatakan bahwa foto
           tersebut merupakan hasil
-
           <strong>
             Artificial Intelligence (AI)
           </strong>,
-
           sementara pihak lainnya mempertahankan
           bahwa foto tersebut
-
           <strong>
             asli.
           </strong>
@@ -1725,7 +2200,6 @@
           pembicaraan mengenai sebuah gambar.
 
           Dari sana muncul sebuah julukan:
-
           <strong>
             “Bang AI”.
           </strong>
@@ -1802,11 +2276,11 @@
             perdebatan mengenai Artificial
             Intelligence dan keaslian sebuah foto.
 
-            Namun, justru dari momen sederhana
-            tersebut muncul ketertarikan yang
-            semakin dalam terhadap dunia AI,
-            teknologi visual, sistem, dan
-            perkembangan Artificial Intelligence.
+            Namun, dari momen sederhana tersebut
+            muncul ketertarikan yang semakin dalam
+            terhadap dunia AI, teknologi visual,
+            sistem, dan perkembangan Artificial
+            Intelligence.
 
           </span>
 
@@ -1913,20 +2387,15 @@
 
             Dari perjalanan tersebut kemudian
             lahirlah identitas
-
             <strong>
               RENAI
             </strong>,
-
             yang secara personal berasal dari
-
             <strong>
               REN + AI
             </strong>,
-
             sebelum berkembang menjadi identitas
             teknologi dengan rumusan
-
             <strong>
               Responsive Engine for Neural
               Artificial Intelligence.
@@ -1941,14 +2410,11 @@
             sedangkan <strong>RENAI</strong> menjadi
             identitas teknologi yang kemudian
             berkembang menuju
-
             <strong>
               RENAI GVTL
             </strong>
-
             dan akhirnya menjadi bagian dari
             ekosistem yang dikembangkan oleh
-
             <strong>
               PT RENAI GVTL Indonesia.
             </strong>
@@ -2066,7 +2532,8 @@
     </div>
 
   </section>
-  
+
+
   <!-- =========================================================
        06. RENAI GVTL
        ========================================================= -->
@@ -2203,10 +2670,11 @@
 
         <p class="section-intro">
 
-          Identitas perusahaan dan identitas
-          teknologinya berada dalam struktur
-          yang saling berhubungan namun memiliki
-          fungsi yang berbeda.
+          Identitas perusahaan, struktur
+          organisasi manusia, sistem AI pendukung,
+          dan identitas teknologinya berada dalam
+          struktur yang saling berhubungan namun
+          memiliki fungsi yang berbeda.
 
         </p>
 
@@ -2247,6 +2715,37 @@
         <article class="entity-map-item reveal">
 
           <strong>
+            Core Human Organization
+          </strong>
+
+          <span>
+            Struktur inti manusia yang terdiri dari
+            Reno Aurora Redian Narendra Wijaya Putra
+            Silvana dan Airin Katarina Aurelia Karley.
+          </span>
+
+        </article>
+
+
+        <article class="entity-map-item reveal">
+
+          <strong>
+            GVTL 1 Irene
+          </strong>
+
+          <span>
+            AI Assistant dan Technology Support System
+            yang digunakan untuk mendukung aktivitas
+            teknologi. Bukan personel manusia dan
+            bukan anggota organisasi manusia.
+          </span>
+
+        </article>
+
+
+        <article class="entity-map-item reveal">
+
+          <strong>
             Technology Projects
           </strong>
 
@@ -2267,7 +2766,302 @@
 
 
   <!-- =========================================================
-       08. FOUNDER & OWNER
+       07B. CORE ORGANIZATION
+       ========================================================= -->
+
+  <section
+    aria-labelledby="core-organization-title"
+    class="section"
+    id="core-organization"
+  >
+
+    <div class="container">
+
+      <div class="section-head reveal">
+
+        <span class="kicker">
+          CORE ORGANIZATION
+        </span>
+
+        <h2 id="core-organization-title">
+          Dua orang. Satu organisasi.
+        </h2>
+
+        <p class="section-intro">
+
+          Pada tahap pengembangan saat ini,
+          struktur inti manusia PT RENAI GVTL Indonesia
+          terdiri dari dua orang yang menjadi
+          penggerak utama organisasi:
+
+          <strong>
+            Founder, Owner &amp; CEO
+          </strong>
+
+          dan
+
+          <strong>
+            CTO &amp; Technology Partner.
+          </strong>
+
+          Di luar struktur manusia tersebut,
+          perusahaan menggunakan
+
+          <strong>
+            GVTL 1 Irene
+          </strong>
+
+          sebagai AI Assistant dan Technology
+          Support System.
+
+        </p>
+
+      </div>
+
+
+      <div class="core-leadership">
+
+
+        <article class="leadership-card reveal">
+
+          <span class="leadership-number">
+            01 / EXECUTIVE LEADERSHIP
+          </span>
+
+          <span class="leadership-role">
+            FOUNDER • OWNER • CEO
+          </span>
+
+          <h3>
+            Reno Aurora Redian Narendra Wijaya Putra Silvana
+          </h3>
+
+          <p>
+
+            Founder, Owner, dan Chief Executive
+            Officer PT RENAI GVTL Indonesia.
+
+          </p>
+
+          <p>
+
+            Memegang arah pendirian, kepemilikan,
+            visi, strategi, pembangunan organisasi,
+            serta arah pertumbuhan perusahaan.
+
+          </p>
+
+          <small>
+
+            Executive leadership of
+            PT RENAI GVTL Indonesia.
+
+          </small>
+
+        </article>
+
+
+        <article class="leadership-card reveal delay-1">
+
+          <span class="leadership-number">
+            02 / TECHNOLOGY LEADERSHIP
+          </span>
+
+          <span class="leadership-role">
+            CTO • TECHNOLOGY PARTNER
+          </span>
+
+          <h3>
+            Airin Katarina Aurelia Karley
+          </h3>
+
+          <p>
+
+            Chief Technology Officer (CTO)
+            dan Technology Partner
+            PT RENAI GVTL Indonesia.
+
+          </p>
+
+          <p>
+
+            Memegang peran pada arah teknologi,
+            pengembangan sistem, riset teknologi,
+            arsitektur, software development,
+            dan pembangunan ekosistem
+            RENAI GVTL.
+
+          </p>
+
+          <small>
+
+            Technology leadership and strategic
+            technology partnership of
+            PT RENAI GVTL Indonesia.
+
+          </small>
+
+        </article>
+
+      </div>
+
+
+      <div class="organization-note reveal">
+
+        <strong>
+          Struktur inti manusia saat ini:
+        </strong>
+
+        PT RENAI GVTL Indonesia terdiri dari
+        dua orang yang terlibat dalam organisasi,
+        yaitu
+
+        <strong>
+          Reno Aurora Redian Narendra Wijaya
+          Putra Silvana
+        </strong>
+
+        sebagai Founder, Owner &amp; CEO dan
+
+        <strong>
+          Airin Katarina Aurelia Karley
+        </strong>
+
+        sebagai CTO &amp; Technology Partner.
+
+        <br/><br/>
+
+        Keduanya merupakan struktur inti manusia
+        yang menjalankan pembangunan organisasi
+        pada tahap Foundation Stage.
+
+        <br/><br/>
+
+        Sistem Artificial Intelligence,
+        software, infrastructure, automation,
+        tools, model AI, dan teknologi eksternal
+        yang digunakan dalam pengembangan RENAI GVTL
+        merupakan sumber daya teknologi dan
+
+        <strong>
+          bukan personel atau anggota organisasi.
+        </strong>
+
+      </div>
+
+
+      <!-- =====================================================
+           AI SUPPORT SYSTEM
+           ===================================================== -->
+
+      <div class="ai-support-system reveal">
+
+        <span class="ai-system-label">
+          AI SUPPORT SYSTEM
+        </span>
+
+        <h3>
+          GVTL 1 Irene
+        </h3>
+
+        <p>
+
+          <strong>
+            GVTL 1 Irene
+          </strong>
+          merupakan
+
+          <strong>
+            AI Assistant • Technology Support System
+          </strong>
+
+          yang digunakan sebagai sistem pembantu
+          dalam lingkungan teknologi
+          PT RENAI GVTL Indonesia.
+
+        </p>
+
+        <p>
+
+          GVTL 1 Irene bukan manusia dan tidak
+          termasuk dalam jumlah dua orang pada
+          struktur inti organisasi. Sistem ini
+          berfungsi sebagai sumber daya teknologi
+          yang membantu aktivitas seperti asistensi,
+          pengolahan informasi, dukungan pekerjaan
+          teknologi, dokumentasi, analisis, dan
+          aktivitas pendukung lainnya sesuai dengan
+          implementasi sistem.
+
+        </p>
+
+
+        <div class="ai-system-grid">
+
+
+          <div class="ai-system-item">
+
+            <strong>
+              AI Assistant
+            </strong>
+
+            <span>
+
+              Sistem AI yang digunakan untuk
+              memberikan bantuan dan asistensi
+              dalam aktivitas yang membutuhkan
+              dukungan berbasis AI.
+
+            </span>
+
+          </div>
+
+
+          <div class="ai-system-item">
+
+            <strong>
+              Technology Support System
+            </strong>
+
+            <span>
+
+              Lapisan pendukung teknologi untuk
+              membantu proses kerja dan pengembangan
+              ekosistem RENAI GVTL.
+
+            </span>
+
+          </div>
+
+
+          <div class="ai-system-item">
+
+            <strong>
+              Organizational Status
+            </strong>
+
+            <span>
+
+              Bukan personel manusia, bukan
+              pemegang jabatan, dan bukan anggota
+              organisasi manusia.
+
+            </span>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================================================
+       08. FOUNDER / OWNER / CEO
        ========================================================= -->
 
   <section
@@ -2280,7 +3074,7 @@
       <div class="section-head reveal">
 
         <span class="kicker">
-          FOUNDER &amp; OWNER
+          FOUNDER • OWNER • CEO
         </span>
 
         <h2>
@@ -2289,8 +3083,8 @@
 
         <p class="section-intro">
 
-          Founder &amp; Owner dan pendiri
-          PT RENAI GVTL Indonesia.
+          Founder, Owner, dan Chief Executive
+          Officer PT RENAI GVTL Indonesia.
 
         </p>
 
@@ -2302,7 +3096,7 @@
         <div class="founder-image">
 
           <img
-            alt="Reno Aurora Redian Narendra Wijaya Putra Silvana — Founder &amp; Owner PT RENAI GVTL Indonesia"
+            alt="Reno Aurora Redian Narendra Wijaya Putra Silvana — Founder, Owner &amp; CEO PT RENAI GVTL Indonesia"
             loading="lazy"
             src="assets/images/founder.png"
           />
@@ -2313,7 +3107,7 @@
         <div class="founder-content">
 
           <span class="founder-role">
-            FOUNDER &amp; OWNER
+            FOUNDER • OWNER • CHIEF EXECUTIVE OFFICER
           </span>
 
           <h3>
@@ -2323,8 +3117,27 @@
           <p>
 
             Reno Aurora Redian Narendra Wijaya
-            Putra Silvana merupakan Founder &amp;
-            Owner dan pendiri PT RENAI GVTL Indonesia.
+            Putra Silvana merupakan Founder,
+            Owner, dan Chief Executive Officer
+            PT RENAI GVTL Indonesia.
+
+          </p>
+
+          <p>
+
+            Sebagai Founder dan Owner, ia merupakan
+            pendiri sekaligus pemegang arah utama
+            pembangunan perusahaan dan ekosistem
+            RENAI GVTL.
+
+          </p>
+
+          <p>
+
+            Sebagai CEO, ia memimpin arah eksekutif,
+            visi, strategi, pembangunan organisasi,
+            pengembangan bisnis, dan perkembangan
+            perusahaan.
 
           </p>
 
@@ -2334,17 +3147,6 @@
             dan dikembangkan secara independen
             sebagai dasar pembangunan perusahaan
             teknologi dan ekosistem RENAI GVTL.
-
-          </p>
-
-          <p>
-
-            Arah pendirian perusahaan mencakup
-            pembangunan fondasi organisasi,
-            pembelajaran, riset, inovasi,
-            eksperimen, pengembangan perangkat
-            lunak, dan teknologi Artificial
-            Intelligence.
 
           </p>
 
@@ -2370,7 +3172,7 @@
 
 
   <!-- =========================================================
-       09. AIRIN — CTO
+       09. AIRIN — CTO & TECHNOLOGY PARTNER
        ========================================================= -->
 
   <section
@@ -2383,7 +3185,7 @@
       <div class="section-head reveal">
 
         <span class="kicker">
-          TECHNOLOGY &amp; RESEARCH
+          TECHNOLOGY LEADERSHIP
         </span>
 
         <h2>
@@ -2393,9 +3195,8 @@
         <p class="section-intro">
 
           Chief Technology Officer (CTO)
-          PT RENAI GVTL Indonesia dengan
-          latar belakang profesional di
-          lingkungan teknologi berskala global.
+          dan Technology Partner
+          PT RENAI GVTL Indonesia.
 
         </p>
 
@@ -2407,7 +3208,7 @@
         <div class="founder-image airin-profile-image">
 
           <img
-            alt="Airin Katarina Aurelia Karley — Chief Technology Officer PT RENAI GVTL Indonesia"
+            alt="Airin Katarina Aurelia Karley — Chief Technology Officer dan Technology Partner PT RENAI GVTL Indonesia"
             loading="lazy"
             onerror="
               this.style.display='none';
@@ -2429,7 +3230,7 @@
         <div class="founder-content">
 
           <span class="founder-role">
-            CHIEF TECHNOLOGY OFFICER (CTO)
+            CHIEF TECHNOLOGY OFFICER • TECHNOLOGY PARTNER
           </span>
 
           <h3>
@@ -2439,82 +3240,51 @@
           <p>
 
             Airin Katarina Aurelia Karley merupakan
-            seorang profesional teknologi dengan
-            pengalaman yang terbentuk di lingkungan
-            teknologi berskala global.
+            Chief Technology Officer (CTO) dan
+            Technology Partner PT RENAI GVTL Indonesia.
 
           </p>
 
           <p>
 
-            Sebelum bergabung dengan PT RENAI GVTL
-            Indonesia, Airin memiliki pengalaman
-            sebagai bagian dari
+            Dalam struktur inti perusahaan,
+            Airin merupakan partner teknologi
+            yang bekerja bersama Founder, Owner,
+            dan CEO dalam membangun arah teknologi
+            serta fondasi teknis RENAI GVTL.
+
+          </p>
+
+          <p>
+
+            Peran Airin mencakup kontribusi terhadap
 
             <strong>
-              tim riset dan Senior Team RESET
-            </strong>
-
-            di sebuah perusahaan teknologi raksasa
-            berskala global.
-
-          </p>
-
-          <p>
-
-            Pengalaman tersebut membentuk kemampuan
-            Airin dalam menghadapi sistem dan
-            organisasi teknologi yang kompleks,
-            termasuk analisis permasalahan,
-            restrukturisasi sistem, pemulihan
-            operasional, optimasi teknologi,
-            serta pengambilan keputusan dalam
-            situasi yang membutuhkan ketelitian
-            dan respons cepat.
-
-          </p>
-
-          <p>
-
-            Dalam lingkungan tim riset dan Senior Team
-            RESET, Airin terbiasa bekerja pada
-            persoalan yang membutuhkan pendekatan
-            sistematis: memahami kondisi secara
-            menyeluruh, menemukan akar permasalahan,
-            menentukan prioritas, menyusun strategi
-            pemulihan, dan memastikan solusi dapat
-            diterapkan secara efektif.
-
-          </p>
-
-          <p>
-
-            Latar belakang tersebut menjadi bagian
-            penting dari pendekatan profesional Airin
-            dalam bidang teknologi, dengan perhatian
-            khusus terhadap
-
-            <strong>
+              technology strategy,
               system architecture,
-              engineering,
+              software development,
+              technology research,
               infrastructure,
-              research &amp; development,
-              artificial intelligence,
-              reliability,
-              dan technical strategy.
+              dan pengembangan ekosistem
+              RENAI GVTL.
             </strong>
 
           </p>
 
+          <p>
 
-          <!-- =================================================
-               PROFESSIONAL BACKGROUND
-               ================================================= -->
+            Sebagai CTO, Airin memiliki fungsi
+            kepemimpinan teknologi dalam pembangunan
+            sistem dan pengembangan teknologi
+            perusahaan.
+
+          </p>
+
 
           <div class="airin-background">
 
             <div class="airin-background-label">
-              PROFESSIONAL BACKGROUND
+              TECHNOLOGY LEADERSHIP
             </div>
 
             <div class="airin-background-grid">
@@ -2522,13 +3292,12 @@
               <div class="airin-background-item">
 
                 <strong>
-                  Former Research Team
+                  CTO
                 </strong>
 
                 <span>
-                  Pengalaman profesional dalam
-                  lingkungan riset teknologi
-                  berskala global.
+                  Memimpin dan membantu menentukan
+                  arah teknologi perusahaan.
                 </span>
 
               </div>
@@ -2537,13 +3306,12 @@
               <div class="airin-background-item">
 
                 <strong>
-                  Former Senior Team RESET
+                  Technology Partner
                 </strong>
 
                 <span>
-                  Pengalaman dalam penanganan
-                  persoalan dan sistem teknologi
-                  yang kompleks.
+                  Menjadi partner teknologi inti
+                  dalam pembangunan RENAI GVTL.
                 </span>
 
               </div>
@@ -2552,13 +3320,12 @@
               <div class="airin-background-item">
 
                 <strong>
-                  Systems &amp; Architecture
+                  System Architecture
                 </strong>
 
                 <span>
-                  Analisis struktur sistem,
-                  dependensi, performa,
-                  dan reliability.
+                  Berkontribusi terhadap perancangan
+                  struktur dan arsitektur sistem.
                 </span>
 
               </div>
@@ -2567,13 +3334,12 @@
               <div class="airin-background-item">
 
                 <strong>
-                  Technology Recovery
+                  Technology Research
                 </strong>
 
                 <span>
-                  Pendekatan sistematis terhadap
-                  pemulihan dan restrukturisasi
-                  teknologi.
+                  Mendukung riset, eksperimen,
+                  dan eksplorasi teknologi.
                 </span>
 
               </div>
@@ -2582,12 +3348,12 @@
               <div class="airin-background-item">
 
                 <strong>
-                  Research &amp; Development
+                  Software Development
                 </strong>
 
                 <span>
-                  Riset, eksperimen, pengembangan,
-                  dan eksplorasi teknologi baru.
+                  Berkontribusi terhadap pengembangan
+                  perangkat lunak dan sistem digital.
                 </span>
 
               </div>
@@ -2596,13 +3362,12 @@
               <div class="airin-background-item">
 
                 <strong>
-                  Technical Strategy
+                  RENAI GVTL
                 </strong>
 
                 <span>
-                  Menerjemahkan persoalan teknologi
-                  kompleks menjadi strategi teknis
-                  yang dapat dieksekusi.
+                  Mendukung pembangunan ekosistem
+                  teknologi RENAI GVTL.
                 </span>
 
               </div>
@@ -2614,14 +3379,11 @@
 
           <p>
 
-            Di PT RENAI GVTL Indonesia, Airin
-            menjalankan fungsi sebagai Chief
-            Technology Officer (CTO), dengan
-            fokus pada penguatan arah teknologi,
-            riset, arsitektur sistem,
-            pengembangan perangkat lunak,
-            dan pembangunan fondasi teknologi
-            perusahaan.
+            Bersama Founder, Owner, dan CEO,
+            Airin menjadi bagian dari dua orang
+            yang membentuk struktur inti
+            PT RENAI GVTL Indonesia pada tahap
+            Foundation Stage.
 
           </p>
 
@@ -2686,9 +3448,10 @@
 
           <p>
 
-            Pembangunan struktur dan fungsi
-            organisasi untuk mendukung
-            pertumbuhan perusahaan.
+            Struktur organisasi inti manusia
+            saat ini terdiri dari dua orang:
+            Founder, Owner &amp; CEO serta
+            CTO &amp; Technology Partner.
 
           </p>
 
@@ -2709,7 +3472,8 @@
 
             Pembangunan tata kelola,
             dokumentasi, proses kerja,
-            dan pengambilan keputusan.
+            dan pengambilan keputusan
+            perusahaan.
 
           </p>
 
@@ -2735,6 +3499,44 @@
           </p>
 
         </article>
+
+      </div>
+
+
+      <div class="ai-support-system reveal">
+
+        <span class="ai-system-label">
+          TECHNOLOGY SUPPORT
+        </span>
+
+        <h3>
+          GVTL 1 Irene sebagai sistem pendukung teknologi.
+        </h3>
+
+        <p>
+
+          Pada tahap Foundation Stage,
+          <strong>GVTL 1 Irene</strong> digunakan
+          sebagai
+
+          <strong>
+            AI Assistant • Technology Support System
+          </strong>
+
+          untuk membantu aktivitas teknologi,
+          dokumentasi, analisis, pengolahan informasi,
+          serta pekerjaan pendukung lain sesuai
+          implementasi sistem.
+
+        </p>
+
+        <p>
+
+          Kehadiran GVTL 1 Irene tidak mengubah
+          jumlah struktur inti manusia yang tetap
+          berjumlah dua orang.
+
+        </p>
 
       </div>
 
@@ -2903,6 +3705,32 @@
 
         </article>
 
+
+        <article class="technology-card ai-card reveal">
+
+          <span class="technology-number">
+            07 / AI SUPPORT
+          </span>
+
+          <h3>
+            GVTL 1 Irene
+          </h3>
+
+          <p>
+
+            AI Assistant dan Technology Support
+            System yang digunakan untuk membantu
+            aktivitas teknologi, dokumentasi,
+            analisis, dan pengembangan ekosistem
+            RENAI GVTL.
+
+            GVTL 1 Irene bukan personel organisasi.
+
+          </p>
+
+        </article>
+
+
       </div>
 
     </div>
@@ -2951,6 +3779,20 @@
           Jawa Barat, Indonesia, dengan
           arah menuju ekosistem teknologi
           yang dapat berkembang lebih luas.
+
+        </p>
+
+        <p>
+
+          Dalam proses tersebut,
+          teknologi pendukung seperti
+          <strong>
+            GVTL 1 Irene
+          </strong>
+          dapat digunakan untuk membantu
+          aktivitas teknologi dan pengembangan
+          sistem tanpa menjadi bagian dari
+          struktur personel manusia.
 
         </p>
 
@@ -3134,12 +3976,85 @@
 
         </p>
 
+        <p>
+
+          Struktur inti manusia perusahaan
+          saat ini terdiri dari dua orang,
+          yaitu Founder, Owner &amp; CEO
+          serta CTO &amp; Technology Partner.
+
+          Selain struktur manusia tersebut,
+          perusahaan menggunakan
+
+          <strong>
+            GVTL 1 Irene
+          </strong>
+
+          sebagai
+
+          <strong>
+            AI Assistant • Technology Support System
+          </strong>
+
+          untuk mendukung aktivitas teknologi.
+
+        </p>
+
+
         <div class="entity-highlight">
 
           <strong>
             Company:
           </strong>
           PT RENAI GVTL Indonesia
+
+          <br/>
+
+          <strong>
+            Core Human Organization:
+          </strong>
+          2 Orang
+
+          <br/>
+
+          <strong>
+            Founder / Owner / CEO:
+          </strong>
+          Reno Aurora Redian Narendra Wijaya Putra Silvana
+
+          <br/>
+
+          <strong>
+            CTO / Technology Partner:
+          </strong>
+          Airin Katarina Aurelia Karley
+
+          <br/>
+
+          <strong class="ai-highlight">
+            AI Support System:
+          </strong>
+          <span class="ai-highlight">
+            GVTL 1 Irene
+          </span>
+
+          <br/>
+
+          <strong class="ai-highlight">
+            AI Role:
+          </strong>
+          <span class="ai-highlight">
+            AI Assistant • Technology Support System
+          </span>
+
+          <br/>
+
+          <strong class="ai-highlight">
+            AI Organizational Status:
+          </strong>
+          <span class="ai-highlight">
+            Technology Support System — bukan personel manusia
+          </span>
 
           <br/>
 
@@ -3234,17 +4149,104 @@
           serta legalitas.
         </div>
 
+        <!-- =====================================================
+             CORE HUMAN ORGANIZATION FOOTER SIGNAL
+             ===================================================== -->
+
         <div>
+
+          <strong>
+            Core Human Organization:
+          </strong>
+
+          2 orang.
+
+        </div>
+
+        <div>
+
+          <strong>
+            Founder • Owner • CEO:
+          </strong>
+
+          Reno Aurora Redian Narendra Wijaya
+          Putra Silvana.
+
+        </div>
+
+        <div>
+
+          <strong>
+            CTO • Technology Partner:
+          </strong>
+
+          Airin Katarina Aurelia Karley.
+
+        </div>
+
+        <div>
+
+          Struktur inti manusia PT RENAI GVTL
+          Indonesia saat ini hanya terdiri dari
+          kedua individu tersebut.
+
+        </div>
+
+
+        <!-- =====================================================
+             AI SUPPORT SYSTEM FOOTER SIGNAL
+             ===================================================== -->
+
+        <div>
+
+          <strong>
+            AI Support System:
+          </strong>
+
+          GVTL 1 Irene —
+          AI Assistant • Technology Support System.
+
+        </div>
+
+        <div>
+
+          GVTL 1 Irene merupakan sistem AI
+          pendukung teknologi dan
+
+          <strong>
+            bukan manusia, bukan personel,
+            bukan pemegang jabatan,
+            serta bukan anggota struktur
+            organisasi manusia.
+          </strong>
+
+        </div>
+
+        <div>
+
+          Sistem AI, software, infrastructure,
+          automation, tools, model AI, dan
+          teknologi eksternal merupakan sumber
+          daya teknologi yang digunakan untuk
+          mendukung pengembangan RENAI GVTL.
+
+        </div>
+
+        <div>
+
           Berdiri dan dikembangkan secara
           independen, tanpa hubungan
           kepemilikan atau struktur kelompok
           dengan perusahaan lain.
+
         </div>
 
         <div>
+
           Blok Langgeng, Desa Wana Hayu,
           Kecamatan Maja, Kabupaten Majalengka,
           Jawa Barat, Indonesia.
+
         </div>
 
         <div>
