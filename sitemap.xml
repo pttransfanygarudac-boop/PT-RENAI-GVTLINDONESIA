@@ -8,7 +8,7 @@
          OFFICIAL XML SITEMAP
 
          LAST UPDATED:
-         24 SEPTEMBER 2026
+         27 SEPTEMBER 2026
 
          WEBSITE:
          PT RENAI GVTL Indonesia
@@ -80,7 +80,15 @@
 
     <url>
         <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news.html</loc>
-        <lastmod>2026-09-14</lastmod>
+        <lastmod>2026-09-27</lastmod>
+    </url>
+
+    <!-- 27 SEPTEMBER 2026
+         RENAI ROUTER — SERVICE DISCOVERY -->
+
+    <url>
+        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/news/news27september2026.html</loc>
+        <lastmod>2026-09-27</lastmod>
     </url>
 
     <url>
@@ -141,9 +149,16 @@
 
     <url>
         <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity.html</loc>
-        <lastmod>2026-09-24</lastmod>
+        <lastmod>2026-09-27</lastmod>
     </url>
 
+    <!-- 27 SEPTEMBER 2026
+         SERVICE DISCOVERY & DYNAMIC INFRASTRUCTURE -->
+
+    <url>
+        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity27september2026.html</loc>
+        <lastmod>2026-09-27</lastmod>
+    </url>
 
     <!-- 24 SEPTEMBER 2026
          GLOBAL INFRASTRUCTURE -->
@@ -152,7 +167,6 @@
         <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity24september2026.html</loc>
         <lastmod>2026-09-24</lastmod>
     </url>
-
 
     <!-- 19 SEPTEMBER 2026
          REVIEW & CONSOLIDATION
@@ -163,7 +177,6 @@
         <lastmod>2026-09-19</lastmod>
     </url>
 
-
     <!-- 13 SEPTEMBER 2026
          FROM ARCHITECTURE TO IMPLEMENTATION -->
 
@@ -171,7 +184,6 @@
         <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity13september2026.html</loc>
         <lastmod>2026-09-13</lastmod>
     </url>
-
 
     <!-- 12 SEPTEMBER 2026
          INTERNAL R&D MEETING — RENAI ROUTER -->
@@ -181,14 +193,12 @@
         <lastmod>2026-09-12</lastmod>
     </url>
 
-
     <!-- 11 SEPTEMBER 2026 — SESSION II NIGHT -->
 
     <url>
         <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity11september-naightsesion2026.html</loc>
         <lastmod>2026-09-12</lastmod>
     </url>
-
 
     <!-- 11 SEPTEMBER 2026 — SESSION I -->
 
@@ -197,14 +207,12 @@
         <lastmod>2026-09-11</lastmod>
     </url>
 
-
     <!-- 10 SEPTEMBER 2026 -->
 
     <url>
         <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html</loc>
         <lastmod>2026-09-10</lastmod>
     </url>
-
 
     <!-- 09 SEPTEMBER 2026 -->
 
@@ -213,7 +221,6 @@
         <lastmod>2026-09-09</lastmod>
     </url>
 
-
     <!-- 19 AGUSTUS 2026 -->
 
     <url>
@@ -221,14 +228,12 @@
         <lastmod>2026-09-09</lastmod>
     </url>
 
-
     <!-- 15 AGUSTUS 2026 -->
 
     <url>
         <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity15agustus2026.html</loc>
         <lastmod>2026-08-15</lastmod>
     </url>
-
 
     <!-- 30 JULI 2026 -->
 
@@ -245,7 +250,15 @@
 
     <url>
         <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/experiment.html</loc>
-        <lastmod>2026-09-14</lastmod>
+        <lastmod>2026-09-27</lastmod>
+    </url>
+
+    <!-- 27 SEPTEMBER 2026
+         RENAI ROUTER — SERVICE DISCOVERY & DYNAMIC INFRASTRUCTURE -->
+
+    <url>
+        <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/experiment/experiment27september2026.html</loc>
+        <lastmod>2026-09-27</lastmod>
     </url>
 
     <url>
@@ -325,7 +338,7 @@
 
     <url>
         <loc>https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/site-map.html</loc>
-        <lastmod>2026-09-24</lastmod>
+        <lastmod>2026-09-27</lastmod>
     </url>
 
 
