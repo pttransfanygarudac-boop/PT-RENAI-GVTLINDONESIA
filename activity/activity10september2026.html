@@ -1,600 +1,338 @@
 <!DOCTYPE html>
+
 <html lang="id">
-
 <head>
-
-  <!-- =========================================================
+<!-- =========================================================
      PT RENAI GVTL INDONESIA
      ACTIVITY — 10 SEPTEMBER 2026
      INTERNAL MEETING — RENAI ROUTER
      ========================================================= -->
-
-  <meta charset="utf-8"/>
-
-  <meta
-    content="width=device-width, initial-scale=1.0"
-    name="viewport"
-  />
-
-  <title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
     10 September 2026 | Internal Meeting — RENAI Router
   </title>
-
-  <meta
-    content="Catatan aktivitas PT RENAI GVTL Indonesia pada 10 September 2026 mengenai Internal Meeting RENAI Router dan penetapan arah arsitektur utama menuju critical internal infrastructure."
-    name="description"
-  />
-
-  <meta
-    content="PT RENAI GVTL Indonesia"
-    name="author"
-  />
-
-  <meta
-    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-    name="robots"
-  />
-
-  <meta
-    content="#05080d"
-    name="theme-color"
-  />
-
-  <meta
-    content="PT RENAI GVTL Indonesia"
-    name="application-name"
-  />
-
-  <meta
-    content="RENAI Router, Internal Meeting, Critical Internal Infrastructure, Zero Trust, Fail-Closed, AI Routing, Provenance, Audit, GPU Cluster, Multi-Server, Production Infrastructure, RENAI GVTL"
-    name="focus"
-  />
-
-
-  <!-- =========================================================
+<meta content="PT RENAI GVTL Indonesia adalah perusahaan teknologi asal Majalengka, Jawa Barat, Indonesia, yang berada pada Foundation Stage dengan fokus pada tata kelola organisasi, struktur perusahaan, pengembangan teknologi, riset, dokumentasi, dan persiapan legalitas. Catatan aktivitas PT RENAI GVTL Indonesia pada 10 September 2026 mengenai Internal Meeting RENAI Router dan penetapan arah arsitektur utama menuju critical internal infrastructure." name="description"/>
+<meta content="PT RENAI GVTL Indonesia" name="author"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<meta content="#05080d" name="theme-color"/>
+<meta content="PT RENAI GVTL Indonesia" name="application-name"/>
+<meta content="RENAI Router, Internal Meeting, Critical Internal Infrastructure, Zero Trust, Fail-Closed, AI Routing, Provenance, Audit, GPU Cluster, Multi-Server, Production Infrastructure, RENAI GVTL" name="focus"/>
+<!-- =========================================================
      CANONICAL
      ========================================================= -->
-
-  <link
-    href="https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html"
-    rel="canonical"
-  />
-
-  <link
-    href="../assets/images/logo.png"
-    rel="icon"
-    type="image/png"
-  />
-
-  <meta
-    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-    name="googlebot"
-  />
-
-
-  <!-- =========================================================
+<link href="https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html" rel="canonical"/>
+<link href="../assets/images/logo.png" rel="icon" type="image/png"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="googlebot"/>
+<!-- =========================================================
      OPEN GRAPH
      ========================================================= -->
-
-  <meta
-    content="website"
-    property="og:type"
-  />
-
-  <meta
-    content="10 September 2026 | Internal Meeting — RENAI Router"
-    property="og:title"
-  />
-
-  <meta
-    content="Catatan aktivitas PT RENAI GVTL Indonesia pada 10 September 2026 mengenai Internal Meeting RENAI Router dan penetapan arah arsitektur utama menuju critical internal infrastructure."
-    property="og:description"
-  />
-
-  <meta
-    content="https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html"
-    property="og:url"
-  />
-
-  <meta
-    content="PT RENAI GVTL Indonesia"
-    property="og:site_name"
-  />
-
-  <meta
-    content="id_ID"
-    property="og:locale"
-  />
-
-  <meta
-    content="https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/png/activity.png/10september2026.png"
-    property="og:image"
-  />
-
-  <meta
-    content="RENAI Router — visual dokumentasi aktivitas 10 September 2026"
-    property="og:image:alt"
-  />
-
-
-  <!-- =========================================================
+<meta content="website" property="og:type"/>
+<meta content="10 September 2026 | Internal Meeting — RENAI Router" property="og:title"/>
+<meta content="Catatan aktivitas PT RENAI GVTL Indonesia pada 10 September 2026 mengenai Internal Meeting RENAI Router dan penetapan arah arsitektur utama menuju critical internal infrastructure." property="og:description"/>
+<meta content="https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html" property="og:url"/>
+<meta content="PT RENAI GVTL Indonesia" property="og:site_name"/>
+<meta content="id_ID" property="og:locale"/>
+<meta content="https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/png/1png/10september2026.png" property="og:image"/>
+<meta content="RENAI Router — visual dokumentasi aktivitas 10 September 2026" property="og:image:alt"/>
+<!-- =========================================================
      TWITTER / X
      ========================================================= -->
-
-  <meta
-    content="summary_large_image"
-    name="twitter:card"
-  />
-
-  <meta
-    content="10 September 2026 | Internal Meeting — RENAI Router"
-    name="twitter:title"
-  />
-
-  <meta
-    content="Catatan aktivitas PT RENAI GVTL Indonesia pada 10 September 2026 mengenai Internal Meeting RENAI Router dan penetapan arah arsitektur utama menuju critical internal infrastructure."
-    name="twitter:description"
-  />
-
-  <meta
-    content="https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/png/activity.png/10september2026.png"
-    name="twitter:image"
-  />
-
-  <meta
-    content="RENAI Router — visual dokumentasi aktivitas 10 September 2026"
-    name="twitter:image:alt"
-  />
-
-
-  <!-- =========================================================
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="10 September 2026 | Internal Meeting — RENAI Router" name="twitter:title"/>
+<meta content="Catatan aktivitas PT RENAI GVTL Indonesia pada 10 September 2026 mengenai Internal Meeting RENAI Router dan penetapan arah arsitektur utama menuju critical internal infrastructure." name="twitter:description"/>
+<meta content="https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/png/1png/10september2026.png" name="twitter:image"/>
+<meta content="RENAI Router — visual dokumentasi aktivitas 10 September 2026" name="twitter:image:alt"/>
+<!-- =========================================================
      CSS
      ========================================================= -->
-
-  <link
-    href="../css/style.css"
-    rel="stylesheet"
-  />
-
-  <link
-    href="../css/premium-polish.css"
-    rel="stylesheet"
-  />
-
-
-  <!-- =========================================================
+<link href="../css/style.css" rel="stylesheet"/>
+<link href="../css/premium-polish.css" rel="stylesheet"/>
+<!-- =========================================================
      STRUCTURED DATA
      ========================================================= -->
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-
-    "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html#webpage",
-
-    "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html",
-
-    "name": "10 September 2026 | Internal Meeting — RENAI Router",
-
-    "description": "Catatan aktivitas PT RENAI GVTL Indonesia pada 10 September 2026 mengenai Internal Meeting RENAI Router dan penetapan arah arsitektur utama menuju critical internal infrastructure.",
-
-    "inLanguage": "id-ID",
-
-    "isPartOf": {
-      "@type": "WebSite",
-
-      "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#website",
-
-      "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/",
-
-      "name": "PT RENAI GVTL Indonesia"
-    },
-
-    "publisher": {
-      "@type": "Organization",
-
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Corporation",
       "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization",
-
       "name": "PT RENAI GVTL Indonesia",
-
+      "legalName": "PT RENAI GVTL Indonesia",
+      "alternateName": [
+        "PT RENAI GVTL",
+        "PT RenAI GVTL Indonesia",
+        "RENAI GVTL Indonesia",
+        "RENAI GVTL",
+        "RENAI"
+      ],
+      "description": "PT RENAI GVTL Indonesia adalah perusahaan teknologi asal Majalengka, Jawa Barat, Indonesia yang berdiri dan dikembangkan secara independen.tanpa hubungan kepemilikan atau struktur kelompok dengan perusahaan lain. Perusahaan berada pada Foundation Stage dengan fokus pada tata kelola organisasi, pembangunan struktur perusahaan, pengembangan teknologi, riset, dokumentasi, dan persiapan legalitas.",
       "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/",
-
       "logo": {
         "@type": "ImageObject",
-
-        "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/assets/images/logo.png"
+        "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#logo",
+        "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/assets/images/logo.png",
+        "contentUrl": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/assets/images/logo.png",
+        "caption": "Logo PT RENAI GVTL Indonesia"
+      },
+      "image": {
+        "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#logo"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Blok Langgeng",
+        "addressLocality": "Desa Wana Hayu",
+        "addressRegion": "Jawa Barat",
+        "addressCountry": "ID"
+      },
+      "telephone": "+62 813-8586-9321",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Indonesia"
+      },
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Majalengka, Jawa Barat, Indonesia"
+      },
+      "founder": {
+        "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#founder"
+      },
+      "brand": {
+        "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#brand"
+      },
+      "knowsAbout": [
+        "Artificial Intelligence",
+        "Technology Research",
+        "Software Development",
+        "AI Infrastructure",
+        "Digital Technology",
+        "Technology Innovation"
+      ]},
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html#webpage",
+      "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/activity/activity10september2026.html",
+      "name": "10 September 2026 | Internal Meeting — RENAI Router",
+      "description": "Catatan aktivitas PT RENAI GVTL Indonesia pada 10 September 2026 mengenai Internal Meeting RENAI Router dan penetapan arah arsitektur utama menuju critical internal infrastructure.",
+      "inLanguage": "id-ID",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#website",
+        "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/",
+        "name": "PT RENAI GVTL Indonesia"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/#organization",
+        "name": "PT RENAI GVTL Indonesia",
+        "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pttransfanygarudac-boop.github.io/PT-RENAI-GVTLINDONESIA/assets/images/logo.png"
+        }
       }
     }
-  }
-  </script>
-
+  ]
+}</script>
+<meta content="PT RENAI GVTL Indonesia" name="company"/><meta content="Majalengka, Jawa Barat, Indonesia" name="geo.placename"/><meta content="ID-JB" name="geo.region"/>
+<meta content="PT RENAI GVTL Indonesia" name="publisher"/>
+<meta content="PT RENAI GVTL Indonesia, RENAI GVTL, perusahaan teknologi Majalengka, perusahaan teknologi Jawa Barat, perusahaan AI Indonesia, Artificial Intelligence, technology research, software development, AI infrastructure, Foundation Stage, tata kelola organisasi, persiapan legalitas, " name="keywords"/>
 </head>
-
-
 <body>
-
-
-  <!-- =========================================================
+<!-- =========================================================
      01. HEADER / NAVBAR
      ========================================================= -->
-
-  <header class="header">
-
-    <div class="container navbar">
-
-
-      <a
-        aria-label="PT RENAI GVTL Indonesia — Beranda"
-        class="logo"
-        href="../index.html"
-      >
-
-        <img
-          alt="Logo PT RENAI GVTL Indonesia"
-          class="logo-image"
-          src="../assets/images/logo.png"
-        />
-
-        <span class="logo-text">
-
-          <strong>
+<header class="header">
+<div class="container navbar">
+<a aria-label="PT RENAI GVTL Indonesia — Beranda" class="logo" href="../index.html">
+<img alt="Logo PT RENAI GVTL Indonesia" class="logo-image" src="../assets/images/logo.png"/>
+<span class="logo-text">
+<strong>
             RENAI GVTL
           </strong>
-
-          <small>
+<small>
             PT RENAI GVTL INDONESIA
           </small>
-
-        </span>
-
-      </a>
-
-
-      <button
-        aria-expanded="false"
-        aria-label="Buka menu navigasi"
-        class="menu-toggle"
-        type="button"
-      >
+</span>
+</a>
+<button aria-expanded="false" aria-label="Buka menu navigasi" class="menu-toggle" type="button">
         ☰
       </button>
-
-
-      <nav aria-label="Navigasi utama">
-
-        <ul class="nav-menu">
-
-
-          <li>
-
-            <a href="../index.html">
+<nav aria-label="Navigasi utama">
+<ul class="nav-menu">
+<li>
+<a href="../index.html">
               Beranda
             </a>
-
-          </li>
-
-
-          <li>
-
-            <a href="../company.html">
+</li>
+<li>
+<a href="../company.html">
               Perusahaan
             </a>
-
-          </li>
-
-
-          <li>
-
-            <a href="../renai-gvtl.html">
+</li>
+<li>
+<a href="../renai-gvtl.html">
               RENAI GVTL
             </a>
-
-          </li>
-
-
-          <!-- =================================================
+</li>
+<!-- =================================================
              TECHNOLOGY
              ================================================= -->
-
-          <li class="nav-dropdown">
-
-            <button
-              aria-expanded="false"
-              aria-haspopup="true"
-              class="nav-dropdown-toggle"
-              type="button"
-            >
+<li class="nav-dropdown">
+<button aria-expanded="false" aria-haspopup="true" class="nav-dropdown-toggle" type="button">
 
               Technology
 
               <span aria-hidden="true">
                 ⌄
               </span>
-
-            </button>
-
-
-            <ul class="nav-submenu">
-
-
-              <li>
-
-                <a href="../chat-gvtl.html">
+</button>
+<ul class="nav-submenu">
+<li>
+<a href="../chat-gvtl.html">
                   Chat GVTL
                 </a>
-
-              </li>
-
-
-              <li>
-
-                <a href="../renai-image.html">
+</li>
+<li>
+<a href="../renai-image.html">
                   RENAI Image
                 </a>
-
-              </li>
-
-
-              <li>
-
-                <a href="../renai-router.html">
+</li>
+<li>
+<a href="../renai-router.html">
                   RENAI Router
                 </a>
-
-              </li>
-
-
-            </ul>
-
-          </li>
-
-
-          <!-- =================================================
+</li>
+</ul>
+</li>
+<!-- =================================================
              RESEARCH
              ================================================= -->
-
-          <li class="nav-dropdown">
-
-            <button
-              aria-expanded="true"
-              aria-haspopup="true"
-              class="nav-dropdown-toggle"
-              type="button"
-            >
+<li class="nav-dropdown">
+<button aria-expanded="true" aria-haspopup="true" class="nav-dropdown-toggle" type="button">
 
               Research
 
               <span aria-hidden="true">
                 ⌄
               </span>
-
-            </button>
-
-
-            <ul class="nav-submenu">
-
-
-              <li>
-
-                <a
-                  aria-current="page"
-                  class="active"
-                  href="../activity.html"
-                >
+</button>
+<ul class="nav-submenu">
+<li>
+<a aria-current="page" class="active" href="../activity.html">
                   Activity
                 </a>
-
-              </li>
-
-
-              <li>
-
-                <a href="../experiment.html">
+</li>
+<li>
+<a href="../experiment.html">
                   Experiment
                 </a>
-
-              </li>
-
-
-              <li>
-
-                <a href="../documentation.html">
+</li>
+<li>
+<a href="../documentation.html">
                   Documentation
                 </a>
-
-              </li>
-
-
-            </ul>
-
-          </li>
-
-
-          <!-- =================================================
+</li>
+</ul>
+</li>
+<!-- =================================================
              IDENTITY
              ================================================= -->
-
-          <li class="nav-dropdown">
-
-            <button
-              aria-expanded="false"
-              aria-haspopup="true"
-              class="nav-dropdown-toggle"
-              type="button"
-            >
+<li class="nav-dropdown">
+<button aria-expanded="false" aria-haspopup="true" class="nav-dropdown-toggle" type="button">
 
               Identity
 
               <span aria-hidden="true">
                 ⌄
               </span>
-
-            </button>
-
-
-            <ul class="nav-submenu">
-
-
-              <li>
-
-                <a href="../identity.html">
+</button>
+<ul class="nav-submenu">
+<li>
+<a href="../identity.html">
                   Identitas
                 </a>
-
-              </li>
-
-
-              <li>
-
-                <a href="../founder.html">
+</li>
+<li>
+<a href="../founder.html">
                   Founder
                 </a>
-
-              </li>
-
-
-            </ul>
-
-          </li>
-
-
-          <li>
-
-            <a href="../news.html">
+</li>
+</ul>
+</li>
+<li>
+<a href="../news.html">
               News
             </a>
-
-          </li>
-
-
-          <li>
-
-            <a href="../career.html">
+</li>
+<li>
+<a href="../career.html">
               Career
             </a>
-
-          </li>
-
-
-          <li>
-
-            <a href="../contact.html">
+</li>
+<li>
+<a href="../contact.html">
               Kontak
             </a>
-
-          </li>
-
-
-          <li>
-
-            <a href="../dashboard/">
+</li>
+<li>
+<a href="../dashboard/">
               Dashboard
             </a>
-
-          </li>
-
-
-        </ul>
-
-      </nav>
-
-
-    </div>
-
-  </header>
-
-
-  <!-- =========================================================
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<!-- =========================================================
      02. ACTIVITY
      ========================================================= -->
-
-  <section
-    class="section"
-    style="padding-top: 140px;"
-  >
-
-    <div class="container">
-
-
-      <div class="section-head reveal">
-
-
-        <span class="kicker">
+<section class="section" style="padding-top: 140px;">
+<div class="container">
+<div class="section-head reveal">
+<span class="kicker">
 
           ACTIVITY
-          &bull;
+          •
           10 SEPTEMBER 2026
 
         </span>
-
-
-        <h1>
+<h1>
 
           Internal Meeting —
           RENAI Router
 
         </h1>
-
-
-        <p class="section-intro">
+<p class="section-intro">
 
           Catatan internal mengenai penetapan arah,
           arsitektur, prinsip keamanan, dan target
           pengembangan RENAI Router.
 
         </p>
-
-
-      </div>
-
-
-      <!-- =====================================================
+</div>
+<!-- =====================================================
          ACTIVITY IMAGE
          ===================================================== -->
-
-      <div class="card reveal">
-
-
-        <div class="news-thumb">
-
-
-          <img
-            alt="RENAI Router — visual dokumentasi aktivitas 10 September 2026"
-            loading="lazy"
-            src="../png/activity.png/10september2026.png"
-          />
-
-
-        </div>
-
-
-      </div>
-
-
-      <!-- =====================================================
+<div class="card reveal">
+<div class="news-thumb">
+<img alt="RENAI Router — visual dokumentasi aktivitas 10 September 2026" loading="lazy" src="../png/1png/10september2026.png"/>
+</div>
+</div>
+<!-- =====================================================
          ACTIVITY CONTENT
          ===================================================== -->
-
-      <div
-        class="card reveal"
-        style="margin-top: 24px;"
-      >
-
-
-        <span class="kicker">
+<div class="card reveal" style="margin-top: 24px;">
+<span class="kicker">
           INTERNAL MEETING / TECHNOLOGY / RESEARCH
         </span>
-
-
-        <h2>
+<h2>
 
           Internal Meeting — RENAI Router
 
         </h2>
-
-
-        <p>
+<p>
 
           Pada
           <strong>
@@ -608,9 +346,7 @@
           infrastruktur utama RENAI.
 
         </p>
-
-
-        <p>
+<p>
 
           Meeting ini berfokus pada penetapan arah akhir
           RENAI Router sebagai
@@ -622,59 +358,44 @@
           dan target skala sistem.
 
         </p>
-
-
-        <h3>
+<h3>
 
           Meeting Information
 
         </h3>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             Kegiatan:
           </strong>
 
           Internal Meeting — RENAI Router
 
           <br/>
-
-          <strong>
+<strong>
             Peserta:
           </strong>
 
           Redian, Ibu Airin, dan tim internal
 
           <br/>
-
-          <strong>
+<strong>
             Waktu Penutupan:
           </strong>
 
           00:34 WIB
 
         </p>
-
-
-        <h3>
+<h3>
 
           Hasil Utama Meeting
 
         </h3>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             01 — Critical Internal Infrastructure
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           Menetapkan arah akhir
           <strong>
@@ -687,18 +408,12 @@
           PT RENAI GVTL Indonesia.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             02 — Mandatory RENAI Routing
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           RENAI Router ditetapkan sebagai jalur wajib
           untuk ekosistem RENAI, terutama
@@ -711,18 +426,12 @@
           </strong>.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             03 — Automatic AI / Service Routing
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           Sistem akan diarahkan untuk melakukan routing
           AI atau service secara otomatis berdasarkan
@@ -732,20 +441,13 @@
           policy, dan parameter lainnya.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             04 — Zero Trust &amp; Fail-Closed
           </strong>
-
-        </p>
-
-
-        <p>
-
-          <strong>
+</p>
+<p>
+<strong>
             Zero Trust
           </strong>
           dan
@@ -756,52 +458,34 @@
           arsitektur keamanan RENAI Router.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             05 — External Access Control
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           Tidak ada akses langsung pihak eksternal
           ke internal RENAI secara default.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             06 — Third-Party API Control
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           Penggunaan third-party API hanya diperbolehkan
           melalui kontrol RENAI.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             07 — Route Authority
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           Menetapkan
           <strong>
@@ -817,18 +501,12 @@
           </strong>.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             08 — Original Media Retention
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           Original media ditetapkan untuk disimpan
           secara internal dengan target awal sekitar
@@ -837,36 +515,24 @@
           </strong>.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             09 — Provenance &amp; Audit History
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           Provenance dan audit ditetapkan memiliki
           histori yang dapat dipertahankan untuk
           mendukung integritas dan penelusuran proses.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             10 — Multi-Server &amp; Hybrid Architecture
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           Target arsitektur diarahkan menuju
           <strong>
@@ -876,18 +542,12 @@
           </strong>.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             11 — Target Scale
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           Sistem diarahkan menuju target skala
           <strong>
@@ -897,18 +557,12 @@
           RENAI Router.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             12 — RENAI Router v1.0.0
           </strong>
-
-        </p>
-
-
-        <p>
+</p>
+<p>
 
           Target
           <strong>
@@ -922,16 +576,12 @@
           PT RENAI GVTL Indonesia.
 
         </p>
-
-
-        <h3>
+<h3>
 
           RENAI Router Master Blueprint v1.0
 
         </h3>
-
-
-        <p>
+<p>
 
           Sebagai hasil lanjutan dari meeting,
           <strong>
@@ -941,11 +591,8 @@
           sebelum pengembangan berikutnya.
 
         </p>
-
-
-        <blockquote>
-
-          <strong>
+<blockquote>
+<strong>
 
             RENAI ROUTER
             <br/>
@@ -953,20 +600,14 @@
             TO CRITICAL INFRASTRUCTURE
 
           </strong>
-
-        </blockquote>
-
-
-        <h3>
+</blockquote>
+<h3>
 
           Status Meeting
 
         </h3>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             🟢 Ditutup
           </strong>
 
@@ -976,139 +617,88 @@
           </strong>.
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             Date:
           </strong>
 
           10 September 2026
 
           <br/>
-
-          <strong>
+<strong>
             Closing Time:
           </strong>
 
           00:34 WIB
 
         </p>
-
-
-        <p>
-
-          <strong>
+<p>
+<strong>
             Status:
           </strong>
 
           Internal Meeting — Closed / Blueprint Review Pending
 
         </p>
-
-
-        <p>
+<p>
 
           © PT RenAI GVTL Indonesia Research &amp; Development
           (R&amp;D)
 
         </p>
-
-
-      </div>
-
-
-      <!-- =====================================================
+</div>
+<!-- =====================================================
          BACK TO ACTIVITY
          ===================================================== -->
+<div class="hero-actions" style="margin-top: 30px;">
+<a class="btn btn-primary" href="../activity.html">
 
-      <div
-        class="hero-actions"
-        style="margin-top: 30px;"
-      >
-
-
-        <a
-          class="btn btn-primary"
-          href="../activity.html"
-        >
-
-          &larr;
+          ←
           Kembali ke Activity Center
 
         </a>
-
-
-        <a
-          class="btn btn-ghost"
-          href="../renai-router.html"
-        >
+<a class="btn btn-ghost" href="../renai-router.html">
 
           Lihat RENAI Router
 
         </a>
-
-
-      </div>
-
-
-    </div>
-
-  </section>
-
-
-  <!-- =========================================================
+</div>
+</div>
+</section>
+<!-- =========================================================
      03. FOOTER
      ========================================================= -->
-
-  <footer class="footer">
-
-
-    <div class="container footer-grid">
-
-
-      <div>
-
-
-        <strong>
+<footer class="footer">
+<div class="container footer-grid">
+<div>
+<strong>
           PT RENAI GVTL Indonesia
         </strong>
-
-
-        <div>
+<div>
 
           Perusahaan teknologi asal Majalengka,
           Jawa Barat, Indonesia.
 
         </div>
-
-
-        <div>
+<div>
 
           RENAI : Responsive Engine for Neural Artificial Intelligence
 
         </div>
-
-
-        <div>
+<div>
 
           GVTL : Global Virtual Technology Lab
 
         </div>
-
-
-        <div>
+<div>
 
           Technology, Research &amp; Development —
           Foundation Stage.
 
         </div>
+<div>
 
-
-        <div>
-
-          &copy;
+          ©
 
           <span data-year="">
             2026
@@ -1117,122 +707,68 @@
           PT RENAI GVTL Indonesia.
 
         </div>
-
-
-      </div>
-
-
-      <div class="footer-links">
-
-
-        <a href="../index.html">
+</div>
+<div class="footer-links">
+<a href="../index.html">
           Beranda
         </a>
-
-
-        <a href="../company.html">
+<a href="../company.html">
           Perusahaan
         </a>
-
-
-        <a href="../renai-gvtl.html">
+<a href="../renai-gvtl.html">
           RENAI GVTL
         </a>
-
-
-        <a href="../chat-gvtl.html">
+<a href="../chat-gvtl.html">
           Chat GVTL
         </a>
-
-
-        <a href="../renai-image.html">
+<a href="../renai-image.html">
           RENAI Image
         </a>
-
-
-        <a href="../renai-router.html">
+<a href="../renai-router.html">
           RENAI Router
         </a>
-
-
-        <a href="../activity.html">
+<a href="../activity.html">
           Activity
         </a>
-
-
-        <a href="../experiment.html">
+<a href="../experiment.html">
           Experiment
         </a>
-
-
-        <a href="../documentation.html">
+<a href="../documentation.html">
           Documentation
         </a>
-
-
-        <a href="../identity.html">
+<a href="../identity.html">
           Identitas
         </a>
-
-
-        <a href="../founder.html">
+<a href="../founder.html">
           Founder
         </a>
-
-
-        <a href="../news.html">
+<a href="../news.html">
           News
         </a>
-
-
-        <a href="../career.html">
+<a href="../career.html">
           Career
         </a>
-
-
-        <a href="../contact.html">
+<a href="../contact.html">
           Kontak
         </a>
-
-
-        <a href="../dashboard/">
+<a href="../dashboard/">
           Dashboard
         </a>
-
-
-      </div>
-
-
-    </div>
-
-
-  </footer>
-
-
-  <!-- =========================================================
+</div>
+</div>
+</footer>
+<!-- =========================================================
      04. JAVASCRIPT
      ========================================================= -->
-
-  <script src="../js/main.js">
-  </script>
-
-
-  <script src="../js/contact-data.js">
-  </script>
-
-
-  <script src="../js/theme-toggle.js">
-  </script>
-
-
-  <script src="../js/floating-contact.js">
-  </script>
-
-
-  <script src="../js/motion.js">
-  </script>
-
-
+<script src="../js/main.js">
+</script>
+<script src="../js/contact-data.js">
+</script>
+<script src="../js/theme-toggle.js">
+</script>
+<script src="../js/floating-contact.js">
+</script>
+<script src="../js/motion.js">
+</script>
 </body>
-
 </html>
